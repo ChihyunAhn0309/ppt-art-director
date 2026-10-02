@@ -1,0 +1,9 @@
+{
+  "algorithm": "SHA-256",
+  "files": {
+    "animated.pptx": "48e1d01334a13ffd6fefa60dab40311fd244af73e28f35f83ab815f857693959",
+    "static.pptx": "215beb57ec2c793609b3cd2c1ee1ebe190fa5a9f2a6e57011042485e673249e1",
+    "preview.png": "956edcdf5626a31c8ce5f2072cc3a1a01707ada4df0cee4cba0bf181ee427ed6",
+    "process-slide.png": "2c3ad88199e86d95c3b76203c8026c38c483ac63334dbd043d1ac4113b5012e0"
+  }
+}

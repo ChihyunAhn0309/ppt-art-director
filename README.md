@@ -1,8 +1,18 @@
 # PPT Art Director
 
+[![Validate helpers](https://github.com/ChihyunAhn0309/ppt-art-director/actions/workflows/validate.yml/badge.svg)](https://github.com/ChihyunAhn0309/ppt-art-director/actions/workflows/validate.yml)
+
 자료 조사, 슬라이드별 기획, 디자인, 피드백 반영, 편집 가능한 PowerPoint 제작을 연결하는 에이전트 스킬입니다. 연구·기술 발표, 논문 세미나, 학회 발표에 특히 맞추었으며 다른 발표 목적에도 적용할 수 있습니다.
 
 이 저장소의 제품은 **`SKILL.md`와 그에 딸린 참고 문서·보조 스크립트**입니다. 별도 모델이나 PPT 생성 서비스가 아니며, 스킬을 읽는 에이전트가 자신의 제작 도구로 작업합니다.
+
+## 실제 제작 예시
+
+![가상 센서 모델 연구 발표 5장의 PowerPoint 렌더 미리보기](examples/research-seminar/preview.png)
+
+[애니메이션 PPTX](examples/research-seminar/animated.pptx) · [정적 PPTX](examples/research-seminar/static.pptx) · [슬라이드별 기획안](examples/research-seminar/slide-plan.md) · [검증 기록](examples/research-seminar/README.md)
+
+독립 원샷 테스트에서 제작한 한국어 5분 발표입니다. 수치는 모두 가상이며, 미리보기는 저장된 PPTX를 PowerPoint로 렌더링한 결과입니다. 표·차트·도식은 편집 가능한 개체입니다. 과정 도식은 사용자가 지정한 [paper-figure](https://github.com/JYS1025/paper-figure) 스킬의 기존 파일 검토 절차로 추가 점검했습니다. 이 예시는 절제된 연구 발표 스타일 한 가지를 보여줍니다.
 
 ## 하는 일
 
@@ -103,6 +113,7 @@ Anthropic PPTX 스킬의 원문·코드·자산을 복제한 패키지가 아닙
 | [검증](references/quality.md) | 내용·편집 가능성·시각·움직임 검증 |
 | `scripts/` | 색상 대비, PPTX 구조, 네이티브 애니메이션 도우미 |
 | `tests/` | 보조 스크립트 회귀 검사 |
+| [공개 예시](examples/research-seminar/README.md) | 실제 PPTX, PowerPoint 렌더, 도식·데이터·모션 검증 기록 |
 
 ## 라이선스
 

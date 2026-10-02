@@ -1,0 +1,38 @@
+{
+  "slides": [
+    {
+      "nativeOnly": true
+    },
+    {
+      "nodes": {
+        "S02-stage-1": "\uc6d0\ubcf8 \ubaa8\ub378",
+        "S02-stage-2": "\uc9c0\uc2dd \uc99d\ub958",
+        "S02-stage-3": "INT8 \uc591\uc790\ud654",
+        "S02-name-1": "baseline",
+        "S02-name-2": "distilled",
+        "S02-name-3": "int8"
+      },
+      "edges": [
+        [
+          "S02-stage-1",
+          "S02-stage-2"
+        ],
+        [
+          "S02-stage-2",
+          "S02-stage-3"
+        ]
+      ],
+      "exactEdges": true,
+      "nativeOnly": true
+    },
+    {
+      "nativeOnly": false
+    },
+    {
+      "nativeOnly": false
+    },
+    {
+      "nativeOnly": true
+    }
+  ]
+}

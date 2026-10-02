@@ -4,3 +4,7 @@
 *.json text eol=lf
 *.yaml text eol=lf
 *.ps1 text eol=lf
+*.yml text eol=lf
+LICENSE text eol=lf
+*.pptx binary
+*.png binary

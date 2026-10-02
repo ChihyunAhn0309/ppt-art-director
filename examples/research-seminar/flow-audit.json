@@ -1,0 +1,55 @@
+{
+  "source": "examples/research-seminar/animated.pptx",
+  "sourceSha256": "48e1d01334a13ffd6fefa60dab40311fd244af73e28f35f83ab815f857693959",
+  "readOnly": true,
+  "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
+  "summary": {
+    "connectors": 2,
+    "requiringRenderedReview": 0,
+    "geometryUnchecked": 0
+  },
+  "connectors": [
+    {
+      "slide": 2,
+      "name": "S02-link-2",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "S02-stage-1",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "S02-stage-2",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      },
+      "part": "ppt/slides/slide2.xml"
+    },
+    {
+      "slide": 2,
+      "name": "S02-link-3",
+      "geometryStatus": "checked",
+      "reviewReasons": [],
+      "from": {
+        "name": "S02-stage-2",
+        "site": "3",
+        "boundary": "visible"
+      },
+      "to": {
+        "name": "S02-stage-3",
+        "site": "1",
+        "boundary": "visible"
+      },
+      "endpointOffsetsPx": {
+        "from": 0.0,
+        "to": 0.0
+      },
+      "part": "ppt/slides/slide2.xml"
+    }
+  ]
+}

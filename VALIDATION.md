@@ -52,4 +52,6 @@ python scripts/palette_check.py assets/palettes.json
 - 구조 검사기는 완전한 OOXML 스키마·전체 접근성·사실 정확성 검사기가 아닙니다.
 - 모든 주제와 분량의 디자인 품질 또는 Claude·Gemini와의 품질 우열을 보장하지 않습니다.
 
-검증용 슬라이드와 로그는 스킬의 필수 구성 요소가 아니므로 이 저장소의 실행 자산에 넣지 않았습니다. 실제 사용 결과는 선택한 모델, 자료의 질, 제작·렌더링 도구, 피드백에 따라 달라집니다.
+원샷 테스트의 최종 PPTX·미리보기·기획안과 공개 가능한 검사 결과를 [공개 예시](examples/research-seminar/README.md)에 포함했습니다. 추가로 `paper-figure`의 기존 파일 검토 절차를 적용하여 S02의 필수 라벨과 두 방향 연결을 검사했습니다. 두 연결의 끝점 오차는 모두 0px였고, PowerPoint 렌더에서 방향·부착 위치·가독성을 직접 확인했습니다. 자동 검사와 시각 검토의 범위는 예시 기록에 구분했습니다.
+
+최초 게시 커밋의 [GitHub Actions 실행](https://github.com/ChihyunAhn0309/ppt-art-director/actions/runs/36974407723)은 Windows와 Ubuntu에서 성공했습니다. 이후 상태는 저장소의 Actions에서 확인할 수 있습니다. 공개 예시는 스킬의 필수 실행 자산이 아니며, 실제 사용 결과는 선택한 모델, 자료의 질, 제작·렌더링 도구, 피드백에 따라 달라집니다.

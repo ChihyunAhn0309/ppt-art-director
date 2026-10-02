@@ -28,6 +28,10 @@ Use an equation as a focal explanatory object, not a screenshot of a paragraph. 
 
 Keep diagrams native and editable when required. Label edges with meaningful quantities/actions rather than relying on arrow direction alone. Use consistent colors for components across the whole deck. Schematics may simplify physical geometry but must not imply untrue scale, topology, or causality.
 
+When the user requests [paper-figure](https://github.com/JYS1025/paper-figure), or that skill is available and a substantial research diagram would benefit from it, read its current entrypoint and use the appropriate creation, revision, or review route. It specializes in editable methodology and architecture figures; it does not replace deck planning or statistical plotting. It is an optional companion, not a dependency of this skill.
+
+For an existing diagram, write the required stage identities and directed relationships from the brief, map them to the latest saved objects, and check both attachments and the rendered arrow direction. Distinguish file diagnostics from visual or PowerPoint edit tests. Do not claim that an existing diagram was created through another skill's image-draft workflow merely because its review scripts were used later.
+
 ## Motion for technical comprehension
 
 Good uses: reveal a pipeline stage, explain a state update, focus on one architecture component, expose an experimental control before its result. Keep the comparison frame and legend stable. Avoid hiding a baseline while emphasizing an improvement. A static or reduced-motion version must preserve the final explanatory state.

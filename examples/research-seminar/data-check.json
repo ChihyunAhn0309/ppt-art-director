@@ -1,0 +1,66 @@
+{
+  "pass": true,
+  "slides": 5,
+  "exactTableData": [
+    [
+      "모델",
+      "지연 (ms)",
+      "F1",
+      "모델 크기 (MB)"
+    ],
+    [
+      "baseline",
+      "120",
+      "0.910",
+      "48"
+    ],
+    [
+      "distilled",
+      "72",
+      "0.902",
+      "18"
+    ],
+    [
+      "int8",
+      "54",
+      "0.896",
+      "12"
+    ]
+  ],
+  "chartValues": [
+    "120",
+    "72",
+    "54"
+  ],
+  "embeddedWorkbookCount": 1,
+  "nativeTextShapes": 46,
+  "nativeConnectors": 2,
+  "animationTargetNames": [
+    "S02-detail-2",
+    "S02-detail-3",
+    "S02-flow-2",
+    "S02-flow-3",
+    "S02-link-2",
+    "S02-link-3",
+    "S02-name-2",
+    "S02-name-3",
+    "S02-stage-2",
+    "S02-stage-3"
+  ],
+  "arithmetic": {
+    "latencyReduction": ".55",
+    "sizeReduction": ".75",
+    "f1AbsoluteDrop": ".014"
+  },
+  "sha256": "48e1d01334a13ffd6fefa60dab40311fd244af73e28f35f83ab815f857693959",
+  "claimBoundary": "Final-package data, object, and target checks; no slideshow playback inspection.",
+  "publicationMetadataCleanup": {
+    "sourceSha256": "a2c2431f55f271d7e6caa0d0afe42cf80889cc2b3ebd9358eeaae25fd1a0ce6d",
+    "changedParts": [
+      "docProps/core.xml"
+    ],
+    "removedField": "cp:lastModifiedBy",
+    "allOtherPartPayloadsByteIdentical": true,
+    "scope": "Prior data/editability/motion and PowerPoint-render evidence applies to byte-identical content parts; current publication file received fresh read-only package and diagram checks."
+  }
+}

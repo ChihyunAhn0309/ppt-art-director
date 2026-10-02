@@ -1,0 +1,892 @@
+{
+  "file": "examples/research-seminar/animated.pptx",
+  "sha256": "48e1d01334a13ffd6fefa60dab40311fd244af73e28f35f83ab815f857693959",
+  "sizePx": [
+    1280.0,
+    720.0
+  ],
+  "slides": [
+    {
+      "slide": 1,
+      "part": "ppt/slides/slide1.xml",
+      "objects": [
+        {
+          "id": "5",
+          "name": "S01-title",
+          "kind": "sp",
+          "text": "센서 이상 탐지 모델의\n경량화",
+          "boundsPx": [
+            64.0,
+            165.0,
+            1148.0,
+            180.0
+          ],
+          "fingerprint": "50604bc121ed05fe163214fec9a175e3db323805379acaa99d8560facaff5aee",
+          "fontPt": [
+            48.0
+          ]
+        },
+        {
+          "id": "2",
+          "name": "S01-subtitle",
+          "kind": "sp",
+          "text": "지식 증류와 INT8 양자화의 성능 교환관계",
+          "boundsPx": [
+            68.0,
+            400.0,
+            1100.0,
+            56.0
+          ],
+          "fingerprint": "480d858b8a4635ba169620e652904120fa3c4c93b58d3dfdecf397d4e9a9d873",
+          "fontPt": [
+            23.25
+          ]
+        },
+        {
+          "id": "3",
+          "name": "S01-context",
+          "kind": "sp",
+          "text": "연구실 세미나 · 5분",
+          "boundsPx": [
+            68.0,
+            484.0,
+            1000.0,
+            44.0
+          ],
+          "fingerprint": "f0cec70c04480a9f1045b2cd7e3b9dddf99374c3c645f71ffa657839e3725cce",
+          "fontPt": [
+            18.0
+          ]
+        },
+        {
+          "id": "4",
+          "name": "S01-disclosure",
+          "kind": "sp",
+          "text": "모든 성능 수치는 가상 예시입니다",
+          "boundsPx": [
+            68.0,
+            650.0,
+            1100.0,
+            36.0
+          ],
+          "fingerprint": "1e6cfa88f8209b28ea258b3b0eaa7aa6b5f868e82860052624fee21a6b71a4d8",
+          "fontPt": [
+            16.5
+          ]
+        }
+      ],
+      "edges": [],
+      "counts": {
+        "sp": 4,
+        "cxnSp": 0,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "slide": 2,
+      "part": "ppt/slides/slide2.xml",
+      "objects": [
+        {
+          "id": "18",
+          "name": "S02-title",
+          "kind": "sp",
+          "text": "원본 모델, 지식 증류, INT8 양자화",
+          "boundsPx": [
+            64.0,
+            46.0,
+            1152.0,
+            70.0
+          ],
+          "fingerprint": "a33511c401d29e3681d30137023d9de51dc42abd6c7e54f8e04a0fbd49d3adb0",
+          "fontPt": [
+            33.75
+          ]
+        },
+        {
+          "id": "2",
+          "name": "S02-disclosure",
+          "kind": "sp",
+          "text": "모든 성능 수치는 가상 예시입니다",
+          "boundsPx": [
+            64.0,
+            660.0,
+            1000.0,
+            30.0
+          ],
+          "fingerprint": "3980a731afaf5c642a271a6c632add15d34aaea718e96805558e02fc3cdaaf91",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "3",
+          "name": "S02-number",
+          "kind": "sp",
+          "text": "02",
+          "boundsPx": [
+            1150.0,
+            660.0,
+            64.0,
+            30.0
+          ],
+          "fingerprint": "df304c0d705a21a6c1ebf26dc07c48387a8cc54a3620b9daccb2c530984acc60",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "4",
+          "name": "S02-stage-1",
+          "kind": "sp",
+          "text": "원본 모델",
+          "boundsPx": [
+            64.0,
+            246.0,
+            328.0,
+            112.0
+          ],
+          "fingerprint": "a98919ce72a5a948ae951022a375e1af875736dfc0a2402841bf1252a130321e",
+          "fontPt": [
+            25.5
+          ]
+        },
+        {
+          "id": "5",
+          "name": "S02-stage-2",
+          "kind": "sp",
+          "text": "지식 증류",
+          "boundsPx": [
+            476.0,
+            246.0,
+            328.0,
+            112.0
+          ],
+          "fingerprint": "17ba583634916975472d6cee403176e46bf6b6f97e4ae6918c06f564123e9808",
+          "fontPt": [
+            25.5
+          ]
+        },
+        {
+          "id": "6",
+          "name": "S02-stage-3",
+          "kind": "sp",
+          "text": "INT8 양자화",
+          "boundsPx": [
+            888.0,
+            246.0,
+            328.0,
+            112.0
+          ],
+          "fingerprint": "e4d61ea8f5e930a03768b633d41e9f6c89e940dd9c9979a53ce46b123e297088",
+          "fontPt": [
+            25.5
+          ]
+        },
+        {
+          "id": "24",
+          "name": "S02-link-2",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            392.0,
+            302.0,
+            84.0,
+            0.0
+          ],
+          "fingerprint": "20a7c35ada0f2369f98bdd55cffba25b4668b0c74b7430771379a1f00613751d",
+          "fontPt": []
+        },
+        {
+          "id": "25",
+          "name": "S02-link-3",
+          "kind": "cxnSp",
+          "text": "",
+          "boundsPx": [
+            804.0,
+            302.0,
+            84.0,
+            0.0
+          ],
+          "fingerprint": "bd2ac254b1e0ba2b0c2430f442c382cf4e374de3d1c5920b06acc4efd4c084dd",
+          "fontPt": []
+        },
+        {
+          "id": "9",
+          "name": "S02-flow-2",
+          "kind": "sp",
+          "text": "예측 지식 전달",
+          "boundsPx": [
+            294.0,
+            187.0,
+            340.0,
+            38.0
+          ],
+          "fingerprint": "9a6a73426d673566f73eb9716b0df83137934c08fdac92cb59713c3365b34a9f",
+          "fontPt": [
+            18.0
+          ]
+        },
+        {
+          "id": "10",
+          "name": "S02-flow-3",
+          "kind": "sp",
+          "text": "수치 표현 변환",
+          "boundsPx": [
+            706.0,
+            187.0,
+            340.0,
+            38.0
+          ],
+          "fingerprint": "360949048e99ad181d3a66a3a49daa2481ea18c2bb26f8a59f9d3e36aaeaa637",
+          "fontPt": [
+            18.0
+          ]
+        },
+        {
+          "id": "11",
+          "name": "S02-name-1",
+          "kind": "sp",
+          "text": "baseline",
+          "boundsPx": [
+            64.0,
+            380.0,
+            328.0,
+            42.0
+          ],
+          "fingerprint": "a3921889fceafbcda9e886d4030eb68bbe77405b2f3440b343a8896a6d4458b2",
+          "fontPt": [
+            21.0
+          ]
+        },
+        {
+          "id": "12",
+          "name": "S02-name-2",
+          "kind": "sp",
+          "text": "distilled",
+          "boundsPx": [
+            476.0,
+            380.0,
+            328.0,
+            42.0
+          ],
+          "fingerprint": "90c08b4ce89dea21467590c9953e5f11971128316f047cf73e568f9e17375244",
+          "fontPt": [
+            21.0
+          ]
+        },
+        {
+          "id": "13",
+          "name": "S02-name-3",
+          "kind": "sp",
+          "text": "int8",
+          "boundsPx": [
+            888.0,
+            380.0,
+            328.0,
+            42.0
+          ],
+          "fingerprint": "9d832a1a63b05a3ada6c3fc5b58d33c15fefb3a96673bf80e80c231efda63b30",
+          "fontPt": [
+            21.0
+          ]
+        },
+        {
+          "id": "14",
+          "name": "S02-detail-1",
+          "kind": "sp",
+          "text": "기준 모델, 교사 역할",
+          "boundsPx": [
+            64.0,
+            445.0,
+            328.0,
+            90.0
+          ],
+          "fingerprint": "0850f73f4d4b4c40206431a9bfc0557273f7983365f31a8053a221b5e8e13549",
+          "fontPt": [
+            20.25
+          ]
+        },
+        {
+          "id": "15",
+          "name": "S02-detail-2",
+          "kind": "sp",
+          "text": "교사 예측을 활용해\n작은 학생 모델을 학습",
+          "boundsPx": [
+            476.0,
+            445.0,
+            328.0,
+            90.0
+          ],
+          "fingerprint": "2fe132fabd1f9cfe2abbcc9b40085742e7df64421b9b0bba0ba0e742eb46e628",
+          "fontPt": [
+            20.25
+          ]
+        },
+        {
+          "id": "16",
+          "name": "S02-detail-3",
+          "kind": "sp",
+          "text": "학생 모델의 수치를\n8비트 정수로 표현",
+          "boundsPx": [
+            888.0,
+            445.0,
+            328.0,
+            90.0
+          ],
+          "fingerprint": "6179fc18321a871819dd1f2efcbbeaa0daa6c3ea50d2197e75192417fb37064a",
+          "fontPt": [
+            20.25
+          ]
+        },
+        {
+          "id": "17",
+          "name": "S02-caveat",
+          "kind": "sp",
+          "text": "개념도이며 모델 구조·학습 설정·양자화 범위는 미제공",
+          "boundsPx": [
+            64.0,
+            585.0,
+            1150.0,
+            45.0
+          ],
+          "fingerprint": "26a930a9effe1335fb4b7b26a56f1c80b2d74c0617937874985ca88040fd1292",
+          "fontPt": [
+            17.25
+          ]
+        }
+      ],
+      "edges": [
+        {
+          "name": "S02-link-2",
+          "from": "S02-stage-1",
+          "to": "S02-stage-2",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        },
+        {
+          "name": "S02-link-3",
+          "from": "S02-stage-2",
+          "to": "S02-stage-3",
+          "fromIdx": "3",
+          "toIdx": "1",
+          "directed": true
+        }
+      ],
+      "counts": {
+        "sp": 15,
+        "cxnSp": 2,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "slide": 3,
+      "part": "ppt/slides/slide3.xml",
+      "objects": [
+        {
+          "id": "8",
+          "name": "S03-title",
+          "kind": "sp",
+          "text": "동일 장치·데이터에서 비교한 가상 성능",
+          "boundsPx": [
+            64.0,
+            46.0,
+            1152.0,
+            70.0
+          ],
+          "fingerprint": "a49648e7b74f79c881b98020cfc8184d4dfef794305a72114813e8c72dfe883e",
+          "fontPt": [
+            33.75
+          ]
+        },
+        {
+          "id": "2",
+          "name": "S03-disclosure",
+          "kind": "sp",
+          "text": "모든 성능 수치는 가상 예시입니다",
+          "boundsPx": [
+            64.0,
+            660.0,
+            1000.0,
+            30.0
+          ],
+          "fingerprint": "6ec3f1e355cd82e92d742ea8b638fc2831bea8b81ccfebba1b48299f875e8966",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "3",
+          "name": "S03-number",
+          "kind": "sp",
+          "text": "03",
+          "boundsPx": [
+            1150.0,
+            660.0,
+            64.0,
+            30.0
+          ],
+          "fingerprint": "e4f4864d828a4e92e5832b9d3cfb9a20e5966ee7b99b576af0356718e9d37c52",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "11",
+          "name": "표 10",
+          "kind": "graphicFrame",
+          "text": "",
+          "boundsPx": null,
+          "fingerprint": "51dea02a9b7b88ed2ecad6ddf5a74f2a16097d6aef2aa0fd2531ab2d2336401a",
+          "fontPt": []
+        },
+        {
+          "id": "5",
+          "name": "S03-direction",
+          "kind": "sp",
+          "text": "지연·모델 크기는 낮을수록, F1은 높을수록 좋음",
+          "boundsPx": [
+            64.0,
+            164.0,
+            1152.0,
+            38.0
+          ],
+          "fingerprint": "f635023a4ac9bc99af87e268bc1d1df192b596be6f7e46a3cdb7243e893cec42",
+          "fontPt": [
+            18.0
+          ]
+        },
+        {
+          "id": "6",
+          "name": "S03-missing",
+          "kind": "sp",
+          "text": "표본수·분산·실제 데이터셋명 미제공",
+          "boundsPx": [
+            64.0,
+            560.0,
+            1152.0,
+            36.0
+          ],
+          "fingerprint": "6e1ccf5eb372c2d6b9579aedfaa23d2256a82f0b42034c56011a234b7aed3f76",
+          "fontPt": [
+            20.25
+          ]
+        },
+        {
+          "id": "7",
+          "name": "S03-limit",
+          "kind": "sp",
+          "text": "통계적 유의성이나 신뢰구간을 계산할 수 없음",
+          "boundsPx": [
+            64.0,
+            601.0,
+            1152.0,
+            36.0
+          ],
+          "fingerprint": "06642817c43c25898c7d43fa3259e514d1e678fd0ba9dadd87896a7b1b7972cf",
+          "fontPt": [
+            18.0
+          ]
+        }
+      ],
+      "edges": [],
+      "counts": {
+        "sp": 6,
+        "cxnSp": 0,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 1
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "slide": 4,
+      "part": "ppt/slides/slide4.xml",
+      "objects": [
+        {
+          "id": "13",
+          "name": "S04-title",
+          "kind": "sp",
+          "text": "지연 55% 감소와 F1 0.014 하락",
+          "boundsPx": [
+            64.0,
+            46.0,
+            1152.0,
+            70.0
+          ],
+          "fingerprint": "4a63a4d78c52d27b62ddd98e9ac5576a156651389d0d5f5d3d915a77aa374852",
+          "fontPt": [
+            33.75
+          ]
+        },
+        {
+          "id": "2",
+          "name": "S04-disclosure",
+          "kind": "sp",
+          "text": "모든 성능 수치는 가상 예시입니다",
+          "boundsPx": [
+            64.0,
+            660.0,
+            1000.0,
+            30.0
+          ],
+          "fingerprint": "c6e17935e2478ee96cf1e3804d4c92eada00907ba0e723673955d9f1cabe69cf",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "3",
+          "name": "S04-number",
+          "kind": "sp",
+          "text": "04",
+          "boundsPx": [
+            1150.0,
+            660.0,
+            64.0,
+            30.0
+          ],
+          "fingerprint": "a90ebd5a4d79a9c944139d561f888e0d40c33569a4ff043c633d68b40b5a4f28",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "4",
+          "name": "S04-chart-unit",
+          "kind": "sp",
+          "text": "지연 (ms)",
+          "boundsPx": [
+            64.0,
+            157.0,
+            600.0,
+            40.0
+          ],
+          "fingerprint": "e1a92bc78ab55627e4affef07e73f2106b554a11a715d9737173c38828bc1334",
+          "fontPt": [
+            20.25
+          ]
+        },
+        {
+          "id": "17",
+          "name": "Chart",
+          "kind": "graphicFrame",
+          "text": "",
+          "boundsPx": null,
+          "fingerprint": "df86696f333f666c8bf6508fa44f8eed37d8e0ed19760d684933222fffc1e044",
+          "fontPt": []
+        },
+        {
+          "id": "6",
+          "name": "S04-frame",
+          "kind": "sp",
+          "text": "baseline 대비 INT8",
+          "boundsPx": [
+            838.0,
+            160.0,
+            378.0,
+            40.0
+          ],
+          "fingerprint": "4a4ed87c54d732f83d140d5df086154c5c798b4a1050e4e97bf7b0d5f24e5738",
+          "fontPt": [
+            18.75
+          ]
+        },
+        {
+          "id": "7",
+          "name": "S04-size",
+          "kind": "sp",
+          "text": "모델 크기 75% 감소",
+          "boundsPx": [
+            838.0,
+            230.0,
+            378.0,
+            55.0
+          ],
+          "fingerprint": "8c150821e357f5577cbfe4661f2d6d931865d325a8cdc5fbed4cef2b09ee9373",
+          "fontPt": [
+            24.0
+          ]
+        },
+        {
+          "id": "8",
+          "name": "S04-size-values",
+          "kind": "sp",
+          "text": "48MB에서 12MB",
+          "boundsPx": [
+            838.0,
+            288.0,
+            378.0,
+            42.0
+          ],
+          "fingerprint": "53b6495147cec5440ffbeb41abc732e904a73a5fb7b57ec18ae5b9f652f72b1e",
+          "fontPt": [
+            20.25
+          ]
+        },
+        {
+          "id": "9",
+          "name": "S04-f1",
+          "kind": "sp",
+          "text": "F1 0.014 하락",
+          "boundsPx": [
+            838.0,
+            377.0,
+            378.0,
+            55.0
+          ],
+          "fingerprint": "0dbdaa5791fee121dd1ab4acc3f692803aa56abb883f1ca7efe0ef98e4bfdcb1",
+          "fontPt": [
+            24.0
+          ]
+        },
+        {
+          "id": "10",
+          "name": "S04-f1-values",
+          "kind": "sp",
+          "text": "0.910에서 0.896",
+          "boundsPx": [
+            838.0,
+            435.0,
+            378.0,
+            42.0
+          ],
+          "fingerprint": "112638091253968e112d659c6381851ad06cc89f5a107c2d10f059999eda8dc6",
+          "fontPt": [
+            20.25
+          ]
+        },
+        {
+          "id": "11",
+          "name": "S04-stage1",
+          "kind": "sp",
+          "text": "증류 단계: 지연 40% 감소, F1 0.008 하락",
+          "boundsPx": [
+            64.0,
+            561.0,
+            1152.0,
+            39.0
+          ],
+          "fingerprint": "a34662b385ec14a5c634a2c4cecc573294a9259f1da77fac6d07c873fe346eb6",
+          "fontPt": [
+            18.75
+          ]
+        },
+        {
+          "id": "12",
+          "name": "S04-stage2",
+          "kind": "sp",
+          "text": "추가 INT8 단계: 지연 25% 감소, F1 0.006 하락",
+          "boundsPx": [
+            64.0,
+            603.0,
+            1152.0,
+            39.0
+          ],
+          "fingerprint": "634a56dec70311fdf795c7cc64d845dcd5ca6b536f87a8ab93e4181fc8b528c8",
+          "fontPt": [
+            18.75
+          ]
+        }
+      ],
+      "edges": [],
+      "counts": {
+        "sp": 11,
+        "cxnSp": 0,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 1
+      },
+      "errors": [],
+      "warnings": []
+    },
+    {
+      "slide": 5,
+      "part": "ppt/slides/slide5.xml",
+      "objects": [
+        {
+          "id": "11",
+          "name": "S05-title",
+          "kind": "sp",
+          "text": "배포 판단에 필요한 추가 근거",
+          "boundsPx": [
+            64.0,
+            46.0,
+            1152.0,
+            70.0
+          ],
+          "fingerprint": "86aaa4d7aa84b434e67e53f3145fa9e38892e5a6cfe57e2a181a81f3cb0ad86c",
+          "fontPt": [
+            33.75
+          ]
+        },
+        {
+          "id": "2",
+          "name": "S05-disclosure",
+          "kind": "sp",
+          "text": "모든 성능 수치는 가상 예시입니다",
+          "boundsPx": [
+            64.0,
+            660.0,
+            1000.0,
+            30.0
+          ],
+          "fingerprint": "f3ab31cf9c29eff723e070b6182ddac6b7b680fcc6f56f4b3bde77b10d0e5bca",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "3",
+          "name": "S05-number",
+          "kind": "sp",
+          "text": "05",
+          "boundsPx": [
+            1150.0,
+            660.0,
+            64.0,
+            30.0
+          ],
+          "fingerprint": "8fbed894f69262a486628d50b69966620a0dc15a7bfa134cc94503db9081a523",
+          "fontPt": [
+            14.25
+          ]
+        },
+        {
+          "id": "4",
+          "name": "S05-main",
+          "kind": "sp",
+          "text": "이 가상 예시는 효율과 F1의\n교환관계를 보여줍니다",
+          "boundsPx": [
+            64.0,
+            168.0,
+            1152.0,
+            120.0
+          ],
+          "fingerprint": "8e8bfa866c602dc8d079d94de58ab619f14911ae866a30258fd5d25d7eb3129e",
+          "fontPt": [
+            30.0
+          ]
+        },
+        {
+          "id": "5",
+          "name": "S05-label1",
+          "kind": "sp",
+          "text": "먼저 정할 기준",
+          "boundsPx": [
+            64.0,
+            337.0,
+            310.0,
+            44.0
+          ],
+          "fingerprint": "1d93590ddb08c4aa64cb8bf8140c291130125ecd9b02e5e1191dfab673ad08da",
+          "fontPt": [
+            21.0
+          ]
+        },
+        {
+          "id": "6",
+          "name": "S05-body1",
+          "kind": "sp",
+          "text": "허용 가능한 F1 저하와 지연 한도",
+          "boundsPx": [
+            390.0,
+            337.0,
+            826.0,
+            44.0
+          ],
+          "fingerprint": "596a323b3dcb04c2593154113477b5bd21b60e954dd0c8d87024ba7cc8c9a409",
+          "fontPt": [
+            21.0
+          ]
+        },
+        {
+          "id": "7",
+          "name": "S05-label2",
+          "kind": "sp",
+          "text": "다음 검증",
+          "boundsPx": [
+            64.0,
+            422.0,
+            310.0,
+            44.0
+          ],
+          "fingerprint": "c7fcaf9c4b3654b983c8771ce4515c0aee5ba2c72d63d8e863f2b02264e98d45",
+          "fontPt": [
+            21.0
+          ]
+        },
+        {
+          "id": "8",
+          "name": "S05-body2",
+          "kind": "sp",
+          "text": "반복 측정의 분산, 이상 유형별 실패 사례",
+          "boundsPx": [
+            390.0,
+            422.0,
+            826.0,
+            44.0
+          ],
+          "fingerprint": "75380c3d1bd060106b5332be2bf834c1704dd4782278663a455fdae3783136dc",
+          "fontPt": [
+            21.0
+          ]
+        },
+        {
+          "id": "9",
+          "name": "S05-label3",
+          "kind": "sp",
+          "text": "현재의 한계",
+          "boundsPx": [
+            64.0,
+            507.0,
+            310.0,
+            44.0
+          ],
+          "fingerprint": "4fded5ceae93e853e41b4ae1161b7928378069c11e537d3a36289265fc9a131f",
+          "fontPt": [
+            21.0
+          ]
+        },
+        {
+          "id": "10",
+          "name": "S05-body3",
+          "kind": "sp",
+          "text": "표본수·실제 데이터셋명이 없어\n일반화 판단 불가",
+          "boundsPx": [
+            390.0,
+            501.0,
+            826.0,
+            90.0
+          ],
+          "fingerprint": "b77a8cf5601507e05628b873c6078b44ca74808ccd5b03cdc5c535c2fdc41e1d",
+          "fontPt": [
+            21.0
+          ]
+        }
+      ],
+      "edges": [],
+      "counts": {
+        "sp": 10,
+        "cxnSp": 0,
+        "grpSp": 0,
+        "pic": 0,
+        "graphicFrame": 0
+      },
+      "errors": [],
+      "warnings": []
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}
