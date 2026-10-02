@@ -1,6 +1,6 @@
 {
-  "source": "examples/research-seminar/animated.pptx",
-  "sourceSha256": "c854d1e883fea48ee84c6200ffbcd44791494cf3b0cababa9006a2e74f0c7af9",
+  "source": "examples/research-seminar/animated-ko.pptx",
+  "sourceSha256": "fab82e9144861fe71279c3ed2e50fddbad973e40f8b13790a6828d32d3aeb14c",
   "readOnly": true,
   "scope": "Native connector attachment diagnostics; inspect the rendered figure for meaning and quality.",
   "summary": {

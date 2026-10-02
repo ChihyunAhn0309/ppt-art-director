@@ -26,7 +26,15 @@ Select a type scale for the actual viewing distance. Starting points: title 32â€
 
 Never solve overflow by repeatedly shrinking all text. Edit redundancies, expand the container, reorganize, or redistribute content within the requested count. Put derivation detail in notes or an allowed appendix without hiding a caveat needed to interpret the result.
 
-## Korean and bilingual typography
+## Make restraint feel considered
+
+Restraint does not require a dark cover, heavy bold headings, opaque process boxes, and a fully ruled table on every page. Choose each element's visual weight deliberately. Open table rows, quiet rules, varied figure proportions, selective imagery, and lighter body type can make technical content inviting without weakening evidence. Warm neutrals are one option, not a universal style.
+
+Vary pace when the content warrants it: an image-led opening, an open process diagram, a precise evidence page, and a concise closing statement. Keep type roles and semantic colors stable. Avoid adding decoration to manufacture variety. When a user calls a deck stiff, compare old and revised body slides; changing only its cover or palette does not address the request.
+
+## English, Korean, and bilingual typography
+
+Read [typography.md](typography.md) for actual-font fitting, planned line counts, and language-specific composition. Neither English nor Korean is a mandatory default.
 
 Check actual font availability and Hangul coverage before choosing a family. Candidates include Pretendard or Noto Sans KR when installed; Malgun Gothic may be an available Windows fallback. Do not assume any of them exists on the recipient's machine. Match the user's font if required; disclose substitutions.
 

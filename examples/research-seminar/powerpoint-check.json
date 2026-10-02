@@ -1,12 +1,35 @@
 {
-  "renderedSlides": 5,
-  "slideCount": 5,
-  "nativeTable": true,
-  "nativeChart": true,
-  "textEdit": true,
-  "tableEdit": true,
-  "chartEdit": true,
-  "diagramEdit": true,
-  "effectCount": 10,
-  "playbackVerified": false
+  "renderer": "Microsoft PowerPoint",
+  "renderedSlidesPerLanguage": 5,
+  "editions": [
+    {
+      "language": "en",
+      "slideCount": 5,
+      "nativeTable": true,
+      "nativeChart": true,
+      "textEdit": true,
+      "tableEdit": true,
+      "chartEdit": true,
+      "diagramEdit": true,
+      "playbackVerified": false
+    },
+    {
+      "language": "ko",
+      "slideCount": 5,
+      "nativeTable": true,
+      "nativeChart": true,
+      "textEdit": true,
+      "tableEdit": true,
+      "chartEdit": true,
+      "diagramEdit": true,
+      "playbackVerified": false
+    }
+  ],
+  "motion": {
+    "effectCountPerLanguage": 12,
+    "clickGroups": 2,
+    "durationSeconds": 0.35,
+    "savedSettingsVerified": true,
+    "playbackVerified": false
+  }
 }

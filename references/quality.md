@@ -7,7 +7,7 @@ Check separate properties separately. A valid ZIP is not proof of a valid PPTX; 
 - Compare each slide against the approved plan and user feedback; verify exact requested count and required topics.
 - Check claims against the source ledger, including denominators, periods, units, derived values, uncertainty, and chart labels.
 - Read title and chart together. Does the evidence support the conclusion? Does a context slide overstate an insight?
-- Check Korean phrasing for translated abstractions, pointless slogans, excess noun chains, and awkward line breaks. Technical precision outranks stylistic simplification.
+- Check the requested language for translated abstractions, empty slogans, and awkward phrasing. For Korean, inspect noun chains and particles; for English, inspect idiom and sentence structure. Technical precision outranks stylistic simplification.
 - Remove sample names, placeholder text, duplicate sections, internal workflow notes, and unsupported claims of novelty or superiority.
 
 ## Package and editability review
@@ -27,6 +27,8 @@ Render every slide from the actual final file or a verified equivalent static ex
 - margins, alignments, repeated category colors, and type roles are consistent;
 - images are sharp, relevant, not stretched, and not incorrectly cropped;
 - hardest body slide receives the same design care as the title.
+
+Compare focal text's actual line count and line endings to the plan in [typography.md](typography.md), even when geometry validation passes. A deliberate two-line title can be appropriate; an accidental wrap or stranded word needs repair. Use native text line counts and bounds when available, then inspect the pixels. Repeat for every language edition and compare redesigned slides to their originals.
 
 List actual defects privately. Repair their causes in the source and rerender changed slides. Avoid endless style churn after the requested result is sound. Do not require an arbitrary number of repair rounds or invent a score threshold as evidence of quality.
 

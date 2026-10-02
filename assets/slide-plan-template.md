@@ -1,68 +1,72 @@
-# {{발표 제목}} — 슬라이드 기획안 v01
+# {{Presentation title}} — slide plan v01
 
-## 발표 조건
+Write the completed plan in the user's requested language. These English field labels are guidance, not a requirement to deliver English slides.
 
-- 목적 / 청중 / 발표 상황:
-- 총 슬라이드 수 / 발표 시간 / 언어:
-- 발표용 또는 배포용:
-- 반드시 포함할 내용 / 제외할 내용:
-- 자료 출처 / 아직 확인할 사실:
-- 출력 형식 / 재생 환경 / 편집 요구:
-- 진행 방식: 피드백 후 제작 또는 원샷
+## Brief
 
-## 전체 메시지와 흐름
+- Goal / audience / setting:
+- Slide count / total duration / output language(s):
+- Live talk or reading deck:
+- Required content / exclusions:
+- Sources / facts still needing verification:
+- Output format / playback environment / editability needs:
+- Mode: plan-first with feedback, or explicitly requested one-shot
 
-청중에게 남길 메시지:
+## Message and narrative
 
-슬라이드 순서와 각 구간이 필요한 이유:
+Audience takeaway:
 
-## 디자인 방향
+Slide sequence and why each section is needed:
 
-- 실제 확인한 참고 디자인 링크와 참고한 부분:
-- 선택한 방향과 이 주제에 맞는 이유:
-- 색상: 배경 / 본문 / 보조 본문 / 강조 / 비교·데이터 색상, HEX 값:
-- 글꼴과 대체 글꼴 / 제목·본문·캡션 크기:
-- 이미지와 도표의 스타일 / 여백과 정렬 기준:
-- 애니메이션 강도 / 사용할 효과 / 정적 대체 방식:
+## Art direction
 
-## S01 — {{제목}}
+- Inspected design references, links, inspection depth and useful principles:
+- Chosen direction and why it suits the subject:
+- HEX roles: background / primary text / secondary text / accent / data colors:
+- Fonts and fallbacks / title, body and caption sizes:
+- Image and evidence style / margins and alignment:
+- Motion intensity / supported effects / static alternative:
+- Language-specific fit decisions and planned focal line counts:
 
-**역할과 핵심 내용**
+## S01 — {{Claim-led title}}
 
-청중이 이 슬라이드에서 이해해야 할 내용:
+**Purpose and takeaway**
 
-**슬라이드에 들어갈 실제 문구**
+What the audience should understand:
 
-- 제목:
-- 본문 / 데이터 라벨 / 캡션:
-- 청중에게 보여야 하는 전제 또는 주의점:
+**Exact visible copy**
 
-**근거와 자료**
+- Title:
+- Body / data labels / captions:
+- Visible assumptions or caveats:
+- Intended line count for title and focal statement:
 
-- 수치·단위·비교 기준 또는 그림의 구체적인 내용:
-- 출처와 자료 내 위치:
-- 사실 / 계산 / 가정 / 예시 여부:
+**Evidence**
 
-**화면 구성**
+- Values, units, comparison basis or precise figure content:
+- Source and location within it:
+- Fact / calculation / assumption / illustrative example:
 
-- 레이아웃과 화면 비중:
-- 시선이 이동하는 순서:
-- 사용할 이미지·차트·도식과 편집 가능 여부:
+**Composition**
 
-**발표와 움직임**
+- Layout and proportions:
+- Reading order:
+- Images, charts or diagrams; which elements remain editable:
 
-- 발표자 노트 요지:
-- 애니메이션 대상 / 효과 / 실행 시점 / 순서 / 길이:
-- 애니메이션 없이도 전달되어야 할 내용:
-- 다음 슬라이드와의 연결 / 예상 시간:
+**Delivery and motion**
 
-위 S01 블록을 실제 슬라이드 수만큼 작성하고 모든 안내 문구를 구체적인 내용으로 바꾼다.
+- Speaker-note substance:
+- Target objects / effects / triggers / order / duration:
+- Information that must remain clear in the static version:
+- Transition to the next slide / speaking time:
 
-## 피드백할 부분
+Repeat this complete block for every slide and replace all placeholders with actual content. Do not deliver an outline in place of the detailed plan.
 
-내용의 정확성, 설명 깊이, 순서, 디자인 방향 중 수정할 부분을 S번호와 함께 적어주세요. 예: “S03은 방법을 더 구체적으로 설명하고, S05는 비교표로 바꿔주세요.”
+## Feedback requested
 
-## 변경 사항
+Identify corrections to content, depth, order or design using slide IDs. Example: “Explain S03 more concretely, and turn S05 into a comparison table.”
 
-| 사용자 의견 | 영향을 받는 슬라이드 | 반영 내용 |
+## Change record
+
+| User feedback | Affected slides | Applied change |
 |---|---|---|

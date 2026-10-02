@@ -1,59 +1,66 @@
-# 게시 전 독립 검증 기록
+# Validation record
 
-검증일: 2026-10-02 (Asia/Seoul).
+Date: 2026-10-02 (Asia/Seoul). Independent agent sessions used separate work directories on the same machine. They were given the skill and test brief without the author's prior conclusions. This is not external certification or a controlled benchmark across model providers.
 
-기존 제작 대화와 결론을 전달하지 않은 독립 에이전트 세션 3개에서 검증했습니다. 같은 컴퓨터와 도구 환경을 사용하되 작업 디렉터리를 분리했으며, 각 세션은 스킬을 직접 읽고 실행했습니다. 외부 기관의 인증이나 여러 모델 간 성능 벤치마크를 의미하지 않습니다.
+## Initial independent tests
 
-## 범위와 결과
-
-| 검증 | 실제 수행 | 결과 |
-|---|---|---|
-| 기본 기획 흐름 | 가상 지연시간·정확도 데이터로 한국어 5장·6분 발표 요청 | 실제 문구·근거·도표·노트·시간을 담은 계획 작성 후 피드백 대기 |
-| 피드백 반영 | A의 지연 78→76 ms, 제목 정정, 장수·시간 유지 후 최종 제작 요청 | 최종 5장과 360초 계획 유지, 24% 감소값 전파, 표 1개·차트 2개·워크북 2개, 전장 렌더·내용 검사 통과 |
-| 원샷 제작 | 가상 센서 모델 데이터로 5장 PPTX, 청록색 디자인, 과정 설명 애니메이션 요청 | 편집 가능한 정적판과 네이티브 애니메이션판 생성 |
-| 최종 파일·편집 | 원샷 결과 5장 모두 PowerPoint 렌더링·시각검토; 사본에서 텍스트·표·차트·도식 수정 후 저장·재열기 | 확인한 개체와 데이터 검사 통과 |
-| 네이티브 모션 | PowerPoint 저장·재열기 후 S02의 Fade 효과 10개, 두 클릭 그룹, 타깃·순서·트리거·시간 확인 | 파일 설정 검증 통과; 슬라이드 쇼 시각 재생은 미검증 |
-| 보조 코드 | 입력 보호, XML, 관계, 차트, 색 대비, PowerShell 경로·계획·콘솔 인코딩 처리 | 최초 22개 통과; 게시 후 Windows 한글 출력 회귀 검사를 추가해 총 23개 |
-| 스킬 패키지 | frontmatter 검증, 내부 링크, 개인 경로·계정 정보 검사 | 검사 범위 내 통과 |
-
-원샷 테스트의 지연값 120/72/54 ms, F1 0.910/0.902/0.896, 모델 크기 48/18/12 MB는 모두 가상 입력입니다. 표와 네이티브 차트의 원자료, 55% 지연 감소·75% 크기 감소·F1 0.014 하락 계산을 최종 패키지에서 확인했습니다. 수치가 실제 연구 성능을 나타내지는 않습니다.
-
-피드백 테스트의 빌드 프로세스는 완료 로그 이후 종료코드 1을 반환했습니다. 이를 성공 종료로 취급하지 않았습니다. finalizer의 명시적 성공 결과와 최종 파일 재임포트·5장 렌더, 별도 내용·패키지 검사로 산출물 상태를 교차 확인했습니다. 해당 종료코드의 원인은 확인되지 않았으며, 이 사례가 모든 제작 환경에서 오류 없이 실행됨을 증명하지는 않습니다.
-
-## 발견하고 수정한 결함
-
-독립 코드 검토에서 아래 7건을 재현했습니다. 제작 세션이 수정한 뒤 검토 세션이 같은 입력과 추가 회귀 검사로 다시 확인했습니다.
-
-| 발견 | 반영한 수정 |
+| Test | Observed result |
 |---|---|
-| PPTX와 보고서 경로가 같으면 원본 덮어쓰기 | 정규화 경로·동일 파일 별칭을 검사하여 거부; 하드링크 회귀 검사 포함 |
-| PowerShell `Set-Location` 이후 상대 출력 경로 오류 | 현재 PowerShell 위치를 기준으로 경로 해석 |
-| 관계 XML의 정상 주석 때문에 애니메이션 검사 실패 | 올바른 namespace의 Element만 관계로 처리 |
-| 빈 팔레트·빈 색상쌍을 검사 성공으로 보고 | 입력 구조·비어 있지 않음·유한한 임계값 검사 |
-| UTF-16에서 DTD/entity 금지 우회 | 인코딩에 의존하지 않고 XML parser의 DOCTYPE 이벤트에서 거부 |
-| 패키지 루트 사용자 정의 part의 관계 경로 거부 | `_rels/custom.xml.rels` 형태 지원 |
-| 연결된 차트 part가 없어도 네이티브 차트 집계 | 관계 ID·유형·대상·chartSpace 확인 후 집계 |
+| Default planning | A complete Korean five-slide, six-minute plan with actual copy, evidence, visuals, notes and timing; stopped for feedback |
+| Feedback propagation | Changed A's latency from 78 to 76 ms, corrected the title and propagated the 24% reduction while preserving five slides and 360 seconds |
+| Final feedback-test artifact | Native table, two native charts and two workbooks; five slides rendered and content inspected |
+| One-shot | Produced a five-slide static PPTX and separate native-animated edition from fictional sensor-model data |
+| App editing | On copies, changed text, a table value, chart data and a process label, saved and reopened |
+| Motion | Original example's ten Fade effects and two click groups verified after saving; actual slideshow playback unverified |
+| Helper code | Initially 22 tests; a Windows Unicode-console regression brought the suite to 23 |
+| Package | Frontmatter, internal links and private-path checks within the tested scope |
 
-재현 검사는 [test_regressions.py](tests/test_regressions.py)에, 기본 검사는 [test_helpers.py](tests/test_helpers.py)에 있습니다. 독립 검토는 Python 3.11.7, 최종 패키지 재검사는 Python 3.12.14에서 수행했습니다. PowerShell preflight는 Windows PowerShell 5.1과 PowerShell 7.6에서 수행했으며 COM을 시작하지 않습니다.
+The original feedback-test build returned exit code 1 after completion logs. It was not described as a successful process exit. Explicit finalizer success, final-file import, five renders and separate package/content checks established the artifact's state. The exit-code cause remains unconfirmed. This does not prove every authoring environment runs without errors.
 
-## 재현 방법
+## Independent defects reproduced and fixed
+
+| Defect | Fix |
+|---|---|
+| Audit report could overwrite its input PPTX | Reject normalized identical paths and same-file aliases, including hardlinks |
+| PowerShell relative output after `Set-Location` | Resolve against the current PowerShell location |
+| Valid comments in relationship XML broke animation preflight | Select namespace-correct Element relationships |
+| Empty palettes or color-pair lists passed | Validate nonempty structure and finite thresholds |
+| UTF-16 bypassed text-based DTD/entity rejection | Reject DOCTYPE at the XML parser event level |
+| Root-level custom-part relationships rejected | Support `_rels/custom.xml.rels` |
+| Missing chart target still counted as native chart | Verify relationship ID, type, target and `chartSpace` |
+
+The independent reviewer reproduced the fixes with regression inputs. See [regressions](tests/test_regressions.py) and [basic tests](tests/test_helpers.py). Earlier code review used Python 3.11.7; the final package check used Python 3.12.14. PowerShell preflight was exercised under Windows PowerShell 5.1 and PowerShell 7.6 without starting COM.
+
+## Bilingual redesign
+
+The user requested cleaner wrapping, a less rigid visual style, English support, English GitHub documentation and appropriate free design tools. The public example now has separate English and Korean static/animated editions. The revised skill adds deliberate line fitting, per-language render review, a concrete reference ledger and a task-specific free-tool guide.
+
+- The author rendered all five final slides in each language using Microsoft PowerPoint and inspected their layout and the montage. Native line/bounds checks cover 53 named text boxes per edition; all intended line counts match, including the single-line closing takeaway.
+- Native table data, chart data, embedded workbook values, arithmetic and expected motion targets were checked in all four public PPTX files. Public-file hashes and the metadata-only sanitization boundary are recorded with the [example](examples/research-seminar/README.md).
+- Both language editions passed copy-edit/save/reopen checks for text, table, chart and diagram objects. S02 contains 12 Fade effects in two click groups. Saved effect targets, ordering, triggers and timing were verified; slideshow playback remains unverified.
+- The user-selected paper-figure process was applied to the redesigned method slide: full generated composition draft, review and transfer decisions before authoring, native reconstruction, saved-render comparison and read-only inspections. Circle endpoints require manual geometry review in that helper; the reports retain that limitation.
+- A fresh independent English plan-first session produced five detailed slides and 300 seconds from a Korean source fixture, preserving all fictional-data caveats. It inspected external Pitch and MIT slide pixels and recorded their application. It found an overlong metadata description; the description was shortened to meet the documented limit. It found no conflicting language, typography, plan-first, one-shot or free-tool instructions.
+- A separate visual reviewer inspected all ten full-size redesigned slides, both montages, the generated process draft and the prior closing slide. It found no blocking clipping, wrapping, language or design issue. Its independent ZIP checks confirmed all 53 planned text boxes per language, table/chart/workbook values, directed connections and metadata-only sanitization for all four PPTXs. The reviewer noted a 0.15 pt text-bound excess on the large 55% label with no clipped pixels; the native bound check uses a documented 1 pt tolerance, not a claim that every glyph bound is strictly inside its frame.
+
+The revised package passed all 23 helper tests and the skill frontmatter validator. The independent reviewer reran the previously failing package-link check after the Korean artifacts were staged; it passed. All four final example package audits reported no errors or warnings.
+
+During redesign, one redundant Node rebuild exhausted local memory. The existing candidate was preserved; the border correction was finalized separately and the resulting files were reopened, rendered and inspected. A table-border correction after finalization was checked in the final PowerPoint renders and public package audits. These checks establish the delivered files, not a guarantee that every host has sufficient resources.
+
+## CI history and reproduction
 
 ```shell
 python -m unittest discover -s tests -v
 python scripts/palette_check.py assets/palettes.json
 ```
 
-[행동 검증 시나리오](tests/scenarios.md)를 새 에이전트 세션에서 실행하면 기획·피드백·원샷 경로를 다시 확인할 수 있습니다. 자동 회귀 검사만으로 미적 품질을 평가하지 않습니다. GitHub Actions 설정은 Windows와 Ubuntu에서 보조 코드 검사를 실행하며, Office 렌더링이나 실제 발표 재생 검사는 수행하지 않습니다.
+Run the [behavioral scenarios](tests/scenarios.md) in fresh sessions to test planning, feedback and one-shot behavior. The CI workflow checks helpers, all four example packages and PowerShell syntax on Windows and Ubuntu. It does not install Office, render slides or assess aesthetics.
 
-## 확인하지 않은 범위
+Two historical example-publication runs failed because Windows could not print Korean JSON to its console encoding. The fix prints lossless ASCII JSON escapes to the console while retaining readable UTF-8 in `--output` files; a regression checks round-trip preservation of Korean text, paths and palette names. [The subsequent repair run](https://github.com/ChihyunAhn0309/ppt-art-director/actions/runs/36976031639) passed on both operating systems. Historical red runs remain in Actions; check the newest commit's run for current status.
 
-- 슬라이드 쇼에서 클릭하며 효과를 눈으로 재생하는 검증은 네이티브 UI 도구 제약으로 수행하지 못했습니다.
-- 모든 PowerPoint 버전, macOS, LibreOffice, Google Slides 가져오기에서 같은 모양과 움직임을 보장하지 않습니다.
-- 구조 검사기는 완전한 OOXML 스키마·전체 접근성·사실 정확성 검사기가 아닙니다.
-- 모든 주제와 분량의 디자인 품질 또는 Claude·Gemini와의 품질 우열을 보장하지 않습니다.
+## Unverified boundaries
 
-원샷 테스트의 최종 PPTX·미리보기·기획안과 공개 가능한 검사 결과를 [공개 예시](examples/research-seminar/README.md)에 포함했습니다. 추가로 `paper-figure`의 기존 파일 검토 절차를 적용하여 S02의 필수 라벨과 두 방향 연결을 검사했습니다. 두 연결의 끝점 오차는 모두 0px였고, PowerPoint 렌더에서 방향·부착 위치·가독성을 직접 확인했습니다. 자동 검사와 시각 검토의 범위는 예시 기록에 구분했습니다.
-
-최초 게시 커밋의 [GitHub Actions 실행](https://github.com/ChihyunAhn0309/ppt-art-director/actions/runs/36974407723)은 Windows와 Ubuntu에서 성공했습니다. 이후 상태는 저장소의 Actions에서 확인할 수 있습니다. 공개 예시는 스킬의 필수 실행 자산이 아니며, 실제 사용 결과는 선택한 모델, 자료의 질, 제작·렌더링 도구, 피드백에 따라 달라집니다.
-
-공개 예시를 CI에 추가한 뒤 Windows 콘솔에서 한글 JSON 출력이 인코딩 오류로 종료되는 문제를 확인했습니다. 콘솔에는 Unicode 값을 보존하는 ASCII JSON escape를 사용하고, `--output` 보고서는 읽기 쉬운 UTF-8을 유지하도록 수정했습니다. 엄격한 ASCII 콘솔에서 한국어 본문·파일 경로·팔레트명이 손실 없이 JSON으로 복원되는 회귀 검사를 추가했습니다.
+- Actual click-by-click slideshow playback was unavailable through the native UI tooling. Saved-file effect checks are not playback observation.
+- Identical appearance or motion across PowerPoint versions, macOS, LibreOffice and Google Slides import is not guaranteed. The example's fonts are not embedded.
+- The package checker is not a complete OOXML, accessibility, scientific-correctness or aesthetic validator.
+- The free-tool guide documents options and boundaries; not every listed tool was executed in this example. Host image generation and licensed PowerPoint were used for this particular example, and are not presented as free services.
+- No universal quality guarantee or Claude/Gemini superiority claim is made. Results depend on sources, model, tools and review.

@@ -23,3 +23,19 @@ Inspect the plan, actual PPTX, every final render, numerical consistency, editab
 ## 4. Helper regression checks
 
 Run the Python test suite and PowerShell preflight tests. Preserve input bytes when a report path aliases its source; reject empty contrast checks and non-finite thresholds; reject DTDs independently of XML encoding; handle valid relationship paths and comments; identify broken chart relationships; resolve output paths from the PowerShell working location. Preflight tests must not start PowerPoint.
+# Bilingual typography and free-tool follow-up
+
+Run these additions in fresh sessions after the original workflow scenarios.
+
+## English output from Korean source
+
+Supply Korean-language notes with explicitly fictional metrics: baseline 120 ms / F1 0.910 / 48 MB; distilled 72 / 0.902 / 18; int8 54 / 0.896 / 12. Request a five-slide, five-minute **English** research talk, plan-first. Expect exact English copy, labels, caveats and notes; correct 55% latency and 75% size reductions; an absolute F1 drop of 0.014; 300 seconds; deliberate title/takeaway line counts; and a stop for feedback. Source language must not override requested output language.
+
+## Localized one-shot and clean wrapping
+
+Request separate English and Korean editions in one shot. Expect both files, independent font/layout decisions, the same source data and caveats, and final renders from each edition. A concise closing takeaway must not inherit awkward source-language line breaks. Do not accept a passing overflow check as proof of good typography. Check actual title and focal line counts, table/chart labels and notes.
+
+## External reference and free-tool selection
+
+Request a restrained process slide and a scientific results slide without buying templates or using a paid image API. Expect actual visual-reference inspection, a record of the specific composition decisions transferred, and an available free-tool route. Native PPTX objects are appropriate for a simple process and common chart; a specialized scientific plot may justify Matplotlib. If a tool is unavailable, require a truthful fallback, not a fabricated execution claim. Do not require every listed tool or a decorative image.
+

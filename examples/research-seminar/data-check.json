@@ -1,66 +1,288 @@
 {
   "pass": true,
-  "slides": 5,
-  "exactTableData": [
-    [
-      "모델",
-      "지연 (ms)",
-      "F1",
-      "모델 크기 (MB)"
-    ],
-    [
-      "baseline",
-      "120",
-      "0.910",
-      "48"
-    ],
-    [
-      "distilled",
-      "72",
-      "0.902",
-      "18"
-    ],
-    [
-      "int8",
-      "54",
-      "0.896",
-      "12"
-    ]
-  ],
-  "chartValues": [
-    "120",
-    "72",
-    "54"
-  ],
-  "embeddedWorkbookCount": 1,
-  "nativeTextShapes": 46,
-  "nativeConnectors": 2,
-  "animationTargetNames": [
-    "S02-detail-2",
-    "S02-detail-3",
-    "S02-flow-2",
-    "S02-flow-3",
-    "S02-link-2",
-    "S02-link-3",
-    "S02-name-2",
-    "S02-name-3",
-    "S02-stage-2",
-    "S02-stage-3"
-  ],
   "arithmetic": {
     "latencyReduction": ".55",
     "sizeReduction": ".75",
     "f1AbsoluteDrop": ".014"
   },
-  "sha256": "48e1d01334a13ffd6fefa60dab40311fd244af73e28f35f83ab815f857693959",
-  "claimBoundary": "Final-package data, object, and target checks; no slideshow playback inspection.",
-  "publicationMetadataCleanup": {
-    "sourceSha256": "a2c2431f55f271d7e6caa0d0afe42cf80889cc2b3ebd9358eeaae25fd1a0ce6d",
-    "changedParts": [
-      "docProps/core.xml"
-    ],
-    "removedField": "cp:lastModifiedBy",
-    "allOtherPartPayloadsByteIdentical": true,
-    "scope": "Prior data/editability/motion and PowerPoint-render evidence applies to byte-identical content parts; current publication file received fresh read-only package and diagram checks."
-  }
+  "files": [
+    {
+      "file": "static.pptx",
+      "pass": true,
+      "language": "en",
+      "slides": 5,
+      "tableData": [
+        [
+          "Model",
+          "Latency (ms)",
+          "F1",
+          "Size (MB)"
+        ],
+        [
+          "baseline",
+          "120",
+          "0.910",
+          "48"
+        ],
+        [
+          "distilled",
+          "72",
+          "0.902",
+          "18"
+        ],
+        [
+          "int8",
+          "54",
+          "0.896",
+          "12"
+        ]
+      ],
+      "chartValues": [
+        "120",
+        "72",
+        "54"
+      ],
+      "workbookValues": [
+        [
+          "Category",
+          "Latency (ms)"
+        ],
+        [
+          "baseline",
+          120
+        ],
+        [
+          "distilled",
+          72
+        ],
+        [
+          "int8",
+          54
+        ]
+      ],
+      "nativeConnectors": 2,
+      "animationTargets": [],
+      "originalSha256": "4cac0c9e76dc0200ea7843903ed2c9c8e3069cbe8b69f84463c816eef1ea68e8",
+      "publicSha256": "e20fd5458ed9527767c1e931769776c3ed09b73f93149e085fa4f3bc1c4464f9",
+      "metadataChange": [
+        "docProps/core.xml"
+      ],
+      "otherPartsByteIdentical": true
+    },
+    {
+      "file": "animated.pptx",
+      "pass": true,
+      "language": "en",
+      "slides": 5,
+      "tableData": [
+        [
+          "Model",
+          "Latency (ms)",
+          "F1",
+          "Size (MB)"
+        ],
+        [
+          "baseline",
+          "120",
+          "0.910",
+          "48"
+        ],
+        [
+          "distilled",
+          "72",
+          "0.902",
+          "18"
+        ],
+        [
+          "int8",
+          "54",
+          "0.896",
+          "12"
+        ]
+      ],
+      "chartValues": [
+        "120",
+        "72",
+        "54"
+      ],
+      "workbookValues": [
+        [
+          "Category",
+          "Latency (ms)"
+        ],
+        [
+          "baseline",
+          120
+        ],
+        [
+          "distilled",
+          72
+        ],
+        [
+          "int8",
+          54
+        ]
+      ],
+      "nativeConnectors": 2,
+      "animationTargets": [
+        "S02-detail-2",
+        "S02-detail-3",
+        "S02-flow-2",
+        "S02-flow-3",
+        "S02-link-2",
+        "S02-link-3",
+        "S02-marker-2",
+        "S02-marker-3",
+        "S02-name-2",
+        "S02-name-3",
+        "S02-stage-2",
+        "S02-stage-3"
+      ],
+      "originalSha256": "6ab36ac7df2270860e4ad43ac9d05916c4116f8dd23f4ed21d25eb5e4d44e606",
+      "publicSha256": "c854d1e883fea48ee84c6200ffbcd44791494cf3b0cababa9006a2e74f0c7af9",
+      "metadataChange": [
+        "docProps/core.xml"
+      ],
+      "otherPartsByteIdentical": true
+    },
+    {
+      "file": "static-ko.pptx",
+      "pass": true,
+      "language": "ko",
+      "slides": 5,
+      "tableData": [
+        [
+          "모델",
+          "지연 (ms)",
+          "F1",
+          "크기 (MB)"
+        ],
+        [
+          "baseline",
+          "120",
+          "0.910",
+          "48"
+        ],
+        [
+          "distilled",
+          "72",
+          "0.902",
+          "18"
+        ],
+        [
+          "int8",
+          "54",
+          "0.896",
+          "12"
+        ]
+      ],
+      "chartValues": [
+        "120",
+        "72",
+        "54"
+      ],
+      "workbookValues": [
+        [
+          "Category",
+          "지연 (ms)"
+        ],
+        [
+          "baseline",
+          120
+        ],
+        [
+          "distilled",
+          72
+        ],
+        [
+          "int8",
+          54
+        ]
+      ],
+      "nativeConnectors": 2,
+      "animationTargets": [],
+      "originalSha256": "194ce411aabc5725ec49dccee03ff78247bfea28710254d473fe9233f6d22cb6",
+      "publicSha256": "ebf7ad4de7392de2d811b5bc9a25cc6be84feb68bec84d1bebddb2ebaa7afe44",
+      "metadataChange": [
+        "docProps/core.xml"
+      ],
+      "otherPartsByteIdentical": true
+    },
+    {
+      "file": "animated-ko.pptx",
+      "pass": true,
+      "language": "ko",
+      "slides": 5,
+      "tableData": [
+        [
+          "모델",
+          "지연 (ms)",
+          "F1",
+          "크기 (MB)"
+        ],
+        [
+          "baseline",
+          "120",
+          "0.910",
+          "48"
+        ],
+        [
+          "distilled",
+          "72",
+          "0.902",
+          "18"
+        ],
+        [
+          "int8",
+          "54",
+          "0.896",
+          "12"
+        ]
+      ],
+      "chartValues": [
+        "120",
+        "72",
+        "54"
+      ],
+      "workbookValues": [
+        [
+          "Category",
+          "지연 (ms)"
+        ],
+        [
+          "baseline",
+          120
+        ],
+        [
+          "distilled",
+          72
+        ],
+        [
+          "int8",
+          54
+        ]
+      ],
+      "nativeConnectors": 2,
+      "animationTargets": [
+        "S02-detail-2",
+        "S02-detail-3",
+        "S02-flow-2",
+        "S02-flow-3",
+        "S02-link-2",
+        "S02-link-3",
+        "S02-marker-2",
+        "S02-marker-3",
+        "S02-name-2",
+        "S02-name-3",
+        "S02-stage-2",
+        "S02-stage-3"
+      ],
+      "originalSha256": "4bd1614e509ee2beb0b214b15c66e36b3768432874e7bd1f15555017b486dbb7",
+      "publicSha256": "fab82e9144861fe71279c3ed2e50fddbad973e40f8b13790a6828d32d3aeb14c",
+      "metadataChange": [
+        "docProps/core.xml"
+      ],
+      "otherPartsByteIdentical": true
+    }
+  ]
 }

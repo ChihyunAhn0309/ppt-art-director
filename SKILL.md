@@ -1,11 +1,11 @@
 ---
 name: ppt-art-director
-description: "Create polished, editable PowerPoint presentations with researched visual references, topic-specific colors, slide-by-slide planning, feedback integration, and purposeful native animation. Use for PPT/PPTX creation or substantial redesign, including Korean research, technical, business, teaching, and keynote decks. Default to a reviewable slide plan before production; support explicit one-shot delivery. Not for text extraction alone or unrelated document design."
+description: "Create polished, editable PowerPoint presentations in English, Korean, or a requested language, with researched visual references, deliberate typography, slide planning, feedback integration, and purposeful native animation. Use for PPT/PPTX creation or substantial redesign, including research, technical, business, teaching, and keynote decks. Default to a reviewable slide plan before production; support explicit one-shot delivery. Not for text extraction alone."
 ---
 
 # PPT Art Director
 
-Treat the deck as an argument, a visual system, and a live presentation. A beautiful cover does not compensate for weak evidence slides. Create an editable `.pptx` unless the user requests another format. Write in the user's language.
+Treat the deck as an argument, a visual system, and a live presentation. A beautiful cover does not compensate for weak evidence slides. Create an editable `.pptx` unless the user requests another format. Use the requested output language, independently of the source or conversation language. Support English, Korean, and deliberately mixed decks; if unspecified, infer the audience language from the brief. Repository examples do not set the user's output language.
 
 Default visual direction: sophisticated, restrained, and appropriate to the topic. Research/technical talks, papers, and conferences receive particular support; preserve technical depth. The user's purpose, template, and style choices override these defaults. For research work also read [research-talks.md](references/research-talks.md).
 
@@ -34,6 +34,8 @@ Read [design.md](references/design.md) and use [reference-library.md](references
 
 Honor the user's supplied template and colors. Otherwise choose a coherent direction suited to the content. Study several candidates, then select a small number of compatible references. Record exactly what was observed and adapted. Inspiration is not a license to redistribute a template, photograph, font, or logo.
 
+Use the compact [design reference ledger](assets/design-reference-template.md) inside the plan or as a companion file. Record inspection depth, the design principle transferred to particular slides, and rejected traits. Carry references into concrete decisions about hierarchy, spacing, diagrams and evidence slides; a list of links alone is insufficient.
+
 For ambiguous taste, include two or three small visual directions with the planning package when useful. Reuse real content from the deck, including one difficult body slide. This is an option, not an extra approval gate. Do not delay one-shot work with a template picker when the user has delegated design choice.
 
 ## 3. Deliver the planning checkpoint
@@ -51,7 +53,11 @@ Open or link the file. In the default mode, end the turn after asking for feedba
 
 Read [production.md](references/production.md). Inspect available authoring and rendering tools. When the host provides a Presentations skill, follow its supported engine and validation contract. Otherwise use an available documented native PPTX backend. No particular private runtime, model provider, or paid API is required by this skill; actual file generation needs an authoring engine and visual QA needs a renderer.
 
+Read [free-tools.md](references/free-tools.md) when choosing a production route. Prefer appropriate available free tools for native PPTX, scientific plots, process diagrams and vector refinement. Select a small coherent set rather than using tools for variety alone. Keep a complete route that needs no purchased templates or paid image API; image generation is optional when supported by the host. Preserve editable source and distinguish SVG editability from native PowerPoint object editing.
+
 Prototype a title, a typical content slide, and the densest evidence slide internally. Fix readability and style drift before expanding. Share tokens and layout helpers; separate slide content from geometry. Preserve native text, tables, charts, and required editable diagrams. Avoid full-slide image decks unless the user explicitly accepts the editing tradeoff.
+
+Read [typography.md](references/typography.md). Compose with the actual target-language words. Assign intended line counts to headlines and focal statements, then verify the saved render. A box that does not overflow can still have an awkward wrap. Prefer concise copy or better proportions before modest size adjustment; do not shrink the whole deck to rescue a layout. Review every translated edition separately.
 
 Select composition from content: evidence chart, comparison, mechanism, image study, timeline, equation, or focused statement. Vary emphasis and density across the story without making every slide look unrelated. Keep sources and explanatory detail in relevant speaker notes; visible caveats remain visible when they qualify a claim.
 

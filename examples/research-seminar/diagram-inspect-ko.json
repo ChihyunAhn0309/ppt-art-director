@@ -1,6 +1,6 @@
 {
-  "file": "examples/research-seminar/animated.pptx",
-  "sha256": "c854d1e883fea48ee84c6200ffbcd44791494cf3b0cababa9006a2e74f0c7af9",
+  "file": "examples/research-seminar/animated-ko.pptx",
+  "sha256": "fab82e9144861fe71279c3ed2e50fddbad973e40f8b13790a6828d32d3aeb14c",
   "sizePx": [
     1280.0,
     720.0
@@ -28,14 +28,14 @@
           "id": "2",
           "name": "S01-section",
           "kind": "sp",
-          "text": "RESEARCH NOTE / 01",
+          "text": "연구 노트 / 01",
           "boundsPx": [
             72.0,
             62.0,
             650.0,
             30.0
           ],
-          "fingerprint": "90d41d4047ab7b8d067ba359b879ca8c00e4978e03f1cfd4c2f04dfe4fe011d8",
+          "fingerprint": "478f1b4b47ec9eddf10ff4601ef90d44455d5540f53dc458029b743f1bfb1c33",
           "fontPt": [
             14.25
           ]
@@ -44,46 +44,46 @@
           "id": "3",
           "name": "S01-title",
           "kind": "sp",
-          "text": "Smaller models.\nConsidered trade-offs.",
+          "text": "센서 이상 탐지,\n더 가벼운 모델로",
           "boundsPx": [
             72.0,
             199.0,
             692.0,
             168.0
           ],
-          "fingerprint": "e4beeeafb43bbd8bd73bc51ce49751c066503059e375da71b04801eb0e9600c9",
+          "fingerprint": "2fdf6b6f1e0153deb3880c08820db6090d6a62e1ac8c6a1cd92b84ebfa30dc23",
           "fontPt": [
-            42.0
+            41.25
           ]
         },
         {
           "id": "4",
           "name": "S01-subtitle",
           "kind": "sp",
-          "text": "Sensor anomaly detection with\ndistillation and INT8 quantization",
+          "text": "지식 증류와 INT8 양자화의\n성능 교환관계",
           "boundsPx": [
             76.0,
             410.0,
             635.0,
             82.0
           ],
-          "fingerprint": "d809e7bff8b7ca944e0022bdf034006624c5460391f738d0dc1611c39f0852f4",
+          "fingerprint": "549298fa70975055f43a7921f4c58b4c1d79a0133db13fdd8e60dab2b35aa036",
           "fontPt": [
-            21.75
+            20.25
           ]
         },
         {
           "id": "5",
           "name": "S01-context",
           "kind": "sp",
-          "text": "Lab seminar · 5 minutes",
+          "text": "연구실 세미나 · 5분",
           "boundsPx": [
             76.0,
             568.0,
             620.0,
             35.0
           ],
-          "fingerprint": "51eaab6bf457cfe33446efd6380c0ac4317ad3218dfc30a05b4d475f44b1c8fe",
+          "fingerprint": "fb98d4cf78d76a728b33f047c0eb9d8bc6e5013ce4e88fe4cc5e1b3ec4d12ddc",
           "fontPt": [
             17.25
           ]
@@ -92,14 +92,14 @@
           "id": "6",
           "name": "S01-disclosure",
           "kind": "sp",
-          "text": "Illustrative data · not experimental results",
+          "text": "가상 데이터 · 실제 실험 결과가 아닙니다",
           "boundsPx": [
             76.0,
             666.0,
             650.0,
             26.0
           ],
-          "fingerprint": "319298b96d5d06e8f1f200b7d78cb1394a6d3a399e7eeee0883fbae8c1c33413",
+          "fingerprint": "caae1a5569e560872f29212828ad45f986d8b09213a77c117b303ee168a7a271",
           "fontPt": [
             12.75
           ]
@@ -124,14 +124,14 @@
           "id": "22",
           "name": "S02-section",
           "kind": "sp",
-          "text": "METHOD / TWO COMPRESSION STEPS",
+          "text": "방법 / 두 단계의 경량화",
           "boundsPx": [
             72.0,
             42.0,
             1128.0,
             27.0
           ],
-          "fingerprint": "4300dd29600834249f18d86e1b81119e49adf51104271912ade0bdb2b81f0efb",
+          "fingerprint": "8ff3a3d7a78f6a4f5b80d1cdd6435c895386218f3d16907c0d2392763b36d7ca",
           "fontPt": [
             14.25
           ]
@@ -140,30 +140,30 @@
           "id": "2",
           "name": "S02-title",
           "kind": "sp",
-          "text": "From a teacher to a compact student",
+          "text": "교사 모델에서 경량 학생 모델로",
           "boundsPx": [
             72.0,
             94.0,
             1136.0,
             70.0
           ],
-          "fingerprint": "3c1bf13fd5b2f3a3c3f99974a64f2b06fe40e682a51156548da43b011a7b15bd",
+          "fingerprint": "4c7025ad872d96e77df88f972ea384efd8e2e2ffcf67d2dd1db0f3ddae133727",
           "fontPt": [
-            32.25
+            30.0
           ]
         },
         {
           "id": "3",
           "name": "S02-disclosure",
           "kind": "sp",
-          "text": "Illustrative data · not experimental results",
+          "text": "가상 데이터 · 실제 실험 결과가 아닙니다",
           "boundsPx": [
             72.0,
             669.0,
             1000.0,
             23.0
           ],
-          "fingerprint": "e6f16f9af80aad4dcb84bd0097de1d25e39adb218b4b815c61036ce0a6e7165d",
+          "fingerprint": "3bbcfe8beda05cc06a48bfdb423d3929dba77594da20212016110f3191f672d8",
           "fontPt": [
             12.75
           ]
@@ -179,7 +179,7 @@
             38.0,
             23.0
           ],
-          "fingerprint": "fb4ba3919897f137ef1cb66f85c5122aff09b701f40fa27d04eaee1b4995d395",
+          "fingerprint": "83e0e0feee09288b456cf234c75c2d92f2915e03a811578160ce1637b58c116d",
           "fontPt": [
             12.75
           ]
@@ -195,7 +195,7 @@
             56.0,
             56.0
           ],
-          "fingerprint": "b403dc0824eff0bd4cbdd60d2d5fda4edb7475a03f23e12026b1d92264dbd2ea",
+          "fingerprint": "21fdd521f6425de37552b1003e0542cd66a65898c4bf23f981146dd304c3b08e",
           "fontPt": [
             16.5
           ]
@@ -211,7 +211,7 @@
             56.0,
             56.0
           ],
-          "fingerprint": "32621d262c154f66605ea6c3807f09f807bc9165704d96755c84aaeec582e9ea",
+          "fingerprint": "932e528a291071f9143b7f919649d4f648c00cfe0bdc2ec125b427835b7af231",
           "fontPt": [
             16.5
           ]
@@ -227,7 +227,7 @@
             56.0,
             56.0
           ],
-          "fingerprint": "8aa18ffafa7dcb8511996cddb838e527c7ca4ccd7146a2d7bd25b2cd8e8d4546",
+          "fingerprint": "345b2c4aa011871e75d9eef4c5cc5956f1194525044420ad0bf89bb6e9e037bf",
           "fontPt": [
             16.5
           ]
@@ -264,14 +264,14 @@
           "id": "10",
           "name": "S02-flow-2",
           "kind": "sp",
-          "text": "Prediction transfer",
+          "text": "예측 지식 전달",
           "boundsPx": [
             154.0,
             218.0,
             312.0,
             37.0
           ],
-          "fingerprint": "a9c875f138d61bb274e0feca5903d2ca7b1ab3e1864ff8ecf441fbb7454f4cac",
+          "fingerprint": "2be4caff5a81d0e941b1ecc70b5c84c9690d4c496b9c5e4be6add70885f97413",
           "fontPt": [
             15.75
           ]
@@ -280,14 +280,14 @@
           "id": "11",
           "name": "S02-flow-3",
           "kind": "sp",
-          "text": "Numeric conversion",
+          "text": "수치 표현 변환",
           "boundsPx": [
             570.0,
             218.0,
             312.0,
             37.0
           ],
-          "fingerprint": "d7a5890efa40e223db0edf3716b75d099835ac74b60187e3426643c19a07c505",
+          "fingerprint": "9cb0d80d9d40cf0320ccab720b825b0c46ad22822a3459a288ca18aa7ad5d2d9",
           "fontPt": [
             15.75
           ]
@@ -296,16 +296,16 @@
           "id": "12",
           "name": "S02-stage-1",
           "kind": "sp",
-          "text": "Baseline",
+          "text": "원본 모델",
           "boundsPx": [
             72.0,
             331.0,
             334.0,
             48.0
           ],
-          "fingerprint": "93280501cf6c44ac7720d78cf8d5473076d5f2197d475b684be8e79da4c2eef7",
+          "fingerprint": "d53917e8abff19a9bb3947351720cdf710442ae8ffe3ae644e2243f41fc6aa28",
           "fontPt": [
-            22.5
+            23.25
           ]
         },
         {
@@ -319,7 +319,7 @@
             325.0,
             32.0
           ],
-          "fingerprint": "72f052a57c6a8c126600def67b07dd6833f93057d40d127f2941ef8de37f29c1",
+          "fingerprint": "86ace4c1e670122514fe750f709ffc5e95ade1eeeb39ea094000af117aef09fa",
           "fontPt": [
             15.75
           ]
@@ -328,32 +328,32 @@
           "id": "14",
           "name": "S02-detail-1",
           "kind": "sp",
-          "text": "The reference model\nserves as the teacher.",
+          "text": "성능 비교의 기준이자\n지식을 전달하는 교사",
           "boundsPx": [
             72.0,
             451.0,
             334.0,
             81.0
           ],
-          "fingerprint": "463dfbd6c1bb2eb23936b3c7721a638c97131ad48d05068810eb3ad1b45bffac",
+          "fingerprint": "6f0e0e42e2c84f2a42095514422439e1211d5910304a3f0ebea8389c2694adec",
           "fontPt": [
-            18.0
+            18.75
           ]
         },
         {
           "id": "15",
           "name": "S02-stage-2",
           "kind": "sp",
-          "text": "Distillation",
+          "text": "지식 증류",
           "boundsPx": [
             488.0,
             331.0,
             334.0,
             48.0
           ],
-          "fingerprint": "326f770fa0f3ddf78675c93df62934edbc2bc1e69aa041e4ad9c8e22e477c405",
+          "fingerprint": "ec56360f43ae50e531063ad2f8102afd549961bb192610f573919b55049cfa81",
           "fontPt": [
-            22.5
+            23.25
           ]
         },
         {
@@ -367,7 +367,7 @@
             325.0,
             32.0
           ],
-          "fingerprint": "f29272056625e6e2aab48b074d38209e7fabbca81b51098b1fce64e60c552d80",
+          "fingerprint": "df6f7d79d7388a14a92c6a658105f479d352ecdba61849383bbd90f12eb35d34",
           "fontPt": [
             15.75
           ]
@@ -376,32 +376,32 @@
           "id": "17",
           "name": "S02-detail-2",
           "kind": "sp",
-          "text": "A smaller student learns\nfrom teacher predictions.",
+          "text": "교사의 예측을 활용해\n작은 학생 모델을 학습",
           "boundsPx": [
             488.0,
             451.0,
             334.0,
             81.0
           ],
-          "fingerprint": "d36679a693bd7c7263046834bb5f6006611d9e9f65ffeada36de6101795e9d5a",
+          "fingerprint": "1b35e5213298b0757685aaeb848787a17afea82e846fdecb64a62352312bec4b",
           "fontPt": [
-            18.0
+            18.75
           ]
         },
         {
           "id": "18",
           "name": "S02-stage-3",
           "kind": "sp",
-          "text": "INT8 quantization",
+          "text": "INT8 양자화",
           "boundsPx": [
             904.0,
             331.0,
             334.0,
             48.0
           ],
-          "fingerprint": "d1153be78818e588da9494577ecbba5d703977c0389cffdc2cc1781e92fd8ede",
+          "fingerprint": "4b4b4d668e8cb7c16d5db577a34655622162ba2b51c24665f7ba7cb69e504519",
           "fontPt": [
-            22.5
+            23.25
           ]
         },
         {
@@ -415,7 +415,7 @@
             325.0,
             32.0
           ],
-          "fingerprint": "778aa636b0277010b4ccf1b6d47f0378683e750e3774655c026acf6c9e8a2fd9",
+          "fingerprint": "0796b973fd9ede46a684192dedd55f467afe30ef410e1b5eeb81e32bd8646701",
           "fontPt": [
             15.75
           ]
@@ -424,30 +424,30 @@
           "id": "20",
           "name": "S02-detail-3",
           "kind": "sp",
-          "text": "Represent student numbers\nas 8-bit integers.",
+          "text": "학생 모델의 수치를\n8비트 정수로 표현",
           "boundsPx": [
             904.0,
             451.0,
             334.0,
             81.0
           ],
-          "fingerprint": "1b72364b603ce6b9e4f8fafc08489af7c0481b6c7366b5683f4040125fd9805c",
+          "fingerprint": "4351f97f41b828e29a28f89fbd396d27277ca61a68bb9f2815fd391436ead5f7",
           "fontPt": [
-            18.0
+            18.75
           ]
         },
         {
           "id": "21",
           "name": "S02-caveat",
           "kind": "sp",
-          "text": "Conceptual workflow. Architecture and quantization scope are unspecified.",
+          "text": "개념도입니다. 모델 구조와 구체적인 양자화 범위는 미제공입니다.",
           "boundsPx": [
             72.0,
             594.0,
             1136.0,
             38.0
           ],
-          "fingerprint": "78ad56fc328a20a5354147c12755554f21babcaed7352b90c8d8ee97140653e5",
+          "fingerprint": "06ae830a4e0d53c6588a2c0201228ef578b98fd721d358ff01ffa41de5eb2757",
           "fontPt": [
             15.75
           ]
@@ -489,14 +489,14 @@
           "id": "9",
           "name": "S03-section",
           "kind": "sp",
-          "text": "EVIDENCE / FICTIONAL COMPARISON",
+          "text": "근거 / 가상 성능 비교",
           "boundsPx": [
             72.0,
             42.0,
             1128.0,
             27.0
           ],
-          "fingerprint": "1a0a47dce6a35fcbde161e0125b254121917898014ae1eb8d4c18e15c890d9de",
+          "fingerprint": "680fba8a12e6e0df4f3eabdbf1da09b911b9cf3eeaa62e7670da044b65d20bbd",
           "fontPt": [
             14.25
           ]
@@ -505,30 +505,30 @@
           "id": "2",
           "name": "S03-title",
           "kind": "sp",
-          "text": "Three models. One shared comparison.",
+          "text": "같은 조건에서 비교한 세 모델",
           "boundsPx": [
             72.0,
             94.0,
             1136.0,
             70.0
           ],
-          "fingerprint": "1d5c5111358cf688473fc8937553d6d763dca105d8afd1861ef3d26414fc7929",
+          "fingerprint": "4b3718266b6336dea3ae0abf4ac0c89b7983efde9ac56d2d600dd014b7856386",
           "fontPt": [
-            32.25
+            30.0
           ]
         },
         {
           "id": "3",
           "name": "S03-disclosure",
           "kind": "sp",
-          "text": "Illustrative data · not experimental results",
+          "text": "가상 데이터 · 실제 실험 결과가 아닙니다",
           "boundsPx": [
             72.0,
             669.0,
             1000.0,
             23.0
           ],
-          "fingerprint": "ab2d20c74d3825c0aea6b713709cdd13c489aea045c6d76a6465cba7d4d5c6ff",
+          "fingerprint": "21c132e9f05fc6726600987d9496d1ec13b54e5ad42bf3c6c9ccfe062bb20e13",
           "fontPt": [
             12.75
           ]
@@ -544,7 +544,7 @@
             38.0,
             23.0
           ],
-          "fingerprint": "1bb347ec1c384f0757fce4248081bd3257cf4a6de1ddcbe3e956d04ccfbc1930",
+          "fingerprint": "3280a162a74b559c48dabe9be95504c681f1eeff324be871f3a200293df6d225",
           "fontPt": [
             12.75
           ]
@@ -553,14 +553,14 @@
           "id": "5",
           "name": "S03-direction",
           "kind": "sp",
-          "text": "Lower latency and size are better; higher F1 is better.",
+          "text": "지연과 모델 크기는 낮을수록, F1은 높을수록 좋습니다.",
           "boundsPx": [
             72.0,
             171.0,
             1136.0,
             40.0
           ],
-          "fingerprint": "207e6cb8dc8400717af46c368d35834659c72c940c8a485243af082bb64bbb8c",
+          "fingerprint": "cbb41d688cfc1a424174fc4be2234ad1a6e0e32f4e7d55faf68ad58f09551550",
           "fontPt": [
             18.0
           ]
@@ -571,7 +571,7 @@
           "kind": "graphicFrame",
           "text": "",
           "boundsPx": null,
-          "fingerprint": "f0bff79c39f42e99b2809a5a4fbb21fa4f88bf0cc53acb12a576335fa4bc3922",
+          "fingerprint": "06a912f16552933fcf0c150a37528695634fd2f3efe9b5b34500517407e98129",
           "fontPt": []
         },
         {
@@ -585,21 +585,21 @@
             1136.0,
             0.0
           ],
-          "fingerprint": "87d699f775701e4ebed8268d9ccb0f011bba2774921edfd1928a0b79dfac8943",
+          "fingerprint": "3caa594c1e908d585cda927df2492573fbdfc583c01014ba0222398e56102157",
           "fontPt": []
         },
         {
           "id": "8",
           "name": "S03-limit",
           "kind": "sp",
-          "text": "Same device and data assumed. Sample count, variance and dataset are unspecified.",
+          "text": "동일 장치·데이터를 가정합니다. 표본수·분산·실제 데이터셋명은 미제공입니다.",
           "boundsPx": [
             72.0,
             590.0,
             1136.0,
             42.0
           ],
-          "fingerprint": "3757f0658efab094dafa0022a09f0c4f92aac7469ce54c625909eacd41f5f012",
+          "fingerprint": "e2d9b17e19763baa7d9eacd94b74108eca8bfafb0542a5f6ae4bb8b137618fdd",
           "fontPt": [
             15.75
           ]
@@ -624,14 +624,14 @@
           "id": "17",
           "name": "S04-section",
           "kind": "sp",
-          "text": "RESULT / BASELINE TO INT8",
+          "text": "결과 / 원본 대비 INT8",
           "boundsPx": [
             72.0,
             42.0,
             1128.0,
             27.0
           ],
-          "fingerprint": "6ff844e52d0ce6205629928c7406a5afd64cc76abd9081839081997c23c13f7d",
+          "fingerprint": "be29575db5d5a3781788adbcb636e678bf46d74a3c8ff1b930febc5412a67806",
           "fontPt": [
             14.25
           ]
@@ -640,30 +640,30 @@
           "id": "2",
           "name": "S04-title",
           "kind": "sp",
-          "text": "Lower latency, lower F1",
+          "text": "지연은 줄고, F1도 낮아집니다",
           "boundsPx": [
             72.0,
             94.0,
             1136.0,
             70.0
           ],
-          "fingerprint": "4dddb51e751d27d832d7b595cc36d8d6c22571e91aaf712cf268db78575877a7",
+          "fingerprint": "3a66b1d30c67ad479369854366f6307d7be5f144a442761f449a77d9a6dadf03",
           "fontPt": [
-            32.25
+            30.0
           ]
         },
         {
           "id": "3",
           "name": "S04-disclosure",
           "kind": "sp",
-          "text": "Illustrative data · not experimental results",
+          "text": "가상 데이터 · 실제 실험 결과가 아닙니다",
           "boundsPx": [
             72.0,
             669.0,
             1000.0,
             23.0
           ],
-          "fingerprint": "19b9d78c16c8e599c2b80405ae270bbc70fc9da8ed6641d95e9c7ab29fa55a72",
+          "fingerprint": "381b3c695a206e838be6c032711263c1fdedc5e754bae34f72c99bf24a0c5e96",
           "fontPt": [
             12.75
           ]
@@ -679,7 +679,7 @@
             38.0,
             23.0
           ],
-          "fingerprint": "211b54614214a3c9cfc7b23db5d42bd2d7affee66501edb174bf4ffa604dd8a1",
+          "fingerprint": "b999f7afb09d3abfed58fe8ada7e3c07b55233b0d9f5badd5bdfdffb4d929e79",
           "fontPt": [
             12.75
           ]
@@ -688,14 +688,14 @@
           "id": "5",
           "name": "S04-chart-unit",
           "kind": "sp",
-          "text": "Latency (ms)",
+          "text": "지연 (ms)",
           "boundsPx": [
             72.0,
             192.0,
             630.0,
             37.0
           ],
-          "fingerprint": "83fc545a3ecee78ab3f36042a39253b017f800378d81ff4a4abb114280db8eb0",
+          "fingerprint": "ddb1e169a0cd82c35a84a248678f4b415846a5bbe5f64a1a3248365e2120762d",
           "fontPt": [
             18.0
           ]
@@ -720,7 +720,7 @@
             344.0,
             85.0
           ],
-          "fingerprint": "ed728aca179b056c44816477b821bfec3bcb3041dad9a2308725d5480af7a7dc",
+          "fingerprint": "fdbe82f53e573862995f594828f114720c464e88311a99a64f13d0199bb8f4f0",
           "fontPt": [
             53.25
           ]
@@ -729,14 +729,14 @@
           "id": "8",
           "name": "S04-latency-label",
           "kind": "sp",
-          "text": "lower latency · 120 → 54 ms",
+          "text": "지연 감소 · 120 → 54 ms",
           "boundsPx": [
             846.0,
             285.0,
             362.0,
             36.0
           ],
-          "fingerprint": "63de76424fffc98019e07f7a824c71f19bc52cf54429b4e6442f393662ce1be8",
+          "fingerprint": "75c322884c39abbf95f201e1b4fd8396f9b3aa83ca679350d55d8895268f4fed",
           "fontPt": [
             17.25
           ]
@@ -752,7 +752,7 @@
             160.0,
             68.0
           ],
-          "fingerprint": "680125bdef793cd55d6766807872e9634b0b68d497967a34d98885822e3a83a1",
+          "fingerprint": "71995402e4ce270c1f57d69ed6a3185d4ea3a3ebf022c91a2feac31a54713565",
           "fontPt": [
             39.75
           ]
@@ -768,7 +768,7 @@
             174.0,
             68.0
           ],
-          "fingerprint": "1404aa588e1b9268450e9925ed101d107cb3c2ff25295eaeea21a6087c78bff4",
+          "fingerprint": "0deef87374dd938a0c65b3d7bf3936596fc1159be9bf43b2bc17d535699c78e2",
           "fontPt": [
             35.25
           ]
@@ -777,14 +777,14 @@
           "id": "11",
           "name": "S04-size-label",
           "kind": "sp",
-          "text": "smaller model",
+          "text": "모델 크기 감소",
           "boundsPx": [
             846.0,
             428.0,
             184.0,
             33.0
           ],
-          "fingerprint": "49aa6db4dbd2ef2381f3336d219838b3e918d04d4a65eb0f407a19efdd3c0f64",
+          "fingerprint": "c21f44f399f52cb9ff816c17cec4f7853ed0bec571ec655ed92de3ec5d48abce",
           "fontPt": [
             15.75
           ]
@@ -793,14 +793,14 @@
           "id": "12",
           "name": "S04-f1-label",
           "kind": "sp",
-          "text": "F1 difference",
+          "text": "F1 절대 차이",
           "boundsPx": [
             1040.0,
             428.0,
             174.0,
             33.0
           ],
-          "fingerprint": "60fe1e0b0ed5bb4977a36bbdb3d6072456d50da605a61ce63ea41396e36416e4",
+          "fingerprint": "6dd283c5cddae2df30b4c25690744ad3f0525845e2cb4cc05f5e8f8c8ee40179",
           "fontPt": [
             15.75
           ]
@@ -816,7 +816,7 @@
             185.0,
             34.0
           ],
-          "fingerprint": "db68cacfaa9d8244c915c3299c93f522f75358887e473bee30f86103ad4b1249",
+          "fingerprint": "772fab2754acbc37022421b3d2b4ecf3dcd904c04d69b67aaf5cec86489dd8cb",
           "fontPt": [
             16.5
           ]
@@ -832,7 +832,7 @@
             174.0,
             34.0
           ],
-          "fingerprint": "9786fdf14af1c30fe3945909891216d4f0528663183cefe50c107e8aa6c4705c",
+          "fingerprint": "67c438e4587f23e6f49b5fd8c28b3dcd3ff56dad08ab232a203f126b45fff764",
           "fontPt": [
             15.75
           ]
@@ -841,14 +841,14 @@
           "id": "15",
           "name": "S04-stage1",
           "kind": "sp",
-          "text": "Distillation: latency −40%; F1 −0.008",
+          "text": "증류: 지연 40% 감소, F1 0.008 하락",
           "boundsPx": [
             72.0,
             574.0,
             1136.0,
             32.0
           ],
-          "fingerprint": "0e2a06df73932192d385f56c2184583b749080d91c98c83d03c6bb743838516f",
+          "fingerprint": "959b9448d01eda4cda6149004e81e9630a7a494ed95686e6aa129dad68d81ffb",
           "fontPt": [
             16.5
           ]
@@ -857,14 +857,14 @@
           "id": "16",
           "name": "S04-stage2",
           "kind": "sp",
-          "text": "Additional INT8 step: latency −25%; F1 −0.006",
+          "text": "추가 INT8 단계: 지연 25% 감소, F1 0.006 하락",
           "boundsPx": [
             72.0,
             610.0,
             1136.0,
             32.0
           ],
-          "fingerprint": "58ffc85c5b38fb54c3469d071be63f1b360a8867154ad3571ef109a944d03150",
+          "fingerprint": "c566784f99723dd70e462161c35212b42047caa50c5498ad924f4543bc414764",
           "fontPt": [
             16.5
           ]
@@ -889,14 +889,14 @@
           "id": "15",
           "name": "S05-section",
           "kind": "sp",
-          "text": "NEXT / DEFINE THE ACCEPTABLE TRADE-OFF",
+          "text": "다음 / 허용할 성능 교환관계",
           "boundsPx": [
             72.0,
             42.0,
             1128.0,
             27.0
           ],
-          "fingerprint": "a2cf2d09b8e80e2747d0fcbc165807857d2d152e36e57c65f5b2551d32e92724",
+          "fingerprint": "182e906bbbead52e049bb053cefe7e2817ea3197d0c17f38a878c8ebe4a1ac8e",
           "fontPt": [
             14.25
           ]
@@ -905,30 +905,30 @@
           "id": "2",
           "name": "S05-title",
           "kind": "sp",
-          "text": "Decide what the trade-off is worth",
+          "text": "배포 기준을 먼저 정해야 합니다",
           "boundsPx": [
             72.0,
             94.0,
             1136.0,
             70.0
           ],
-          "fingerprint": "1491b787abef9e015fe270c2073e14f498cebb39de14a4884ae07262facc53f7",
+          "fingerprint": "f54dabd309a3140fe7ccd98877b6e179dbfef5c544d5997bc91b7d346361a66f",
           "fontPt": [
-            32.25
+            30.0
           ]
         },
         {
           "id": "3",
           "name": "S05-disclosure",
           "kind": "sp",
-          "text": "Illustrative data · not experimental results",
+          "text": "가상 데이터 · 실제 실험 결과가 아닙니다",
           "boundsPx": [
             72.0,
             669.0,
             1000.0,
             23.0
           ],
-          "fingerprint": "46c5716d8cbc78d39c0437dc43c102a42046f32e2bab7fd0baccb4d3838eab9d",
+          "fingerprint": "0484a79d72eb1635f29f4400c82bba5188759fc0103b12a8d64dd7654bfc46a0",
           "fontPt": [
             12.75
           ]
@@ -944,7 +944,7 @@
             38.0,
             23.0
           ],
-          "fingerprint": "3e798fab07cc10ac2ba4fb5180ca92d739362cee7c1d1057efec0014245d51da",
+          "fingerprint": "f43fddb991f05858546a24388c6dc4f16d214680bf1de91e0de45c5ec265d925",
           "fontPt": [
             12.75
           ]
@@ -953,16 +953,16 @@
           "id": "5",
           "name": "S05-main",
           "kind": "sp",
-          "text": "Efficiency gains come with lower F1",
+          "text": "효율 개선에는 F1 저하가 따릅니다",
           "boundsPx": [
             72.0,
             209.0,
             1136.0,
             76.0
           ],
-          "fingerprint": "1d860779871b317f6f84e83880ec270db48c78f7da070e0021f48a61aca83818",
+          "fingerprint": "fc97cb85095d976f7531dfbacd3ba8500d93c99bb29ba01af04dd8283569860d",
           "fontPt": [
-            36.75
+            34.5
           ]
         },
         {
@@ -976,39 +976,39 @@
             1136.0,
             0.0
           ],
-          "fingerprint": "cffbd38d976e70652285b72e0215a7af348946de18c6bd2f2993b64d890e606e",
+          "fingerprint": "45ed23143c1e48921284883a602a5629ffd602f779ca6d68d412b38d77b1d7fb",
           "fontPt": []
         },
         {
           "id": "7",
           "name": "S05-label1",
           "kind": "sp",
-          "text": "Set the threshold",
+          "text": "먼저 정할 기준",
           "boundsPx": [
             72.0,
             342.0,
             306.0,
             52.0
           ],
-          "fingerprint": "5a603f2c29121fd296a31020693507a6ddc5d0ce313b3d4a307a7f5c75cc2159",
+          "fingerprint": "ee3f7cd80b72570581f05eef5f6a10406a2b55597adef943b02310826e8fbe76",
           "fontPt": [
-            18.75
+            19.5
           ]
         },
         {
           "id": "8",
           "name": "S05-body1",
           "kind": "sp",
-          "text": "Acceptable F1 loss and latency budget.",
+          "text": "허용 가능한 F1 저하와 지연 한도",
           "boundsPx": [
             402.0,
             342.0,
             806.0,
             52.0
           ],
-          "fingerprint": "1d19415af40b03ea41a95f5208b642b3c02c64474e22593207131160a1f94db2",
+          "fingerprint": "a6e8db72e0762fc3c6d77a31b22fbbb5f721d1deccb78048e05e9b62f8e860d7",
           "fontPt": [
-            18.0
+            19.5
           ]
         },
         {
@@ -1022,39 +1022,39 @@
             1136.0,
             0.0
           ],
-          "fingerprint": "a3f96dcd503932e796e5d10069dc8361984e6de51d7a62176bc1fa5ed2601e4f",
+          "fingerprint": "6336dbb21d7fc75ee8c4f52be15dbb8470b73883cf9c2e783bf10cddd3c3df52",
           "fontPt": []
         },
         {
           "id": "10",
           "name": "S05-label2",
           "kind": "sp",
-          "text": "Test the behavior",
+          "text": "다음 검증",
           "boundsPx": [
             72.0,
             430.0,
             306.0,
             52.0
           ],
-          "fingerprint": "3b7b0116cdb5677856f4c6db220c2baa04fd31103592b52188d9ad933ea50226",
+          "fingerprint": "87f59105fcbebd505fefce66c5d972d8c66eb3817bede3cfc132a9ee29472555",
           "fontPt": [
-            18.75
+            19.5
           ]
         },
         {
           "id": "11",
           "name": "S05-body2",
           "kind": "sp",
-          "text": "Repeat measurements; inspect failures by anomaly type.",
+          "text": "반복 측정의 분산과 이상 유형별 실패 사례",
           "boundsPx": [
             402.0,
             430.0,
             806.0,
             52.0
           ],
-          "fingerprint": "98b70bbbe68905158ce54d7f823b7119bd7bcabd9c295eef91f9247be4dba883",
+          "fingerprint": "9426e0093874e784df64a502daf72204d2874e2c01e78d2a4c7bed858886e4eb",
           "fontPt": [
-            18.0
+            19.5
           ]
         },
         {
@@ -1068,39 +1068,39 @@
             1136.0,
             0.0
           ],
-          "fingerprint": "e8486be4c1eb7d9435c5fecf92426f8efa6ff0ceed6a53015f5519d55a08f1e9",
+          "fingerprint": "96f53eba8c899cd8fe128982e7c9961a9e865d354624f92c371dc37ced3072e3",
           "fontPt": []
         },
         {
           "id": "13",
           "name": "S05-label3",
           "kind": "sp",
-          "text": "Keep the limit visible",
+          "text": "현재의 한계",
           "boundsPx": [
             72.0,
             518.0,
             306.0,
             52.0
           ],
-          "fingerprint": "f9dee16433746672283275c7349e504659873e8550be356b722e27c8d33e6bf4",
+          "fingerprint": "3fd52dba69c8dafcfd59c9bf793cf9e39dc00e574bad081e4d6c174142189298",
           "fontPt": [
-            18.75
+            19.5
           ]
         },
         {
           "id": "14",
           "name": "S05-body3",
           "kind": "sp",
-          "text": "No real dataset or sample count: no generalization claim.",
+          "text": "실제 데이터셋·표본수가 없어 일반화 판단 불가",
           "boundsPx": [
             402.0,
             518.0,
             806.0,
             52.0
           ],
-          "fingerprint": "3b00fcf9a31f0eaa28865240ff6403c30a36069c6961223fc2a96b95ab1ecc93",
+          "fingerprint": "ad42d3539a321e0829754f35bd21e3fe449ba30cda459a62c4569c77c6b193dc",
           "fontPt": [
-            18.0
+            19.5
           ]
         }
       ],
