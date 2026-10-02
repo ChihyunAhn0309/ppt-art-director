@@ -11,11 +11,13 @@ English uses Segoe UI; Korean uses Noto Sans KR. Fonts were available on the ren
 
 ## Design changes
 
-- Warm ivory and teal, more breathing space and lighter headings.
-- A topic-first typographic cover with meaningful numeric comparisons; no decorative artwork.
+- Warm ivory and teal, clear type roles and purposeful light/dark regions.
+- A split opening connects the subject to aligned baseline/INT8 values. A continuous method field groups the process; a dark table header and alternating neutral rows organize evidence. No decorative artwork is embedded.
 - Native model states joined by named transformations, a neutral table, and a native latency–F1 scatter plot with embedded data.
 - Equal-size latency and F1 differences; no unexplained winner highlight. The scatter axes are explicitly bounded at 40–140 ms and .890–.915 F1 to reveal the differences, with no interpolation or uncertainty invented.
-- A shorter closing takeaway on one line in both languages, without removing the visible fictional-data caveat.
+- A deliberately two-line closing statement in both languages, separate from deployment criteria and limitations. Fictional-data caveats remain visible.
+- Talk duration, seminar context and design narration stay in planning files; they are absent from the slide copy and speaker notes.
+- Actual gallery-size process/evidence slides from [Pitch UX Research Report](https://pitch.com/templates/UX-Research-Report-4Crjbr5pvJCJ4vHD2t2z7N9j) and [Pitch Market Analysis](https://pitch.com/templates/Market-Analysis-44RvbN4PQRqn5DB7hp6wA3GR) informed grouping and hierarchy. No template assets were copied; inspection details are recorded in the [plan](slide-plan.md).
 - Separate localization of slide text, chart labels and speaker notes.
 
 ![Editable process slide rendered in PowerPoint](process-slide.png)
@@ -32,22 +34,23 @@ Same device and data are assumed. Sample count, variance, dataset, architecture,
 
 ## paper-figure workflow
 
-The user-selected [paper-figure skill](https://github.com/JYS1025/paper-figure/blob/363fb3b76003d919f797356d774e70161164a7a8/skills/paper-figure/SKILL.md) was used at revision `363fb3b76003d919f797356d774e70161164a7a8`. The prior bilingual redesign followed its full-composition image draft → reviewed transfer plan → editable reconstruction route for S02. The current local revision preserves that composition while clarifying model states and transformation labels; it did not generate a new draft.
+The user-selected [paper-figure skill](https://github.com/JYS1025/paper-figure/blob/363fb3b76003d919f797356d774e70161164a7a8/skills/paper-figure/SKILL.md) was used at revision `363fb3b76003d919f797356d774e70161164a7a8`. The prior bilingual redesign followed its full-composition image draft → reviewed transfer plan → editable reconstruction route for S02. The current revision uses a direct native adaptation of those principles: a continuous field groups the same model states, consistently styled markers and transformation labels. It did not rerun the full companion workflow or generate a new draft.
 
 [Selected generated draft](design/workflow-draft.png) · [Exact generation prompts](design/image-prompts.json) · [Pre-authoring transfer plan](design/transfer-plan.md)
 
 The draft informed open columns, small stage markers, spacing and palette. Its unsupported “same knowledge” claim, slogan, architecture-like cubes and decorative extras were removed. The final process uses native labels, circles and connectors; the raster draft is not embedded. The unrelated cover artwork was removed. The historical diagram draft records the earlier authoring route; no generated image is embedded in the current PPTX. The reusable [research-visual guide](../../references/research-visuals.md) also supports a direct native route without requiring image generation.
 
-The saved render was compared with the draft for hierarchy and space: the final retains the useful open process, reduces duplicate flow cues and keeps only contract-supported content. This is a presentation-scale comparison, not a paper-print-size or controlled authoring-method benchmark.
+The earlier saved render was compared with the draft for hierarchy and space. The current final is compared with the prior deck and inspected commercial body-slide previews; it keeps the contract-supported states and flows and gives them a clearer common field. This is a presentation-scale comparison, not a paper-print-size or controlled authoring-method benchmark.
 
 | Check | Evidence and limits |
 |---|---|
 | Required labels and directed relationships | [English contract](diagram-contract.json), [English inspection](diagram-inspect.json), [Korean contract](diagram-contract-ko.json), [Korean inspection](diagram-inspect-ko.json) |
 | Connector attachment | [English audit](flow-audit.json), [Korean audit](flow-audit-ko.json); circular endpoints are outside this helper's automated rectangle geometry checks, so both connectors require rendered review |
 | Visual review | Left-to-right direction, attachment to the circular markers, label association and readability inspected in the saved PowerPoint renders |
-| Line fitting | [English](typography-check.json), [Korean](typography-check-ko.json): 55 text boxes per edition; intended and actual line counts match, including the two-line cover title and one-line closing takeaway |
+| Line fitting | [English](typography-check.json), [Korean](typography-check-ko.json): 58 text boxes per edition; intended and actual line counts match, including the three-line English/two-line Korean cover title and two-line closing takeaway |
 | Data and native objects | [Data check](data-check.json): exact table values, paired chart coordinates (1e-12 F1 cache tolerance for Office float serialization), embedded workbook, arithmetic and animation targets for all four PPTX files |
 | App editability | [PowerPoint check](powerpoint-check.json): text, table value, chart X/Y values and diagram label changed on separate copies, saved and reopened in both languages |
+| Audience copy and contrast | [Checks](powerpoint-check.json): known private-brief phrases absent from all four files' slide/notes text, independently reviewed; nine actual text/background pairs meet the selected 4.5:1 target. This is not a general privacy or accessibility certification |
 | Motion | [Plan](motion-plan.json): 12 Fade effects in two click groups; target, sequence, trigger and duration verified after saving. `playbackVerified` remains `false` |
 
 The line checker covers named text boxes; it does not measure every native chart/table label. Those were checked in the rendered slides. Automated inspections do not assess aesthetics or scientific truth.

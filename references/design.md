@@ -30,6 +30,12 @@ Never solve overflow by repeatedly shrinking all text. Edit redundancies, expand
 
 ## Make restraint feel considered
 
+Compose the page, not just its text boxes. Identify the primary object, its supporting explanation and the qualifying detail; assign them intentionally different area, weight and position. A comparison can use aligned paired values, a method can occupy a continuous visual field, and a result can pair a large plot with a clearly grouped interpretation. Whitespace should separate those roles rather than leave disconnected text islands.
+
+Content-free ornament and compositional structure are different. A restrained background field, table-header treatment, shared baseline, divider or contrast change can clarify a semantic group without adding a decorative picture. Use these when they improve the hierarchy; do not turn every page into cards or copy the same split layout throughout. A text-only slide is valid when its typographic composition serves the message, not simply because no image was available.
+
+For a requested commercial-template finish, inspect relevant body-slide pixels and transfer concrete decisions about proportion, grouping and contrast. Compare a representative rendered body slide with the chosen reference at a similar displayed size: is the evidence comparably legible, is the reading order intentional, and do the primary/supporting regions have clear visual weight? Fix observed composition gaps before delivery. This is a design review, not a claim of template ownership or a numerical aesthetic score.
+
 Restraint does not require a dark cover, heavy bold headings, opaque process boxes, and a fully ruled table on every page. Choose each element's visual weight deliberately. Open table rows, quiet rules, varied figure proportions, selective imagery, and lighter body type can make technical content inviting without weakening evidence. Warm neutrals are one option, not a universal style.
 
 Vary pace when the content warrants it: a direct opening, an open process diagram, a precise evidence page, and a concise closing statement. Keep type roles and semantic colors stable. Create ease through readable grouping, balanced whitespace, light rules and natural language. Avoid adding decoration to manufacture variety. When a user calls a deck stiff, compare old and revised body slides; changing only its cover or palette does not address the request.

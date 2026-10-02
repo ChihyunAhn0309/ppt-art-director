@@ -12,6 +12,8 @@ Write the completed plan in the user's requested language. These English field l
 - Output format / playback environment / editability needs:
 - Mode: plan-first with feedback, or explicitly requested one-shot
 
+These are production constraints, not slide copy. List any author/event/date information explicitly approved for audience display separately.
+
 ## Message and narrative
 
 Audience takeaway:
@@ -55,6 +57,7 @@ What must be immediately legible, and what the speaker can explain:
 
 - Layout and proportions:
 - Reading order:
+- Primary versus supporting regions; grouping and contrast choices:
 - Meaning of visual emphasis; why it helps the comparison or explanation:
 - Images, charts or diagrams; which elements remain editable:
 

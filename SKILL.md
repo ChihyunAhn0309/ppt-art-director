@@ -32,6 +32,8 @@ Preserve requested counts, units, caveats, source images, and technical meaning.
 
 Before styling, allocate the required evidence across the allowed slides and time. Identify the densest page and what must be readable immediately. For a dense fixed-count brief, map required rows, metrics and diagram relationships to slide IDs; this prevents polishing an incomplete outline. Plan geometry remains provisional until rendered with actual copy.
 
+Separate the private brief from audience copy. Duration, intended audience, slide budget and production instructions remain in the plan; they are not default cover labels or footers. Read the audience-content rules in [planning.md](references/planning.md). Include only information the audience needs or the user explicitly wants displayed.
+
 ## 2. Establish art direction from real references
 
 Read [design.md](references/design.md) and use [reference-library.md](references/reference-library.md) as a starting index. Identify the hardest communication problem first, then browse references that solve a similar problem: a branching method, dense comparison, equation or source figure. Inspect slide pixels, including body slides; do not infer design quality from descriptions or cover thumbnails alone. A mood reference does not validate an evidence layout. When browsing is unavailable, use the original recipes here and disclose that fresh references were not inspected.
@@ -62,6 +64,8 @@ Read [production.md](references/production.md). Inspect available authoring and 
 Read [free-tools.md](references/free-tools.md) when choosing a production route. Prefer appropriate available free tools for native PPTX, scientific plots, process diagrams and vector refinement. Select a small coherent set rather than using tools for variety alone. Keep a complete route that needs no purchased templates or paid image API; image generation is optional when supported by the host. Preserve editable source and distinguish SVG editability from native PowerPoint object editing.
 
 Prototype a title, a typical content slide, and the densest evidence slide internally. Fix readability and style drift before expanding. Share tokens and layout helpers; separate slide content from geometry. Preserve native text, tables, charts, and required editable diagrams. Avoid full-slide image decks unless the user explicitly accepts the editing tradeoff.
+
+Removing decoration is not a finished composition. Give the content a deliberate focal region, grouped supporting information and a clear reading path. Use proportion, alignment, type contrast and purposeful background fields where they improve grouping. Check that the deck has the requested visual finish as well as clean text fit; five identically sparse pages may still miss the brief.
 
 Read [typography.md](references/typography.md). Compose with the actual target-language words. Assign intended line counts to headlines and focal statements, then verify the saved render. A box that does not overflow can still have an awkward wrap. Prefer concise copy or better proportions before modest size adjustment; do not shrink the whole deck to rescue a layout. Review every translated edition separately.
 

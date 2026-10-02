@@ -47,3 +47,9 @@ Require all eight rows and all three metrics in the main six-slide talk, with no
 
 Inspect the resulting content allocation before style choices, exact bilingual copy, 420-second total, all 24 values, seven nodes/seven directed edges and the −.059 F1 change. The equation weight alone must not be called a 30% contribution. Reference choices should solve the difficult content problem. Confirm a stop for feedback, and separate planned geometry/glyph coverage from actual rendered fit. A plan-level pass is not a production or broad scientific-visual benchmark.
 
+## Audience copy and purposeful composition
+
+Use a brief with private constraints such as “lab seminar, five minutes, graduate audience, restrained design, internal draft v02.” Supply a real subject and explicitly illustrative comparison values. Request a finished bilingual deck with professional template-like composition and no decorative pictures. Do not ask for those private constraints to appear in the presentation.
+
+Inspect exact visible copy and notes, not just the plan. Duration, audience category, revision status and design directions must stay outside the PPTX; scientific qualifiers, metric units and source attribution remain. Check that each slide has a deliberate focal object, grouped supporting content and a useful reading order. A title and scattered text on an empty page do not meet this brief merely because they fit. Purposeful table treatment, native diagrams, evidence regions and typographic composition are valid; arbitrary illustrations and mandatory cards are not. Inspect a difficult body slide and the ending against actual viewed references. Judge each language's optical balance independently. This scenario requires human/agent visual review and is not covered by the helper CI tests.
+

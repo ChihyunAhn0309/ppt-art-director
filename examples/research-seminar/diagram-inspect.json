@@ -1,6 +1,6 @@
 {
   "file": "examples/research-seminar/animated.pptx",
-  "sha256": "85168be817dc85755339bcf2fca8ce9293e28701b72b9f289f629fca2f66ef1e",
+  "sha256": "30acca358528250883789347e082730fed028a6482eaceb50a2f4650212f485e",
   "sizePx": [
     1280.0,
     720.0
@@ -11,193 +11,297 @@
       "part": "ppt/slides/slide1.xml",
       "objects": [
         {
-          "id": "13",
-          "name": "S01-section",
+          "id": "20",
+          "name": "S01-subject-field",
           "kind": "sp",
-          "text": "Lab seminar · 5 minutes",
+          "text": "",
           "boundsPx": [
-            72.0,
-            64.0,
-            1136.0,
-            35.0
+            0.0,
+            0.0,
+            592.0,
+            720.0
           ],
-          "fingerprint": "0af6101f613ab29e136e01570399455fae5e5cde65efc988e4c9c196134db407",
-          "fontPt": [
-            16.5
-          ]
+          "fingerprint": "751fb2bcbd9983f667ac33cd622698220a19270ef16807100c05a66e0e99bbdf",
+          "fontPt": []
         },
         {
           "id": "2",
           "name": "S01-title",
           "kind": "sp",
-          "text": "Sensor anomaly detection\nwith smaller models",
+          "text": "Sensor anomaly\ndetection with\nsmaller models",
           "boundsPx": [
-            72.0,
-            151.0,
-            1136.0,
-            155.0
+            64.0,
+            133.0,
+            478.0,
+            232.0
           ],
-          "fingerprint": "6107601d6869b987fccf15ff8f6d1dca3c63fdafffad91ca2b7948dc680cfe6c",
+          "fingerprint": "abdbe579952f1d0fdad2f7cdd73b2db4d81601d99d3fbe175e225669d4092bfe",
           "fontPt": [
-            42.75
+            39.0
           ]
         },
         {
           "id": "3",
           "name": "S01-subtitle",
           "kind": "sp",
-          "text": "Knowledge distillation and INT8 quantization",
+          "text": "Knowledge distillation\nand INT8 quantization",
           "boundsPx": [
-            72.0,
-            329.0,
-            1136.0,
-            52.0
+            64.0,
+            413.0,
+            460.0,
+            104.0
           ],
-          "fingerprint": "62e15077a90dd6c8d7ecdd5bc04fcd25a73ec54dd0d122dba3332b5d9eba2312",
+          "fingerprint": "78222032046fc9cd9d2662b7e4beff57f9d8cc94336444d5b22a40a640e33c81",
           "fontPt": [
             21.75
           ]
         },
         {
           "id": "4",
-          "name": "S01-basis",
+          "name": "S01-comparison",
           "kind": "sp",
-          "text": "Baseline compared with INT8",
+          "text": "The compression trade-off",
           "boundsPx": [
-            72.0,
-            431.0,
-            1136.0,
-            36.0
+            652.0,
+            106.0,
+            562.0,
+            76.0
           ],
-          "fingerprint": "4ddcf7166686378c6bdebf79be44b828c0a1cf0c08ab81c7ac2aa832f2b1c3f3",
+          "fingerprint": "c03bd92099b684147301a7b7ca03ec77e0e8b3276239c7e5c3b47bc8afc1f9ad",
+          "fontPt": [
+            30.0
+          ]
+        },
+        {
+          "id": "5",
+          "name": "S01-baseline",
+          "kind": "sp",
+          "text": "baseline",
+          "boundsPx": [
+            867.0,
+            218.0,
+            150.0,
+            32.0
+          ],
+          "fingerprint": "7328d586f659070de0a790e80b95bba8e5e9eb4ad9edd968a30e7f0af0920455",
           "fontPt": [
             17.25
           ]
         },
         {
-          "id": "5",
-          "name": "S01-value-1",
-          "kind": "sp",
-          "text": "120 → 54",
-          "boundsPx": [
-            72.0,
-            485.0,
-            310.0,
-            66.0
-          ],
-          "fingerprint": "5b40304a8be9599b5995ec7fe589d6992c44c76b8ca55e157d56fa50a18fe92f",
-          "fontPt": [
-            32.25
-          ]
-        },
-        {
           "id": "6",
-          "name": "S01-label-1",
+          "name": "S01-int8",
           "kind": "sp",
-          "text": "Latency (ms)",
+          "text": "int8",
           "boundsPx": [
-            72.0,
-            558.0,
-            330.0,
-            38.0
+            1090.0,
+            218.0,
+            125.0,
+            32.0
           ],
-          "fingerprint": "c24f37488f809ffe68d0bcf94166a894caafca9f1c5e042e9b30ab8830ee1ee9",
+          "fingerprint": "2b73c63795ab1a6ea6d557faa912669b1f6000d68ea311047bd02700ac9b9a65",
           "fontPt": [
-            18.0
+            17.25
           ]
         },
         {
           "id": "7",
-          "name": "S01-value-2",
+          "name": "S01-rule-0",
           "kind": "sp",
-          "text": "0.910 → 0.896",
+          "text": "",
           "boundsPx": [
-            464.0,
-            485.0,
-            400.0,
-            66.0
+            652.0,
+            271.0,
+            564.0,
+            0.0
           ],
-          "fingerprint": "fd5c26129bbec346f830ddcfd6b1510dc9139b4645dd0ffc2996100c795e6d91",
-          "fontPt": [
-            32.25
-          ]
+          "fingerprint": "40b50982817de38b79c6add3525624adc9305ee3b6de2424f6b590ce5be5d2ec",
+          "fontPt": []
         },
         {
           "id": "8",
-          "name": "S01-label-2",
+          "name": "S01-label-1",
           "kind": "sp",
-          "text": "F1",
+          "text": "Latency (ms)",
           "boundsPx": [
-            464.0,
-            558.0,
-            330.0,
-            38.0
+            652.0,
+            290.0,
+            210.0,
+            55.0
           ],
-          "fingerprint": "8a95866c36252bc4b512e4b0d1a20c5cc3b5df4a5ba7aab2c9eafc352e0e980f",
+          "fingerprint": "db9e14c93d2c5524bc4bc5bc104bc70eb9c638f6a1f173945bd751e50423612a",
           "fontPt": [
-            18.0
+            17.25
           ]
         },
         {
           "id": "9",
-          "name": "S01-value-3",
+          "name": "S01-value-base-1",
           "kind": "sp",
-          "text": "48 → 12",
+          "text": "120",
           "boundsPx": [
-            900.0,
-            485.0,
-            310.0,
-            66.0
+            867.0,
+            290.0,
+            160.0,
+            55.0
           ],
-          "fingerprint": "4871596ccfec7b368808cbfe4efa346c63b5a7056f599c4ef0c87840f6e860d0",
+          "fingerprint": "5a407e0eef5b6b585a6097d712987bbeb80aae14b316ccc14e464d9579202455",
           "fontPt": [
-            32.25
+            28.5
           ]
         },
         {
           "id": "10",
-          "name": "S01-label-3",
+          "name": "S01-value-int8-1",
           "kind": "sp",
-          "text": "Model size (MB)",
+          "text": "54",
           "boundsPx": [
-            900.0,
-            558.0,
-            330.0,
-            38.0
+            1090.0,
+            290.0,
+            150.0,
+            55.0
           ],
-          "fingerprint": "af3e088e5730d38bbf1090ac3639fab0cc823114348d95f8a85672b809043d8c",
+          "fingerprint": "e1b9310532db2c1ce8996b195f2787929ed6c690158978e0bbd9358671ee1d26",
           "fontPt": [
-            18.0
+            28.5
           ]
         },
         {
           "id": "11",
-          "name": "S01-disclosure",
+          "name": "S01-rule-1",
           "kind": "sp",
-          "text": "Illustrative data · not experimental results",
+          "text": "",
           "boundsPx": [
-            72.0,
-            669.0,
-            1000.0,
-            23.0
+            652.0,
+            383.0,
+            564.0,
+            0.0
           ],
-          "fingerprint": "1e699b15f6cea1ab7eef2f7851883178a50ae6bc91d16a3f3fd300382bc2284b",
-          "fontPt": [
-            12.75
-          ]
+          "fingerprint": "fb475d78c74d74c460f44089cc28910484d8b7d6434583d472497a6ec3fbcb8f",
+          "fontPt": []
         },
         {
           "id": "12",
-          "name": "S01-number",
+          "name": "S01-label-2",
           "kind": "sp",
-          "text": "01",
+          "text": "F1",
           "boundsPx": [
-            1170.0,
+            652.0,
+            402.0,
+            210.0,
+            55.0
+          ],
+          "fingerprint": "8ab0a3bd7e047ed994c70d86c495f720c03b34c1ad4e915a47b1564766d97d71",
+          "fontPt": [
+            17.25
+          ]
+        },
+        {
+          "id": "13",
+          "name": "S01-value-base-2",
+          "kind": "sp",
+          "text": "0.910",
+          "boundsPx": [
+            867.0,
+            402.0,
+            160.0,
+            55.0
+          ],
+          "fingerprint": "a66bd44b32208876633e49dddd8deb869f27fdb269f4fc306e3d059c0ed97634",
+          "fontPt": [
+            28.5
+          ]
+        },
+        {
+          "id": "14",
+          "name": "S01-value-int8-2",
+          "kind": "sp",
+          "text": "0.896",
+          "boundsPx": [
+            1090.0,
+            402.0,
+            150.0,
+            55.0
+          ],
+          "fingerprint": "26a3974168343df2c0b23c140ff943b9ff0222441b8c3fb8642d3e0255618532",
+          "fontPt": [
+            28.5
+          ]
+        },
+        {
+          "id": "15",
+          "name": "S01-rule-2",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            652.0,
+            495.0,
+            564.0,
+            0.0
+          ],
+          "fingerprint": "317ebfd09ad82ec37fb88621643d00d59908a47675d2b4934216121e34d458a6",
+          "fontPt": []
+        },
+        {
+          "id": "16",
+          "name": "S01-label-3",
+          "kind": "sp",
+          "text": "Model size (MB)",
+          "boundsPx": [
+            652.0,
+            514.0,
+            210.0,
+            55.0
+          ],
+          "fingerprint": "a5bdfbd2cfeb1e3da14806a23d2f4b80f3b0a7706b03e4313c5cd7bb7f98af52",
+          "fontPt": [
+            17.25
+          ]
+        },
+        {
+          "id": "17",
+          "name": "S01-value-base-3",
+          "kind": "sp",
+          "text": "48",
+          "boundsPx": [
+            867.0,
+            514.0,
+            160.0,
+            55.0
+          ],
+          "fingerprint": "4d43c0a1773f27724d6d70291c601706a7324f90195bd5ba76c3fa35a8c9871b",
+          "fontPt": [
+            28.5
+          ]
+        },
+        {
+          "id": "18",
+          "name": "S01-value-int8-3",
+          "kind": "sp",
+          "text": "12",
+          "boundsPx": [
+            1090.0,
+            514.0,
+            150.0,
+            55.0
+          ],
+          "fingerprint": "ee431ddbd75e41af5456829efd2040ac53f189a857f42daed84928bcde0d3467",
+          "fontPt": [
+            28.5
+          ]
+        },
+        {
+          "id": "19",
+          "name": "S01-disclosure",
+          "kind": "sp",
+          "text": "Illustrative data",
+          "boundsPx": [
+            64.0,
             669.0,
-            38.0,
+            480.0,
             23.0
           ],
-          "fingerprint": "4826b622cc0de182480b6532b2e4ba659e7ea39cb8708020b7ca2330e73bdfbf",
+          "fingerprint": "ed7a9306de2e761e36bffa00b16e47ce4d93c32bd64339a2ebbadca37f67298b",
           "fontPt": [
             12.75
           ]
@@ -205,7 +309,7 @@
       ],
       "edges": [],
       "counts": {
-        "sp": 12,
+        "sp": 19,
         "cxnSp": 0,
         "grpSp": 0,
         "pic": 0,
@@ -219,7 +323,7 @@
       "part": "ppt/slides/slide2.xml",
       "objects": [
         {
-          "id": "21",
+          "id": "22",
           "name": "S02-title",
           "kind": "sp",
           "text": "Model states and compression steps",
@@ -229,7 +333,7 @@
             1136.0,
             70.0
           ],
-          "fingerprint": "c813ea470fd411f84f26dd47d558bf358fb2f808b8afe6c81dcbc6ba45d50b06",
+          "fingerprint": "37636c37ca36c6bccd2aa23723d6e15a20451c6d6fd8da0f5c53efd150081031",
           "fontPt": [
             32.25
           ]
@@ -238,14 +342,14 @@
           "id": "2",
           "name": "S02-disclosure",
           "kind": "sp",
-          "text": "Illustrative data · not experimental results",
+          "text": "Illustrative data",
           "boundsPx": [
             72.0,
             669.0,
             1000.0,
             23.0
           ],
-          "fingerprint": "075379dbf46cea332488344e25bbb2f0c854bbd063146e4707ad7b60020eaa81",
+          "fingerprint": "25f74886d149c49c6424b2a2b2cd98ee1924d2a9abc199a55e3f019fc4480529",
           "fontPt": [
             12.75
           ]
@@ -261,275 +365,289 @@
             38.0,
             23.0
           ],
-          "fingerprint": "1defa9455ece7e13b994caa00d2c869cee0f3c61825b9adfe9cbdd55dd683916",
+          "fingerprint": "43fcf78ea7cf7b07d8e4ac176a3186d2ebd087fdd2b98ae651446e8fd8a88996",
           "fontPt": [
             12.75
           ]
         },
         {
           "id": "4",
+          "name": "S02-method-field",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            48.0,
+            196.0,
+            1184.0,
+            364.0
+          ],
+          "fingerprint": "2ca972af4eb4016b0b84845f7b3cabbd2d120ddb8c5aeee5c38afab48c8c26b2",
+          "fontPt": []
+        },
+        {
+          "id": "5",
           "name": "S02-marker-1",
           "kind": "sp",
           "text": "01",
           "boundsPx": [
             72.0,
-            245.0,
-            56.0,
-            56.0
+            265.0,
+            64.0,
+            64.0
           ],
-          "fingerprint": "0504120e08704449b68d940734a18329db5a439745241f0366e9b5a67bb0db1a",
-          "fontPt": [
-            16.5
-          ]
-        },
-        {
-          "id": "5",
-          "name": "S02-marker-2",
-          "kind": "sp",
-          "text": "02",
-          "boundsPx": [
-            488.0,
-            245.0,
-            56.0,
-            56.0
-          ],
-          "fingerprint": "146c3a15ee388e0c7e4cee288daa84e6745f45ff47d08d2f121de45d6352098e",
+          "fingerprint": "01ba78a402db78178ce9efb9d11e830bf369dc6fc19eb11abeb0a5f2220b482e",
           "fontPt": [
             16.5
           ]
         },
         {
           "id": "6",
-          "name": "S02-marker-3",
+          "name": "S02-marker-2",
           "kind": "sp",
-          "text": "03",
+          "text": "02",
           "boundsPx": [
-            904.0,
-            245.0,
-            56.0,
-            56.0
+            488.0,
+            265.0,
+            64.0,
+            64.0
           ],
-          "fingerprint": "5913ddaecbae1552fb667284b9645eace35e1bec5e371b8f26215892da630c97",
+          "fingerprint": "070996c0461a115604dee31572a731a78b8d57cc23b5865aa6381e84089a1546",
           "fontPt": [
             16.5
           ]
         },
         {
-          "id": "27",
+          "id": "7",
+          "name": "S02-marker-3",
+          "kind": "sp",
+          "text": "03",
+          "boundsPx": [
+            904.0,
+            265.0,
+            64.0,
+            64.0
+          ],
+          "fingerprint": "4806634e238b2e84963b28d59084fa65f7d3210b530c926169b4ad38419346cb",
+          "fontPt": [
+            16.5
+          ]
+        },
+        {
+          "id": "29",
           "name": "S02-link-2",
           "kind": "cxnSp",
           "text": "",
           "boundsPx": [
-            128.0,
-            273.0,
-            360.0,
+            136.0,
+            297.0,
+            352.0,
             0.0
           ],
-          "fingerprint": "4ec6246c4ccc7955c68c2693bf9a5f32db45689039ac5fa6f30d3767e934cb07",
+          "fingerprint": "292196c6054f8f33e49a42c41fbda0b0f3c12e44a162b39abd4245ec2fe29e0c",
           "fontPt": []
         },
         {
-          "id": "28",
+          "id": "30",
           "name": "S02-link-3",
           "kind": "cxnSp",
           "text": "",
           "boundsPx": [
-            544.0,
-            273.0,
-            360.0,
+            552.0,
+            297.0,
+            352.0,
             0.0
           ],
-          "fingerprint": "21e2bbec7e8ca318b94f66e7d6f65bb8bec2634a524902205eb8fbde7faa2af5",
+          "fingerprint": "0cb84ef90b44cd7ab51bc8f71019e13ea04f1ed6e6c82316dfaed7b05f4c0169",
           "fontPt": []
         },
         {
-          "id": "9",
+          "id": "10",
           "name": "S02-flow-2",
           "kind": "sp",
           "text": "Knowledge distillation",
           "boundsPx": [
-            154.0,
-            218.0,
-            312.0,
-            37.0
+            160.0,
+            216.0,
+            320.0,
+            40.0
           ],
-          "fingerprint": "e6776e0a1f38452e014a34dd1270e566bc6047e50987e09bc17d3f32ee01a4c3",
-          "fontPt": [
-            15.75
-          ]
-        },
-        {
-          "id": "10",
-          "name": "S02-flow-3",
-          "kind": "sp",
-          "text": "INT8 quantization",
-          "boundsPx": [
-            570.0,
-            218.0,
-            312.0,
-            37.0
-          ],
-          "fingerprint": "e1795a3321b85a74b303c75843ebbd1d5d93536e340e696eb48dd1bd3898cc46",
+          "fingerprint": "d213a8b9d3587bef152e38a6c56e296bae65085eb7cdad38d47fddded41fb1ee",
           "fontPt": [
             15.75
           ]
         },
         {
           "id": "11",
+          "name": "S02-flow-3",
+          "kind": "sp",
+          "text": "INT8 quantization",
+          "boundsPx": [
+            576.0,
+            216.0,
+            320.0,
+            40.0
+          ],
+          "fingerprint": "b3c90c0f2bd4f1744374d78df028706dc96978f3b03ad44dea8dc4107377151f",
+          "fontPt": [
+            15.75
+          ]
+        },
+        {
+          "id": "12",
           "name": "S02-stage-1",
           "kind": "sp",
           "text": "Teacher model",
           "boundsPx": [
             72.0,
-            331.0,
+            351.0,
             334.0,
             48.0
           ],
-          "fingerprint": "b067fd29191744f8e7b7b86e954cafcc8d0f49cec7a6d37573fa468fecd0c332",
+          "fingerprint": "225b07e35bd00ddd0a613f832611dbbded893781f7cca1a646672c1768f3afc0",
           "fontPt": [
             22.5
           ]
         },
         {
-          "id": "12",
+          "id": "13",
           "name": "S02-name-1",
           "kind": "sp",
           "text": "baseline",
           "boundsPx": [
             72.0,
-            391.0,
+            407.0,
             325.0,
             32.0
           ],
-          "fingerprint": "58e57d74420bb9f55322c78f3d09322852dcaa364bf73d9e3543a3fdf451836b",
+          "fingerprint": "4178114672094558a6bc2ccf21fe8071cb2d0d27fcb16173b86463b1ccc2e006",
           "fontPt": [
             15.75
           ]
         },
         {
-          "id": "13",
+          "id": "14",
           "name": "S02-detail-1",
           "kind": "sp",
           "text": "The reference model\nserves as the teacher.",
           "boundsPx": [
             72.0,
-            451.0,
+            466.0,
             334.0,
-            81.0
+            74.0
           ],
-          "fingerprint": "99c9dc8721d06dde7c042e71e3380c130e54843ed5a5d6f8f8443d8bddbdc2c3",
+          "fingerprint": "93ab2c36de1e4d389d30a46fd65a1b52060bc2371c8eff2a25dfbf3b0d89dc03",
           "fontPt": [
             18.0
           ]
         },
         {
-          "id": "14",
+          "id": "15",
           "name": "S02-stage-2",
           "kind": "sp",
           "text": "Student model",
           "boundsPx": [
             488.0,
-            331.0,
+            351.0,
             334.0,
             48.0
           ],
-          "fingerprint": "9d875a929d103be289e62961b1012c1ee1d4c97b360d9ebb837764d65dc7cd7c",
+          "fingerprint": "e43a7968f638270614cea4953af49024024bca99a2d2429260c5a48975756bc1",
           "fontPt": [
             22.5
           ]
         },
         {
-          "id": "15",
+          "id": "16",
           "name": "S02-name-2",
           "kind": "sp",
           "text": "distilled",
           "boundsPx": [
             488.0,
-            391.0,
+            407.0,
             325.0,
             32.0
           ],
-          "fingerprint": "aa226239ad9a8ceb0d83a50f6f3cdca6d379956482733656c0b3284d25851779",
+          "fingerprint": "26ccddede5b6877656237300633e1af181b1c562b16e6d5e1690ce7a8324bb4b",
           "fontPt": [
             15.75
           ]
         },
         {
-          "id": "16",
+          "id": "17",
           "name": "S02-detail-2",
           "kind": "sp",
           "text": "A smaller student learns\nfrom teacher predictions.",
           "boundsPx": [
             488.0,
-            451.0,
+            466.0,
             334.0,
-            81.0
+            74.0
           ],
-          "fingerprint": "36277c0086f4702fad218323f615dfa86fe197d85a9e2631500800af8c5b6391",
+          "fingerprint": "a014cc55255daa796ba6e7cb4dc0a2bb111940d584b3a52fc8195e2556b0d05d",
           "fontPt": [
             18.0
           ]
         },
         {
-          "id": "17",
+          "id": "18",
           "name": "S02-stage-3",
           "kind": "sp",
           "text": "INT8 student",
           "boundsPx": [
             904.0,
-            331.0,
+            351.0,
             334.0,
             48.0
           ],
-          "fingerprint": "091494930e919d5ab85894b73f0d6d3d5b1b41dd3bc4085580638ce35c210443",
+          "fingerprint": "9f775a006fba7c1258a17f952829831006d18202cc04ed11fcaa2df763e379a8",
           "fontPt": [
             22.5
           ]
         },
         {
-          "id": "18",
+          "id": "19",
           "name": "S02-name-3",
           "kind": "sp",
           "text": "int8",
           "boundsPx": [
             904.0,
-            391.0,
+            407.0,
             325.0,
             32.0
           ],
-          "fingerprint": "39f93a57378d6dcd6f10c3c715be7c35ecbe3d7f3dd977bf05514934d1116e1b",
+          "fingerprint": "21ba019d93c591ba9b163c9189b0fde68ca44e348efcbe7044e56eb29815aee2",
           "fontPt": [
             15.75
           ]
         },
         {
-          "id": "19",
+          "id": "20",
           "name": "S02-detail-3",
           "kind": "sp",
           "text": "Use 8-bit integers for\nselected model quantities.",
           "boundsPx": [
             904.0,
-            451.0,
+            466.0,
             334.0,
-            81.0
+            74.0
           ],
-          "fingerprint": "563a4d797a673daacf92bd795c690273af080ffcd580673e897c78cab88a754b",
+          "fingerprint": "d17db94b34dcfc23ef7d3ddf7ed763de6094cfaf8e7a81aeae82a2505401ad7a",
           "fontPt": [
             18.0
           ]
         },
         {
-          "id": "20",
+          "id": "21",
           "name": "S02-caveat",
           "kind": "sp",
-          "text": "Conceptual workflow. Architecture and quantization scope are unspecified.",
+          "text": "Conceptual overview; implementation details vary.",
           "boundsPx": [
             72.0,
             594.0,
             1136.0,
             38.0
           ],
-          "fingerprint": "5f3f37a7b2fce9dd206ce6a8ead93ae73cf65a55810ee4be711d4d6d1410abb5",
+          "fingerprint": "5a3f742a296b5d2a61d8f950f941c614db0201f9e4c7a3443ccf1136ac37dbdd",
           "fontPt": [
             15.75
           ]
@@ -554,7 +672,7 @@
         }
       ],
       "counts": {
-        "sp": 18,
+        "sp": 19,
         "cxnSp": 2,
         "grpSp": 0,
         "pic": 0,
@@ -568,7 +686,7 @@
       "part": "ppt/slides/slide3.xml",
       "objects": [
         {
-          "id": "8",
+          "id": "7",
           "name": "S03-title",
           "kind": "sp",
           "text": "Latency, F1 and model size",
@@ -578,7 +696,7 @@
             1136.0,
             70.0
           ],
-          "fingerprint": "c63e43faf275c81a2b1e450246ad6b99df88fdb5230f26ee3ef29c39623ad676",
+          "fingerprint": "8bd6c5f5e9f2105f8f4c1158800bb496bf3ed6e485eaeecdfdd4a9613a358ab1",
           "fontPt": [
             32.25
           ]
@@ -587,14 +705,14 @@
           "id": "2",
           "name": "S03-disclosure",
           "kind": "sp",
-          "text": "Illustrative data · not experimental results",
+          "text": "Illustrative data",
           "boundsPx": [
             72.0,
             669.0,
             1000.0,
             23.0
           ],
-          "fingerprint": "2e1072ceeda45f025f49f96ae21a3bd6a52c23f9bbe3436aed60d090c520d3ec",
+          "fingerprint": "6c3977eb2e0de55930cb49cde4839fb24ac98d5fd736f385a489095ea70fbe41",
           "fontPt": [
             12.75
           ]
@@ -610,7 +728,7 @@
             38.0,
             23.0
           ],
-          "fingerprint": "5d4ddb80c159d0bf372804fdfa72f4fcd1456a121abb4d730955ad810b21a139",
+          "fingerprint": "a0e1e28414854fd01a4d00e8c8b8108961e14e0834a87802f79c609a9bad11f6",
           "fontPt": [
             12.75
           ]
@@ -626,46 +744,32 @@
             1136.0,
             40.0
           ],
-          "fingerprint": "0ea9740215973e0a64559d286a9098588531eb5e54ef2147fee225b414accda9",
+          "fingerprint": "77a9764d8479732d11c674a52bb12ef6670002a1ebf863570f502e8e38aaad7b",
           "fontPt": [
             18.0
           ]
         },
         {
-          "id": "12",
-          "name": "표 11",
+          "id": "11",
+          "name": "표 10",
           "kind": "graphicFrame",
           "text": "",
           "boundsPx": null,
-          "fingerprint": "25e9337bf785d71ae5b685a4ce05eb1d0998c49f5a36f4be14f85facee7a0063",
+          "fingerprint": "d89bac104ee6c24790e8867d8e0806ca97019209aa9d7e88eb0801c8933fe6d6",
           "fontPt": []
         },
         {
           "id": "6",
-          "name": "S03-header-rule",
-          "kind": "sp",
-          "text": "",
-          "boundsPx": [
-            72.0,
-            318.0,
-            1136.0,
-            0.0
-          ],
-          "fingerprint": "cec68ef38089a7f13d04917916826dc79bf9818f55130525fe54bcda8d668b18",
-          "fontPt": []
-        },
-        {
-          "id": "7",
           "name": "S03-limit",
           "kind": "sp",
-          "text": "Same device and data assumed. Sample count, variance and dataset are unspecified.",
+          "text": "Illustrative comparison on assumed matching device and data; variability is not evaluated.",
           "boundsPx": [
             72.0,
             590.0,
             1136.0,
             42.0
           ],
-          "fingerprint": "0b6086c6416c6294a2b394cc5abd9854e12895f65b05f078d2aeecc82d3e826b",
+          "fingerprint": "85bfefc14f1e7cfc4b7ab5789a0ad63830da1fb8803fa96e64580f4b19f0423b",
           "fontPt": [
             15.75
           ]
@@ -673,7 +777,7 @@
       ],
       "edges": [],
       "counts": {
-        "sp": 6,
+        "sp": 5,
         "cxnSp": 0,
         "grpSp": 0,
         "pic": 0,
@@ -687,7 +791,7 @@
       "part": "ppt/slides/slide4.xml",
       "objects": [
         {
-          "id": "15",
+          "id": "17",
           "name": "S04-title",
           "kind": "sp",
           "text": "Lower latency, lower F1",
@@ -697,7 +801,7 @@
             1136.0,
             70.0
           ],
-          "fingerprint": "3ef09cfbc3a45d66d1f26ea795eb4bca07452accf1d740e8589fc65e4fa1a9c4",
+          "fingerprint": "4058bc6d9e091de5461fe76e4893d670fa4d7bebe495738723be2c92ee3501ad",
           "fontPt": [
             32.25
           ]
@@ -706,14 +810,14 @@
           "id": "2",
           "name": "S04-disclosure",
           "kind": "sp",
-          "text": "Illustrative data · not experimental results",
+          "text": "Illustrative data",
           "boundsPx": [
             72.0,
             669.0,
             1000.0,
             23.0
           ],
-          "fingerprint": "95f9ae374d40f4f8ff74a39f6a88b105de0de1afff2b6b0d7aa167e8050b1626",
+          "fingerprint": "c89c302cfb0287ce033cbc6904128671af7d46bf0f142d6139c9cea6db983f5c",
           "fontPt": [
             12.75
           ]
@@ -729,13 +833,27 @@
             38.0,
             23.0
           ],
-          "fingerprint": "64fb8274c78fd5708cc71ab653e887c509a7fa1f4ec0e6fd8791c426254864bb",
+          "fingerprint": "faedbf2dfbc5add78c7740502e84152a5eeee91c10a7bf9a5fd2c088465995be",
           "fontPt": [
             12.75
           ]
         },
         {
           "id": "4",
+          "name": "S04-interpretation-field",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            855.0,
+            175.0,
+            377.0,
+            440.0
+          ],
+          "fingerprint": "116283676a9c9163920ad7e3c102e3107bb836076beb3cee284f1b6a11795888",
+          "fontPt": []
+        },
+        {
+          "id": "5",
           "name": "S04-chart-unit",
           "kind": "sp",
           "text": "F1 · higher is better",
@@ -745,160 +863,174 @@
             710.0,
             38.0
           ],
-          "fingerprint": "df480c4d93c3bb50ed3a66cfb62dff575b3a6183b16ed7215d2d767c9966c056",
+          "fingerprint": "fef8f497de31daa96a4ae757594653e5efae30dba752ce05b9d32d53482a4f24",
           "fontPt": [
             18.0
           ]
         },
         {
-          "id": "19",
+          "id": "22",
           "name": "Chart",
           "kind": "graphicFrame",
           "text": "",
           "boundsPx": null,
-          "fingerprint": "f35bc29a662b511a6656162017f37b511474e5ef29ed6adf7f88960f0f65917b",
+          "fingerprint": "fb0be51d290d6db37ecdda3d8bb3e3bee02d6ab98a1787f8bd8aeca277d389fb",
           "fontPt": []
         },
         {
-          "id": "6",
+          "id": "7",
           "name": "S04-x-unit",
           "kind": "sp",
           "text": "Latency (ms) · lower is better",
           "boundsPx": [
             150.0,
-            544.0,
+            519.0,
             650.0,
             35.0
           ],
-          "fingerprint": "f00314f616bbd076cba9c87b41e1c20556066c7aa68f32be41c5a7483348c575",
+          "fingerprint": "3c4e4e5a83f60c4f8eca1752b6207ed1b03448b25bf10fbfe2f2e925aa30e958",
           "fontPt": [
             17.25
           ]
         },
         {
-          "id": "7",
+          "id": "8",
           "name": "S04-basis",
           "kind": "sp",
           "text": "Baseline to INT8",
           "boundsPx": [
-            880.0,
-            180.0,
-            328.0,
+            886.0,
+            196.0,
+            300.0,
             35.0
           ],
-          "fingerprint": "69b5fa9e3dbc5b02cce318b50f9fff691603e5388516763cf394d4dd01472a7c",
+          "fingerprint": "956d4225d91f49b3109795530751d0ef26d22a3e118ea0f8b5cdccc475ed449a",
           "fontPt": [
             18.0
           ]
         },
         {
-          "id": "8",
+          "id": "9",
           "name": "S04-latency",
           "kind": "sp",
           "text": "−55%",
           "boundsPx": [
-            880.0,
-            236.0,
-            320.0,
+            886.0,
+            259.0,
+            300.0,
             66.0
           ],
-          "fingerprint": "94af0f40b1ebac12d49b4b21e48d192627292f964c2d5eede1d52af04e93e9d1",
+          "fingerprint": "fa197957eaa4cf5af8321ea5a767cd6e75155f3d562c1cccd31f2a3e892a3b88",
           "fontPt": [
             34.5
-          ]
-        },
-        {
-          "id": "9",
-          "name": "S04-latency-label",
-          "kind": "sp",
-          "text": "Latency · 120 → 54 ms",
-          "boundsPx": [
-            880.0,
-            302.0,
-            328.0,
-            38.0
-          ],
-          "fingerprint": "3ae8a47f17ca5eb700c04bfa81b5ba6bbef8d79747489521aac54b1c1b79e281",
-          "fontPt": [
-            17.25
           ]
         },
         {
           "id": "10",
+          "name": "S04-latency-label",
+          "kind": "sp",
+          "text": "Latency · 120 → 54 ms",
+          "boundsPx": [
+            886.0,
+            325.0,
+            300.0,
+            38.0
+          ],
+          "fingerprint": "0d464c09850098c4e522ef2bcd20e3d2dc62a48e2d8eaa89db5a55a7da30eea5",
+          "fontPt": [
+            16.5
+          ]
+        },
+        {
+          "id": "11",
           "name": "S04-f1",
           "kind": "sp",
           "text": "−0.014",
           "boundsPx": [
-            880.0,
-            359.0,
-            320.0,
+            886.0,
+            401.0,
+            300.0,
             66.0
           ],
-          "fingerprint": "2c6a350b8989b5b53b3b2e7d00e727ef53b19632415629f64faa5e85483aed51",
+          "fingerprint": "3b5e61d5e58639830143268920ca2d1ff50d2bbe7362710ff73ecd2cc945f60a",
           "fontPt": [
             34.5
           ]
         },
         {
-          "id": "11",
+          "id": "12",
           "name": "S04-f1-label",
           "kind": "sp",
           "text": "F1 · absolute difference",
           "boundsPx": [
-            880.0,
-            425.0,
-            328.0,
+            886.0,
+            467.0,
+            300.0,
             38.0
           ],
-          "fingerprint": "7f1690689ca879f4e298b6f34b7a55bc587fe4fe986b28d2178590e64bae24de",
-          "fontPt": [
-            17.25
-          ]
-        },
-        {
-          "id": "12",
-          "name": "S04-size-values",
-          "kind": "sp",
-          "text": "Size: 48 → 12 MB (−75%)",
-          "boundsPx": [
-            880.0,
-            501.0,
-            328.0,
-            48.0
-          ],
-          "fingerprint": "f278690a055ae72df0b1cafa39860e8b9cc87ab5469987d20a84760d3480468b",
+          "fingerprint": "a54160de8c6e9faa007fb963319cb24378be50c44340ce81b4cfdf507aa9b5cf",
           "fontPt": [
             16.5
           ]
         },
         {
           "id": "13",
+          "name": "S04-size-values",
+          "kind": "sp",
+          "text": "Size: 48 → 12 MB (−75%)",
+          "boundsPx": [
+            886.0,
+            547.0,
+            300.0,
+            42.0
+          ],
+          "fingerprint": "717bf5f5a18b8d9775e08dc3ed3a5ae90ad0651b0355aacb5a7132ed736733c6",
+          "fontPt": [
+            15.75
+          ]
+        },
+        {
+          "id": "14",
+          "name": "S04-decomposition-rule",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            72.0,
+            567.0,
+            720.0,
+            0.0
+          ],
+          "fingerprint": "12bdd996eae91a36958dec4d1610db3c2bd6267d950b00f8c4b0f2a482a9596d",
+          "fontPt": []
+        },
+        {
+          "id": "15",
           "name": "S04-stage1",
           "kind": "sp",
           "text": "Distillation: latency −40%; F1 −0.008",
           "boundsPx": [
             72.0,
-            574.0,
-            1136.0,
+            578.0,
+            720.0,
             32.0
           ],
-          "fingerprint": "bc86a88c367f73025bf2b51b56a911bb054b19785ad30ac2f03c4a485182d5e9",
+          "fingerprint": "01d828a95e4e6f5c8db397f2c773af436be9b34c8a0a9500f9024c11f7340cde",
           "fontPt": [
             16.5
           ]
         },
         {
-          "id": "14",
+          "id": "16",
           "name": "S04-stage2",
           "kind": "sp",
           "text": "Additional INT8 step: latency −25%; F1 −0.006",
           "boundsPx": [
             72.0,
-            610.0,
-            1136.0,
+            615.0,
+            720.0,
             32.0
           ],
-          "fingerprint": "1d95abce66a6a03d599dbfe767f6594637edeac175f7bdb1d2b72bde76d5395e",
+          "fingerprint": "37aea4d08cbb8296322c89a68dfdb58bd7dcfdeae26ceccf8cfa9d58724a38d4",
           "fontPt": [
             16.5
           ]
@@ -906,7 +1038,7 @@
       ],
       "edges": [],
       "counts": {
-        "sp": 13,
+        "sp": 15,
         "cxnSp": 0,
         "grpSp": 0,
         "pic": 0,
@@ -921,204 +1053,204 @@
       "objects": [
         {
           "id": "14",
-          "name": "S05-title",
+          "name": "S05-finding-field",
           "kind": "sp",
-          "text": "Deployment criteria remain open",
+          "text": "",
           "boundsPx": [
-            72.0,
-            94.0,
-            1136.0,
-            70.0
+            0.0,
+            0.0,
+            620.0,
+            720.0
           ],
-          "fingerprint": "0f7e0812233c5e7e1f7cdacb3963cf8c500aa9bce8c37d5435281dcdb0686fc1",
-          "fontPt": [
-            32.25
-          ]
+          "fingerprint": "f230fef2cec806c5d67efa495d7607818fd22042c607d563022fde7473574df8",
+          "fontPt": []
         },
         {
           "id": "2",
-          "name": "S05-disclosure",
-          "kind": "sp",
-          "text": "Illustrative data · not experimental results",
-          "boundsPx": [
-            72.0,
-            669.0,
-            1000.0,
-            23.0
-          ],
-          "fingerprint": "0f4b9fe81350a627c0386345ddc9032f6e20a1c7eac9d0808073b9f97c94b089",
-          "fontPt": [
-            12.75
-          ]
-        },
-        {
-          "id": "3",
-          "name": "S05-number",
-          "kind": "sp",
-          "text": "05",
-          "boundsPx": [
-            1170.0,
-            669.0,
-            38.0,
-            23.0
-          ],
-          "fingerprint": "d4651350f1c1914826a6d3ab431eccc3bc58187fa87c22f61cf85e65e6b9316f",
-          "fontPt": [
-            12.75
-          ]
-        },
-        {
-          "id": "4",
           "name": "S05-main",
           "kind": "sp",
-          "text": "Efficiency gains come with lower F1",
+          "text": "Efficiency gains\ncome with lower F1",
           "boundsPx": [
-            72.0,
-            209.0,
-            1136.0,
-            76.0
+            64.0,
+            150.0,
+            502.0,
+            170.0
           ],
-          "fingerprint": "c409a8b441010cad258085ccb845e37db4f84e5fcd95af2537eb280a5bc01d1a",
+          "fingerprint": "bddd01a8fe54c4d3a8e51b16cda0e29c90d881db917f5a95fdd6da2679c94538",
           "fontPt": [
             36.75
           ]
         },
         {
-          "id": "5",
-          "name": "S05-rule-1",
+          "id": "3",
+          "name": "S05-interpretation",
           "kind": "sp",
-          "text": "",
+          "text": "A deployment decision needs\nacceptable latency and F1 limits.",
           "boundsPx": [
-            72.0,
-            328.0,
-            1136.0,
-            0.0
+            64.0,
+            388.0,
+            500.0,
+            116.0
           ],
-          "fingerprint": "486599dea1350bd5ab59c1e73b4890ab81b6e0aeb6146b08c4bfa30b68aaa873",
-          "fontPt": []
-        },
-        {
-          "id": "6",
-          "name": "S05-label1",
-          "kind": "sp",
-          "text": "Set the threshold",
-          "boundsPx": [
-            72.0,
-            342.0,
-            306.0,
-            52.0
-          ],
-          "fingerprint": "be058551cf00c8a31af1c14a92127cc9a0aecce598f2be2575a37c53d5aaba78",
+          "fingerprint": "becc50227eeef65ae7284be919e17c181a9150ab01ce69ba8bee4a9ee5bed014",
           "fontPt": [
-            18.75
+            20.25
           ]
         },
         {
-          "id": "7",
+          "id": "4",
+          "name": "S05-label1",
+          "kind": "sp",
+          "text": "Deployment limits",
+          "boundsPx": [
+            684.0,
+            121.0,
+            524.0,
+            49.0
+          ],
+          "fingerprint": "5b9695dfec53ad3229866034961237320d86a23d994d6595f54962c86a3eaea0",
+          "fontPt": [
+            24.0
+          ]
+        },
+        {
+          "id": "5",
           "name": "S05-body1",
           "kind": "sp",
           "text": "Acceptable F1 loss and latency budget.",
           "boundsPx": [
-            402.0,
-            342.0,
-            806.0,
-            52.0
+            684.0,
+            179.0,
+            524.0,
+            48.0
           ],
-          "fingerprint": "84800baf69603cd90054a2b1f1dec884114c1a84477e981f6c518d1744fb249f",
+          "fingerprint": "a8545800c40e787ab215ea72ec399d2830d664cb43df97908d5099af64eceb33",
           "fontPt": [
             18.0
+          ]
+        },
+        {
+          "id": "6",
+          "name": "S05-rule-1",
+          "kind": "sp",
+          "text": "",
+          "boundsPx": [
+            684.0,
+            239.0,
+            524.0,
+            0.0
+          ],
+          "fingerprint": "6b27ed7e2239fd7ca9ff3aa78572374712c24876eb77a1925ff05d1b5af4e0da",
+          "fontPt": []
+        },
+        {
+          "id": "7",
+          "name": "S05-label2",
+          "kind": "sp",
+          "text": "Repeatability",
+          "boundsPx": [
+            684.0,
+            256.0,
+            524.0,
+            49.0
+          ],
+          "fingerprint": "0c5fb1af6d1336bacb186a6ac56768a27321e1cd2b6818294688067b1f479802",
+          "fontPt": [
+            24.0
           ]
         },
         {
           "id": "8",
+          "name": "S05-body2",
+          "kind": "sp",
+          "text": "Repeat measurements on real data.",
+          "boundsPx": [
+            684.0,
+            314.0,
+            524.0,
+            48.0
+          ],
+          "fingerprint": "73e976539a12596038c866594b6cd7a923c62abbccab76248874589c97e17a58",
+          "fontPt": [
+            18.0
+          ]
+        },
+        {
+          "id": "9",
           "name": "S05-rule-2",
           "kind": "sp",
           "text": "",
           "boundsPx": [
-            72.0,
-            416.0,
-            1136.0,
+            684.0,
+            374.0,
+            524.0,
             0.0
           ],
-          "fingerprint": "6da7f057c5be91da4abd1485756a7f7a1fe99a2ed60adac2c43333423a6a7349",
+          "fingerprint": "a73a0ef8cf9be3c148eb9ad2880ee9b71e44513e78b25731c72b6076aaf8ecd6",
           "fontPt": []
         },
         {
-          "id": "9",
-          "name": "S05-label2",
-          "kind": "sp",
-          "text": "Test the behavior",
-          "boundsPx": [
-            72.0,
-            430.0,
-            306.0,
-            52.0
-          ],
-          "fingerprint": "299a09c64f6edd8d076d04535f5773def1349c23d2ba4b311fd0edba937774dd",
-          "fontPt": [
-            18.75
-          ]
-        },
-        {
           "id": "10",
-          "name": "S05-body2",
+          "name": "S05-label3",
           "kind": "sp",
-          "text": "Repeat measurements; inspect failures by anomaly type.",
+          "text": "Failure modes",
           "boundsPx": [
-            402.0,
-            430.0,
-            806.0,
-            52.0
+            684.0,
+            391.0,
+            524.0,
+            49.0
           ],
-          "fingerprint": "d695e3f0af43dfa965cf1a6804c17e5905ff3354f48b367acbdad18811083658",
+          "fingerprint": "3867c9b433b7d355f576b26224582efa256950e496af54ac2eaf46fc18da64f6",
           "fontPt": [
-            18.0
+            24.0
           ]
         },
         {
           "id": "11",
-          "name": "S05-rule-3",
+          "name": "S05-body3",
           "kind": "sp",
-          "text": "",
+          "text": "Inspect errors by anomaly type.",
           "boundsPx": [
-            72.0,
-            504.0,
-            1136.0,
-            0.0
+            684.0,
+            449.0,
+            524.0,
+            48.0
           ],
-          "fingerprint": "308981e20ed6945190dc5674eaf8e5281ce14fcd5b6da328c558d869edbb76fc",
-          "fontPt": []
+          "fingerprint": "96adf0a16a9e6952620eb958b2e9ef1755a91d9dfe82301d85b0a209d6d9673c",
+          "fontPt": [
+            18.0
+          ]
         },
         {
           "id": "12",
-          "name": "S05-label3",
+          "name": "S05-limit",
           "kind": "sp",
-          "text": "Keep the limit visible",
+          "text": "No real dataset or sample count;\ngeneralization remains untested.",
           "boundsPx": [
-            72.0,
-            518.0,
-            306.0,
-            52.0
+            684.0,
+            572.0,
+            524.0,
+            76.0
           ],
-          "fingerprint": "7061dd3f46c86369158de388c305828a5351af17be0990f307f27585f81bf6a8",
+          "fingerprint": "522863aee9962e7a57580c722dfdede59fd2ecb10328a86d8d8df5c5e560e25f",
           "fontPt": [
-            18.75
+            16.5
           ]
         },
         {
           "id": "13",
-          "name": "S05-body3",
+          "name": "S05-disclosure",
           "kind": "sp",
-          "text": "No real dataset or sample count: no generalization claim.",
+          "text": "Illustrative data",
           "boundsPx": [
-            402.0,
-            518.0,
-            806.0,
-            52.0
+            64.0,
+            669.0,
+            480.0,
+            23.0
           ],
-          "fingerprint": "5ae1ffa8609f9e64d27a77049bd3520d84bfde7ed0329568424d339e07741235",
+          "fingerprint": "265d60a530ed98c65e82f79c0dd8e6d266f4193f2c2e20a9396dba478f32f3dc",
           "fontPt": [
-            18.0
+            12.75
           ]
         }
       ],

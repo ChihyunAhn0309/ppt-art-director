@@ -8,6 +8,12 @@ When there is only a topic, use a stated provisional brief: an informed general 
 
 Speaking decks support a speaker with selective evidence and generous visual space. Reading decks need more complete claims, definitions, citations, and methodological context. A research talk may need both concise main slides and a technical appendix; add the appendix only if compatible with the requested count and scope.
 
+## Audience content versus production context
+
+Do not turn the brief into slide copy. Talk duration, target-audience descriptions, requested slide counts, mode, design instructions, revision IDs and QA status belong in the planning/build files. For example, a private brief saying “five-minute lab seminar” does not authorize a visible “Lab seminar · 5 minutes” label. Include an event, author or date only when supplied for audience-facing use or required by the template. Keep rehearsal timing in the plan; add it to speaker notes only when requested. Notes should otherwise contain the spoken explanation and sources, not production commentary.
+
+Before exporting, inspect each visible element for its audience role: subject, claim, evidence, interpretation, essential qualifier, identity or useful navigation. Remove elements that only help the author manage the job. Keep scientific caveats, units and source attribution that the audience needs; express them concisely in audience language rather than repeating “not provided” inventory from the brief.
+
 ## Evidence before layout
 
 Create a private source ledger:

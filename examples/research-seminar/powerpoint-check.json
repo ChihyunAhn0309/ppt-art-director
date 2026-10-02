@@ -25,6 +25,100 @@
       "playbackVerified": false
     }
   ],
+  "audienceContent": {
+    "checks": [
+      {
+        "file": "animated.pptx",
+        "slideAndNoteParts": 10,
+        "metadataMatches": []
+      },
+      {
+        "file": "animated-ko.pptx",
+        "slideAndNoteParts": 10,
+        "metadataMatches": []
+      },
+      {
+        "file": "static.pptx",
+        "slideAndNoteParts": 10,
+        "metadataMatches": []
+      },
+      {
+        "file": "static-ko.pptx",
+        "slideAndNoteParts": 10,
+        "metadataMatches": []
+      }
+    ],
+    "scope": "Known private-brief and production phrases in slide/notes text, plus independent manual review; not a general privacy scanner."
+  },
+  "textContrast": {
+    "name": "Actual example text pairs",
+    "pairs": [
+      {
+        "fg": "ink",
+        "bg": "ivory",
+        "minimum": 4.5,
+        "ratio": 12.569,
+        "pass": true
+      },
+      {
+        "fg": "muted",
+        "bg": "ivory",
+        "minimum": 4.5,
+        "ratio": 5.078,
+        "pass": true
+      },
+      {
+        "fg": "ink",
+        "bg": "soft",
+        "minimum": 4.5,
+        "ratio": 11.637,
+        "pass": true
+      },
+      {
+        "fg": "muted",
+        "bg": "soft",
+        "minimum": 4.5,
+        "ratio": 4.701,
+        "pass": true
+      },
+      {
+        "fg": "tealText",
+        "bg": "soft",
+        "minimum": 4.5,
+        "ratio": 5.037,
+        "pass": true
+      },
+      {
+        "fg": "white",
+        "bg": "teal",
+        "minimum": 4.5,
+        "ratio": 4.89,
+        "pass": true
+      },
+      {
+        "fg": "white",
+        "bg": "ink",
+        "minimum": 4.5,
+        "ratio": 13.825,
+        "pass": true
+      },
+      {
+        "fg": "mint",
+        "bg": "ink",
+        "minimum": 4.5,
+        "ratio": 9.425,
+        "pass": true
+      },
+      {
+        "fg": "pale",
+        "bg": "ink",
+        "minimum": 4.5,
+        "ratio": 10.713,
+        "pass": true
+      }
+    ],
+    "pass": true
+  },
   "motion": {
     "effectCountPerLanguage": 12,
     "clickGroups": 2,

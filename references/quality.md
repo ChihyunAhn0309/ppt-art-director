@@ -9,6 +9,7 @@ Check separate properties separately. A valid ZIP is not proof of a valid PPTX; 
 - Read title and chart together. Does the evidence support the conclusion? Does a context slide overstate an insight?
 - Check the requested language for translated abstractions, empty slogans, and awkward phrasing. For Korean, inspect noun chains and particles; for English, inspect idiom and sentence structure. Technical precision outranks stylistic simplification.
 - Remove sample names, placeholder text, duplicate sections, internal workflow notes, and unsupported claims of novelty or superiority.
+- Check visible copy and speaker notes for leaked brief metadata: duration, audience category, slide-count targets, authoring directions and QA remarks. Keep timing in the plan unless the user asks for presenter cues in the file.
 
 ## Package and editability review
 
@@ -29,6 +30,7 @@ Render every slide from the actual final file or a verified equivalent static ex
 - margins, alignments, repeated category colors, and type roles are consistent;
 - images are sharp, relevant, not stretched, and not incorrectly cropped;
 - hardest body slide receives the same design care as the title.
+- focal and supporting regions form a deliberate composition at normal viewing size; removing pictures has not left a sequence of disconnected text blocks or visually identical sparse pages.
 
 Compare focal text's actual line count and line endings to the plan in [typography.md](typography.md), even when geometry validation passes. A deliberate two-line title can be appropriate; an accidental wrap or stranded word needs repair. Use native text line counts and bounds when available, then inspect the pixels. Repeat for every language edition and compare redesigned slides to their originals.
 

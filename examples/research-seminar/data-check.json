@@ -68,8 +68,8 @@
       ],
       "nativeConnectors": 2,
       "animationTargets": [],
-      "originalSha256": "de0beb8405d6d0559156e60d85548753ade9135c8b01302238a1dfb4dbf7cd05",
-      "publicSha256": "672e5898872a13402813fd75a2d3233d7caca9d6de1cfd9ca81793489127b948",
+      "originalSha256": "28821f60fbcff81482abb520845cdc74e54c73cc8fb2e1c61337baa087d9548f",
+      "publicSha256": "358752fcd18a12ced38e8cb7af13ec7d93fe95f9d5ad18f671a0d6192c86266c",
       "metadataChange": [
         "docProps/core.xml"
       ],
@@ -149,8 +149,8 @@
         "S02-stage-2",
         "S02-stage-3"
       ],
-      "originalSha256": "4ffb6e241f08fe5b5247325adc419b6be38e2ea40f4d2a9ad3d55ef86fecbb36",
-      "publicSha256": "85168be817dc85755339bcf2fca8ce9293e28701b72b9f289f629fca2f66ef1e",
+      "originalSha256": "87c33f342054fd5885e6c96c08a0d331355ae14694a83bf5f9aec6a48b30c041",
+      "publicSha256": "30acca358528250883789347e082730fed028a6482eaceb50a2f4650212f485e",
       "metadataChange": [
         "docProps/core.xml"
       ],
@@ -217,8 +217,8 @@
       ],
       "nativeConnectors": 2,
       "animationTargets": [],
-      "originalSha256": "c8d1a2e6197a7be30b6e2ec5a5a557e576221b2fa32ade3d0bdb417b9f7cb809",
-      "publicSha256": "c55ed3358f5dde1a91924c88016bcecf3f01fba119080710d741b7b7e598cd6c",
+      "originalSha256": "82ab8a387509133b1e4c99d5cd13930cce75debb8b93a48c24f2be62c49eba69",
+      "publicSha256": "be90d7f54e547bc0dfc02ce36ae0ef49bd78093ff2deb58e759720f25703c08d",
       "metadataChange": [
         "docProps/core.xml"
       ],
@@ -298,8 +298,8 @@
         "S02-stage-2",
         "S02-stage-3"
       ],
-      "originalSha256": "670730d65d4a0bd3e3678827e36ec07b8d808f50c9e861ef0ed287c8f37a2e47",
-      "publicSha256": "2b3fb6835e550d404fc3ec93b38806e1d981d4882d3cbe8b2cd990593db123bb",
+      "originalSha256": "fa7753e1c65754c0427481437af780c9de6568f2bbfb52d4248a28aa7d5321fd",
+      "publicSha256": "e7d691c13fee4233a2c2f0ddb48a98153b2c389557474865c6bd147541e640d4",
       "metadataChange": [
         "docProps/core.xml"
       ],

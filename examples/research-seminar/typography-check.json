@@ -2,63 +2,63 @@
   "renderer": "Microsoft PowerPoint",
   "measurementUnit": "points",
   "boundsTolerance": 1,
-  "textBoxesChecked": 55,
+  "textBoxesChecked": 58,
   "mismatches": 0,
   "checks": [
     {
       "slide": 1,
-      "name": "S01-section",
-      "text": "Lab seminar · 5 minutes",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 176.37,
-      "frameWidth": 852.0,
-      "boundHeight": 19.8,
-      "frameHeight": 26.25
-    },
-    {
-      "slide": 1,
       "name": "S01-title",
-      "text": "Sensor anomaly detection\rwith smaller models",
-      "expectedLines": 2,
-      "actualLines": 2,
-      "boundWidth": 501.17,
-      "frameWidth": 852.0,
-      "boundHeight": 102.6,
-      "frameHeight": 116.25
+      "text": "Sensor anomaly\rdetection with\rsmaller models",
+      "expectedLines": 3,
+      "actualLines": 3,
+      "boundWidth": 284.13,
+      "frameWidth": 358.5,
+      "boundHeight": 140.4,
+      "frameHeight": 174.0
     },
     {
       "slide": 1,
       "name": "S01-subtitle",
-      "text": "Knowledge distillation and INT8 quantization",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 436.88,
-      "frameWidth": 852.0,
-      "boundHeight": 26.1,
-      "frameHeight": 39.0
+      "text": "Knowledge distillation\rand INT8 quantization",
+      "expectedLines": 2,
+      "actualLines": 2,
+      "boundWidth": 218.88,
+      "frameWidth": 345.0,
+      "boundHeight": 52.2,
+      "frameHeight": 78.0
     },
     {
       "slide": 1,
-      "name": "S01-basis",
-      "text": "Baseline compared with INT8",
+      "name": "S01-comparison",
+      "text": "The compression trade-off",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 225.55,
-      "frameWidth": 852.0,
+      "boundWidth": 358.32,
+      "frameWidth": 421.5,
+      "boundHeight": 36.0,
+      "frameHeight": 57.0
+    },
+    {
+      "slide": 1,
+      "name": "S01-baseline",
+      "text": "baseline",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 66.78,
+      "frameWidth": 112.5,
       "boundHeight": 20.7,
-      "frameHeight": 27.0
+      "frameHeight": 24.0
     },
     {
       "slide": 1,
-      "name": "S01-value-1",
-      "text": "120 → 54",
+      "name": "S01-int8",
+      "text": "int8",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 141.38,
-      "frameWidth": 232.5,
-      "boundHeight": 38.7,
-      "frameHeight": 49.5
+      "boundWidth": 33.75,
+      "frameWidth": 93.75,
+      "boundHeight": 20.7,
+      "frameHeight": 24.0
     },
     {
       "slide": 1,
@@ -66,21 +66,32 @@
       "text": "Latency (ms)",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 103.86,
-      "frameWidth": 247.5,
-      "boundHeight": 21.6,
-      "frameHeight": 28.5
+      "boundWidth": 99.99,
+      "frameWidth": 157.5,
+      "boundHeight": 20.7,
+      "frameHeight": 41.25
     },
     {
       "slide": 1,
-      "name": "S01-value-2",
-      "text": "0.910 → 0.896",
+      "name": "S01-value-base-1",
+      "text": "120",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 207.5,
-      "frameWidth": 300.0,
-      "boundHeight": 38.7,
-      "frameHeight": 49.5
+      "boundWidth": 53.88,
+      "frameWidth": 120.0,
+      "boundHeight": 34.2,
+      "frameHeight": 41.25
+    },
+    {
+      "slide": 1,
+      "name": "S01-value-int8-1",
+      "text": "54",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 38.5,
+      "frameWidth": 112.5,
+      "boundHeight": 34.2,
+      "frameHeight": 41.25
     },
     {
       "slide": 1,
@@ -88,21 +99,32 @@
       "text": "F1",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 23.38,
-      "frameWidth": 247.5,
-      "boundHeight": 21.6,
-      "frameHeight": 28.5
+      "boundWidth": 22.38,
+      "frameWidth": 157.5,
+      "boundHeight": 20.7,
+      "frameHeight": 41.25
     },
     {
       "slide": 1,
-      "name": "S01-value-3",
-      "text": "48 → 12",
+      "name": "S01-value-base-2",
+      "text": "0.910",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 124.0,
-      "frameWidth": 232.5,
-      "boundHeight": 38.7,
-      "frameHeight": 49.5
+      "boundWidth": 75.38,
+      "frameWidth": 120.0,
+      "boundHeight": 34.2,
+      "frameHeight": 41.25
+    },
+    {
+      "slide": 1,
+      "name": "S01-value-int8-2",
+      "text": "0.896",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 75.38,
+      "frameWidth": 112.5,
+      "boundHeight": 34.2,
+      "frameHeight": 41.25
     },
     {
       "slide": 1,
@@ -110,30 +132,41 @@
       "text": "Model size (MB)",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 132.38,
-      "frameWidth": 247.5,
-      "boundHeight": 21.6,
-      "frameHeight": 28.5
+      "boundWidth": 127.25,
+      "frameWidth": 157.5,
+      "boundHeight": 20.7,
+      "frameHeight": 41.25
+    },
+    {
+      "slide": 1,
+      "name": "S01-value-base-3",
+      "text": "48",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 38.5,
+      "frameWidth": 120.0,
+      "boundHeight": 34.2,
+      "frameHeight": 41.25
+    },
+    {
+      "slide": 1,
+      "name": "S01-value-int8-3",
+      "text": "12",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 38.5,
+      "frameWidth": 112.5,
+      "boundHeight": 34.2,
+      "frameHeight": 41.25
     },
     {
       "slide": 1,
       "name": "S01-disclosure",
-      "text": "Illustrative data · not experimental results",
+      "text": "Illustrative data",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 234.76,
-      "frameWidth": 750.0,
-      "boundHeight": 15.3,
-      "frameHeight": 17.25
-    },
-    {
-      "slide": 1,
-      "name": "S01-number",
-      "text": "01",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 17.25,
-      "frameWidth": 28.5,
+      "boundWidth": 89.55,
+      "frameWidth": 360.0,
       "boundHeight": 15.3,
       "frameHeight": 17.25
     },
@@ -151,10 +184,10 @@
     {
       "slide": 2,
       "name": "S02-disclosure",
-      "text": "Illustrative data · not experimental results",
+      "text": "Illustrative data",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 234.76,
+      "boundWidth": 89.55,
       "frameWidth": 750.0,
       "boundHeight": 15.3,
       "frameHeight": 17.25
@@ -177,9 +210,9 @@
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 158.38,
-      "frameWidth": 234.0,
+      "frameWidth": 240.0,
       "boundHeight": 18.9,
-      "frameHeight": 27.75
+      "frameHeight": 30.0
     },
     {
       "slide": 2,
@@ -188,9 +221,9 @@
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 128.25,
-      "frameWidth": 234.0,
+      "frameWidth": 240.0,
       "boundHeight": 18.9,
-      "frameHeight": 27.75
+      "frameHeight": 30.0
     },
     {
       "slide": 2,
@@ -223,7 +256,7 @@
       "boundWidth": 172.36,
       "frameWidth": 250.5,
       "boundHeight": 43.2,
-      "frameHeight": 60.75
+      "frameHeight": 55.5
     },
     {
       "slide": 2,
@@ -256,7 +289,7 @@
       "boundWidth": 202.89,
       "frameWidth": 250.5,
       "boundHeight": 43.2,
-      "frameHeight": 60.75
+      "frameHeight": 55.5
     },
     {
       "slide": 2,
@@ -289,15 +322,15 @@
       "boundWidth": 211.99,
       "frameWidth": 250.5,
       "boundHeight": 43.2,
-      "frameHeight": 60.75
+      "frameHeight": 55.5
     },
     {
       "slide": 2,
       "name": "S02-caveat",
-      "text": "Conceptual workflow. Architecture and quantization scope are unspecified.",
+      "text": "Conceptual overview; implementation details vary.",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 521.29,
+      "boundWidth": 353.04,
       "frameWidth": 852.0,
       "boundHeight": 18.9,
       "frameHeight": 28.5
@@ -316,10 +349,10 @@
     {
       "slide": 3,
       "name": "S03-disclosure",
-      "text": "Illustrative data · not experimental results",
+      "text": "Illustrative data",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 234.76,
+      "boundWidth": 89.55,
       "frameWidth": 750.0,
       "boundHeight": 15.3,
       "frameHeight": 17.25
@@ -349,10 +382,10 @@
     {
       "slide": 3,
       "name": "S03-limit",
-      "text": "Same device and data assumed. Sample count, variance and dataset are unspecified.",
+      "text": "Illustrative comparison on assumed matching device and data; variability is not evaluated.",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 589.01,
+      "boundWidth": 624.67,
       "frameWidth": 852.0,
       "boundHeight": 18.9,
       "frameHeight": 31.5
@@ -371,10 +404,10 @@
     {
       "slide": 4,
       "name": "S04-disclosure",
-      "text": "Illustrative data · not experimental results",
+      "text": "Illustrative data",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 234.76,
+      "boundWidth": 89.55,
       "frameWidth": 750.0,
       "boundHeight": 15.3,
       "frameHeight": 17.25
@@ -419,7 +452,7 @@
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 133.24,
-      "frameWidth": 246.0,
+      "frameWidth": 225.0,
       "boundHeight": 21.6,
       "frameHeight": 26.25
     },
@@ -430,7 +463,7 @@
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 98.63,
-      "frameWidth": 240.0,
+      "frameWidth": 225.0,
       "boundHeight": 41.4,
       "frameHeight": 49.5
     },
@@ -440,9 +473,9 @@
       "text": "Latency · 120 → 54 ms",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 173.37,
-      "frameWidth": 246.0,
-      "boundHeight": 20.7,
+      "boundWidth": 165.75,
+      "frameWidth": 225.0,
+      "boundHeight": 19.8,
       "frameHeight": 28.5
     },
     {
@@ -452,7 +485,7 @@
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 115.13,
-      "frameWidth": 240.0,
+      "frameWidth": 225.0,
       "boundHeight": 41.4,
       "frameHeight": 49.5
     },
@@ -462,9 +495,9 @@
       "text": "F1 · absolute difference",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 180.89,
-      "frameWidth": 246.0,
-      "boundHeight": 20.7,
+      "boundWidth": 173.15,
+      "frameWidth": 225.0,
+      "boundHeight": 19.8,
       "frameHeight": 28.5
     },
     {
@@ -473,10 +506,10 @@
       "text": "Size: 48 → 12 MB (−75%)",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 186.13,
-      "frameWidth": 246.0,
-      "boundHeight": 19.8,
-      "frameHeight": 36.0
+      "boundWidth": 178.13,
+      "frameWidth": 225.0,
+      "boundHeight": 18.9,
+      "frameHeight": 31.5
     },
     {
       "slide": 4,
@@ -485,7 +518,7 @@
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 268.25,
-      "frameWidth": 852.0,
+      "frameWidth": 540.0,
       "boundHeight": 19.8,
       "frameHeight": 24.0
     },
@@ -496,64 +529,42 @@
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 340.24,
-      "frameWidth": 852.0,
+      "frameWidth": 540.0,
       "boundHeight": 19.8,
       "frameHeight": 24.0
     },
     {
       "slide": 5,
-      "name": "S05-title",
-      "text": "Deployment criteria remain open",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 477.58,
-      "frameWidth": 852.0,
-      "boundHeight": 38.7,
-      "frameHeight": 52.5
-    },
-    {
-      "slide": 5,
-      "name": "S05-disclosure",
-      "text": "Illustrative data · not experimental results",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 234.76,
-      "frameWidth": 750.0,
-      "boundHeight": 15.3,
-      "frameHeight": 17.25
-    },
-    {
-      "slide": 5,
-      "name": "S05-number",
-      "text": "05",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 17.25,
-      "frameWidth": 28.5,
-      "boundHeight": 15.3,
-      "frameHeight": 17.25
-    },
-    {
-      "slide": 5,
       "name": "S05-main",
-      "text": "Efficiency gains come with lower F1",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 581.95,
-      "frameWidth": 852.0,
-      "boundHeight": 44.1,
-      "frameHeight": 57.0
+      "text": "Efficiency gains\rcome with lower F1",
+      "expectedLines": 2,
+      "actualLines": 2,
+      "boundWidth": 324.95,
+      "frameWidth": 376.5,
+      "boundHeight": 88.2,
+      "frameHeight": 127.5
+    },
+    {
+      "slide": 5,
+      "name": "S05-interpretation",
+      "text": "A deployment decision needs\racceptable latency and F1 limits.",
+      "expectedLines": 2,
+      "actualLines": 2,
+      "boundWidth": 292.97,
+      "frameWidth": 375.0,
+      "boundHeight": 48.6,
+      "frameHeight": 87.0
     },
     {
       "slide": 5,
       "name": "S05-label1",
-      "text": "Set the threshold",
+      "text": "Deployment limits",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 146.38,
-      "frameWidth": 229.5,
-      "boundHeight": 22.5,
-      "frameHeight": 39.0
+      "boundWidth": 199.75,
+      "frameWidth": 393.0,
+      "boundHeight": 28.8,
+      "frameHeight": 36.75
     },
     {
       "slide": 5,
@@ -562,53 +573,75 @@
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 313.24,
-      "frameWidth": 604.5,
+      "frameWidth": 393.0,
       "boundHeight": 21.6,
-      "frameHeight": 39.0
+      "frameHeight": 36.0
     },
     {
       "slide": 5,
       "name": "S05-label2",
-      "text": "Test the behavior",
+      "text": "Repeatability",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 146.07,
-      "frameWidth": 229.5,
-      "boundHeight": 22.5,
-      "frameHeight": 39.0
+      "boundWidth": 143.58,
+      "frameWidth": 393.0,
+      "boundHeight": 28.8,
+      "frameHeight": 36.75
     },
     {
       "slide": 5,
       "name": "S05-body2",
-      "text": "Repeat measurements; inspect failures by anomaly type.",
+      "text": "Repeat measurements on real data.",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 447.66,
-      "frameWidth": 604.5,
+      "boundWidth": 283.53,
+      "frameWidth": 393.0,
       "boundHeight": 21.6,
-      "frameHeight": 39.0
+      "frameHeight": 36.0
     },
     {
       "slide": 5,
       "name": "S05-label3",
-      "text": "Keep the limit visible",
+      "text": "Failure modes",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 175.63,
-      "frameWidth": 229.5,
-      "boundHeight": 22.5,
-      "frameHeight": 39.0
+      "boundWidth": 153.8,
+      "frameWidth": 393.0,
+      "boundHeight": 28.8,
+      "frameHeight": 36.75
     },
     {
       "slide": 5,
       "name": "S05-body3",
-      "text": "No real dataset or sample count: no generalization claim.",
+      "text": "Inspect errors by anomaly type.",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 455.64,
-      "frameWidth": 604.5,
+      "boundWidth": 253.14,
+      "frameWidth": 393.0,
       "boundHeight": 21.6,
-      "frameHeight": 39.0
+      "frameHeight": 36.0
+    },
+    {
+      "slide": 5,
+      "name": "S05-limit",
+      "text": "No real dataset or sample count;\rgeneralization remains untested.",
+      "expectedLines": 2,
+      "actualLines": 2,
+      "boundWidth": 241.53,
+      "frameWidth": 393.0,
+      "boundHeight": 39.6,
+      "frameHeight": 57.0
+    },
+    {
+      "slide": 5,
+      "name": "S05-disclosure",
+      "text": "Illustrative data",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 89.55,
+      "frameWidth": 360.0,
+      "boundHeight": 15.3,
+      "frameHeight": 17.25
     }
   ]
 }

@@ -17,7 +17,7 @@ The product is **[SKILL.md](SKILL.md) and its supporting references and helpers*
 
 [Slide-by-slide plan](examples/research-seminar/slide-plan.md) · [Design decisions and verification](examples/research-seminar/README.md)
 
-This five-minute research seminar uses **fictional data**, not experimental findings. The editions use a topic-first typographic opening, an editable process, a neutral comparison table and a native latency–F1 scatter plot. There is no decorative cover image. Visual hierarchy explains the content; it does not imply an unsupported winning model. English and Korean copy are fitted separately, including a single-line closing takeaway. Previews show the saved PPTX rendered in Microsoft PowerPoint.
+This research example uses **fictional data**, not experimental findings. The opening pairs its subject with aligned comparison values. A continuous method field, a clearly structured native table, and a native latency–F1 scatter plot give each kind of evidence an appropriate composition. The closing statement and decision criteria occupy distinct regions. Color fields group meaningful content; no decorative images are embedded. English and Korean copy are composed and fitted separately, with deliberate phrase breaks. Talk duration and other private briefing details remain in the plan. Previews show the saved PPTX rendered in Microsoft PowerPoint.
 
 ## What the skill does
 
@@ -26,9 +26,11 @@ This five-minute research seminar uses **fictional data**, not experimental find
 - Records what was visually inspected and how it changes the deck; selects suitable [free tools](references/free-tools.md) for diagrams, scientific plots, vectors and editable PPTX production.
 - Chooses a palette for the subject or follows supplied brand colors; includes 12 original palettes and an explicit color-pair contrast checker.
 - Writes a file with the exact copy, evidence, layout, notes, timing and motion for every slide.
+- Keeps production context out of audience copy: duration, audience descriptions, design directions and QA status stay in planning files unless explicitly needed in the presentation.
 - **Waits for feedback by default.** Produces the deck when the user asks to proceed with that feedback.
 - Supports explicit **one-shot** delivery with the same planning and quality checks, without an intermediate review pause.
 - Makes titles and takeaways fit deliberately: concise copy, suitable space, modest size adjustments and semantic line breaks. A text box that does not overflow can still be poorly composed.
+- Designs the relationships among content through proportion, grouping, type scale and selective contrast; removing decoration alone is not a finished design.
 - Uses the requested output language, independently of the source or conversation language. Localizes labels, caveats and speaker notes, then checks each edition separately.
 - Preserves editability where supported and requires visual inspection of every final slide.
 - Adds native motion when it explains a sequence. The bundled helper supports Fade, Appear, click groups and Fade transitions in Windows PowerPoint.

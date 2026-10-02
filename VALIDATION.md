@@ -64,6 +64,20 @@ The requested paper-figure transfer was separately checked against upstream revi
 
 During authoring, the finalizer caught default-font chart labels; explicit fonts fixed them. A subsequent receipt-path collision was resolved with fresh output/receipt paths and successful finalization. PowerPoint briefly remained running after automation shutdown; the next operation waited for it to exit rather than attaching to or terminating a session. These intermediate failures were not reported as successful validation.
 
+## Audience-copy and composition revision
+
+The user found private brief labels such as seminar setting and duration in the example, and said the restraint still resembled text on blank pages. A fresh independent reviewer inspected all ten prior slides and the relevant skill guidance without reading earlier review conclusions. It confirmed those problems and identified disconnected content regions, weak table structure and competing closing headlines.
+
+The reusable skill now routes production context to planning files, checks visible copy and notes for leaked metadata, and defines composition positively: a dominant content object, attached supporting information, deliberate proportions and semantic contrast. The plan template records those decisions. A new behavioral scenario covers this failure mode; it is a review scenario, not an automated aesthetic test.
+
+The author inspected actual gallery-size body-slide pixels from Pitch UX Research Report (slides 8 and 14) and Market Analysis (slides 10 and 12), with scope and rejected traits recorded in the reference index and example plan. The new example uses a subject/comparison opening, a continuous method field, a native table with clear header and row grammar, a plot/interpretation composition, and one focal conclusion paired with decision criteria. No provider template assets or decorative images are embedded.
+
+The independent reviewer then inspected all ten revised full-size PowerPoint renders. It found a substantive composition improvement and no visual delivery blocker. It checked the displayed data, neutral tradeoff framing, English/Korean optical fit and preservation of scientific caveats. It also found two opening-note phrases that still described the seminar setting and visual prominence; those were replaced with subject explanation. A separate contrast check found small teal model IDs below the chosen 4.5:1 target on the new soft field; their text was darkened without changing the method markers or layout.
+
+The reviewer independently confirmed both notes corrections and the darker IDs in all four final PPTX packages. All ten refreshed PowerPoint renders were checked: only the intended S02 text pixels changed after the contrast repair. Each language has 58 measured text boxes with matching intended line counts and no bound failures within the stated 1 pt tolerance. Nine actual text/background pairs meet the selected 4.5:1 threshold. Text, table, chart X/Y and diagram edits persisted after save/reopen in both languages. All four public package audits passed; data, workbooks, arithmetic, labels, edges and native timing targets were checked again. The helper suite ran 34 tests: 32 passed and two Windows symlink-privilege tests were skipped. Skill frontmatter validation passed.
+
+Current file checks and their limits are recorded with the [example](examples/research-seminar/README.md). Historical sections above describe earlier versions and their earlier line-count totals. Animation playback and cross-player appearance remain outside the verified scope.
+
 ## CI history and reproduction
 
 ```shell
