@@ -161,9 +161,10 @@ def main():
         args.output.parent.mkdir(parents=True, exist_ok=True)
         args.output.write_text(rendered, encoding="utf-8")
         print(json.dumps({"pass": result["pass"], "slides": result["slide_count"],
-                          "errors": result["errors"], "report": str(args.output.resolve())}, ensure_ascii=False))
+                          "errors": result["errors"], "report": str(args.output.resolve())}))
     else:
-        print(rendered)
+        # ASCII JSON escapes preserve all Unicode values on legacy consoles.
+        print(json.dumps(result, ensure_ascii=True, indent=2))
     return 0 if result["pass"] else 1
 
 

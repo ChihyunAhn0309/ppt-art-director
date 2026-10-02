@@ -66,7 +66,7 @@ def main():
     results = [check_palette(p) for p in palettes]
     print(json.dumps({"palettes": results, "pass": all(r["pass"] for r in results),
                       "scope": "Explicit opaque sRGB pairs only; not a full accessibility audit."},
-                     ensure_ascii=False, indent=2))
+                     ensure_ascii=True, indent=2))
     return 0 if all(r["pass"] for r in results) else 1
 
 

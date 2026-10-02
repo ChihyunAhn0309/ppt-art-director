@@ -24,9 +24,10 @@ SHELLS = [p for p in (shutil.which("powershell"), shutil.which("pwsh")) if p]
 
 
 def make_package(path, *, comment=False, chart=None, root_relationship=False,
-                 utf16_dtd=False, grouped=False, timing=False):
+                 utf16_dtd=False, grouped=False, timing=False, text="Fixture text"):
     """Small parser fixtures, not a substitute for a full PPTX schema validator."""
     shape = '<p:sp><p:nvSpPr><p:cNvPr id="2" name="target"/></p:nvSpPr><p:txBody><a:p><a:r><a:t>Fixture text</a:t></a:r></a:p></p:txBody></p:sp>'
+    shape = shape.replace('Fixture text', text)
     if grouped:
         shape = '<p:grpSp><p:nvGrpSpPr><p:cNvPr id="3" name="group"/></p:nvGrpSpPr>' + shape + '</p:grpSp>'
     if chart:
@@ -108,6 +109,31 @@ class HelperRegressions(unittest.TestCase):
         self.assert_success(result)
         self.assertTrue(json.loads(output.read_text(encoding="utf-8"))["pass"])
         self.assertEqual(self.deck.read_bytes(), before)
+
+    def test_unicode_results_survive_ascii_console(self):
+        deck = self.work / "발표.pptx"
+        make_package(deck, text="가상 값")
+        palette = self.work / "색상.json"
+        palette.write_text(json.dumps({"name": "연구 팔레트", "colors": {
+            "fg": "000000", "bg": "FFFFFF"}, "pairs": [{"fg": "fg", "bg": "bg"}]}), encoding="utf-8")
+        report = self.work / "보고서.json"
+        environment = dict(os.environ, PYTHONIOENCODING="ascii:strict", PYTHONUTF8="0")
+        cases = [("pptx_audit.py", [deck]),
+                 ("pptx_audit.py", [deck, "--output", report]),
+                 ("palette_check.py", [palette])]
+        results = []
+        for helper, arguments in cases:
+            with self.subTest(helper=helper, arguments=arguments):
+                result = subprocess.run([sys.executable, str(SCRIPTS / helper), *map(str, arguments)],
+                                        env=environment, capture_output=True, timeout=30)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                decoded = json.loads(result.stdout.decode("ascii"))
+                self.assertTrue(decoded["pass"])
+                results.append(decoded)
+        self.assertEqual(results[0]["slides"][0]["text"], ["가상 값"])
+        self.assertEqual(results[1]["report"], str(report.resolve()))
+        self.assertEqual(results[2]["palettes"][0]["name"], "연구 팔레트")
+        self.assertEqual(json.loads(report.read_text(encoding="utf-8"))["slides"][0]["text"], ["가상 값"])
 
     def test_utf16_dtd_rejected_in_real_zip_member(self):
         make_package(self.deck, utf16_dtd=True)
