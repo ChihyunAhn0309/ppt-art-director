@@ -1,6 +1,6 @@
 ---
 name: ppt-art-director
-description: "Create polished, editable PowerPoint presentations in English, Korean, or a requested language, with researched visual references, deliberate typography, slide planning, feedback integration, and purposeful native animation. Use for PPT/PPTX creation or substantial redesign, including research, technical, business, teaching, and keynote decks. Default to a reviewable slide plan before production; support explicit one-shot delivery. Not for text extraction alone."
+description: "Create polished, editable PowerPoint presentations in English, Korean, or a requested language through live template search, visual inspection, deliberate typography, slide planning, feedback integration, and purposeful native animation. Use for PPT/PPTX creation or substantial redesign, including research, technical, business, teaching, and keynote decks. Default to a reviewable slide plan before production; support explicit one-shot delivery. Not for text extraction alone."
 ---
 
 # PPT Art Director
@@ -34,15 +34,17 @@ Before styling, allocate the required evidence across the allowed slides and tim
 
 Separate the private brief from audience copy. Duration, intended audience, slide budget and production instructions remain in the plan; they are not default cover labels or footers. Read the audience-content rules in [planning.md](references/planning.md). Include only information the audience needs or the user explicitly wants displayed.
 
-## 2. Establish art direction from real references
+## 2. Search live templates and establish art direction
 
-Read [design.md](references/design.md) and use [reference-library.md](references/reference-library.md) as a starting index. Identify the hardest communication problem first, then browse references that solve a similar problem: a branching method, dense comparison, equation or source figure. Inspect slide pixels, including body slides; do not infer design quality from descriptions or cover thumbnails alone. A mood reference does not validate an evidence layout. When browsing is unavailable, use the original recipes here and disclose that fresh references were not inspected.
+For a new deck or substantial redesign, read [template-search.md](references/template-search.md). Search the web for the current brief, compare distinct suitable design directions and inspect actual body-slide pixels. The [reference library](references/reference-library.md) is a starting point, not a closed catalogue. Prefer free, usable templates; retrieve a selected original when its terms and editable contents suit the task. Choose the strongest fit among inspected candidates, not an unverified claim of the world's best template.
+
+This is an on-demand workflow using the host's search, browsing and file tools. Do not create a RAG service, vector database, persistent template corpus or hosting dependency. Keep only task-specific references and selected working files. A user-approved template or targeted edit takes precedence over a new search. When browsing is unavailable, state that limitation and use the supplied materials or original design recipes.
 
 For a research method, architecture or explanatory figure, read [research-visuals.md](references/research-visuals.md). It adapts the user-selected paper-figure project's relationship planning to presentation size, without requiring decorative art or an image-generation service. Stop searching when the relevant design decision is supported; there is no template quota.
 
-Honor the user's supplied template and colors. Otherwise choose a coherent direction suited to the content and use compatible references where they resolve a design decision. Record exactly what was observed and adapted. Inspiration is not a license to redistribute a template, photograph, font, or logo.
+Read [design.md](references/design.md) for composition. Honor supplied colors and choose one coherent design system; variety in the shortlist does not justify mismatched slides. Record whether the route is editing an acquired template or independently composing from observed principles. Free download access is not permission to redistribute source templates or their assets.
 
-Use the compact [design reference ledger](assets/design-reference-template.md) inside the plan or as a companion file. Record inspection depth, the design principle transferred to particular slides, and rejected traits. Carry references into concrete decisions about hierarchy, spacing, diagrams and evidence slides; a list of links alone is insufficient.
+Use the compact [design reference ledger](assets/design-reference-template.md) inside the plan or as a companion file. Record the source, inspected pages, terms, editable-object evidence, selected route and affected slide IDs. Carry the selection into concrete proportions, hierarchy, spacing and evidence layouts; a list of links alone is insufficient.
 
 For ambiguous taste, include two or three small visual directions with the planning package when useful. Reuse real content from the deck, including one difficult body slide. This is an option, not an extra approval gate. Do not delay one-shot work with a template picker when the user has delegated design choice.
 

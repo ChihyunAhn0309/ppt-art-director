@@ -2,6 +2,12 @@
 
 Run these in fresh agent sessions with the skill and the raw brief only. Do not provide previous conclusions or example output decks. Keep generated artifacts outside the skill repository. These checks complement helper unit tests; passing them is not a guarantee of aesthetic quality on every topic.
 
+## Live template selection for a new topic
+
+Request a plan only for a six-slide battery-health estimation talk, in separate English and Korean editions, with private constraints of eight minutes and an internal research meeting. Supply a fictional method: voltage/current/temperature measurements to windowed features, then a regression model and a state-of-health estimate. Supply fictional MAE values of 2.4 percentage points for a baseline and 1.7 for the proposed model under the same evaluation conditions; no sample size or uncertainty is available. Ask for refined, natural design from suitable free online templates, without decorative imagery, purchases or a hosted database.
+
+Inspect whether the agent performs a fresh search, compares distinct plausible candidates and views relevant body-slide pixels. The plan should identify the selected source, current access/terms, inspected pages, specific layout-to-slide mappings and the actual production route. If adopting a downloaded template, check the original's native objects and preserve it separately; a flattened slide image does not establish editability. If suitable editable sources cannot be acquired, a truthful native-composition fallback is acceptable. For this internal-presentation brief, distinguish template-redistribution restrictions from permitted presentation use; consider removing decorative placeholders when allowed before rejecting a useful source. Exact bilingual copy must preserve the hypothetical-data label and the 0.7-percentage-point MAE difference, while private meeting metadata stays in the brief. Stop at the plan checkpoint without another template-picker gate. Do not call this a rendered-deck or animation test.
+
 ## 1. Planning checkpoint
 
 Request a five-slide, six-minute Korean graduate-lab talk with restrained design. Supply explicitly hypothetical data: baseline latency 100 ms / accuracy 92.4%; A 78 ms / 92.1%; B 60 ms / 91.8%. State that board, input, and power mode are the same, and that repetitions and uncertainty are not available. Ask for the latency–accuracy tradeoff without a general superiority claim. Do not request one-shot production.

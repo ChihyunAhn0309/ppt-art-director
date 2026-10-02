@@ -20,7 +20,7 @@ These are selectable pathways, not bundled integrations or a claim that every to
 
 ## Turn a reference into a design decision
 
-For a new art direction, inspect actual pixels from relevant external references. Record a cover, a typical body slide and a difficult evidence or process slide when available. A title thumbnail cannot establish body-slide quality. Use [reference-library.md](reference-library.md), then search for the topic and visual task.
+For a new art direction, use [live template search](template-search.md), then inspect actual pixels from relevant external references. Record a cover, a typical body slide and a difficult evidence or process slide when available. A title thumbnail cannot establish body-slide quality. The reference index is a starting point, not a database or a required provider list.
 
 Save an entry in the plan or [reference ledger](../assets/design-reference-template.md) for each selected reference: URL, access date, inspection depth, observed composition, principle adapted, traits rejected and asset rights if any assets are reused. Keep inspiration separate from copying. Free software does not make a third-party template free to redistribute.
 

@@ -1,6 +1,6 @@
 # Validation record
 
-Date: 2026-10-02 (Asia/Seoul). Independent agent sessions used separate work directories on the same machine. They were given the skill and test brief without the author's prior conclusions. This is not external certification or a controlled benchmark across model providers.
+Record updated: 2026-10-03 (Asia/Seoul). Earlier sections record the 2026-10-02 work. Independent agent sessions used separate work directories on the same machine. Behavioral sessions received the skill and raw brief without previous audit verdicts; bundled reference guides include author observations, so these are not blinded tests. This is not external certification or a controlled benchmark across model providers.
 
 ## Initial independent tests
 
@@ -77,6 +77,20 @@ The independent reviewer then inspected all ten revised full-size PowerPoint ren
 The reviewer independently confirmed both notes corrections and the darker IDs in all four final PPTX packages. All ten refreshed PowerPoint renders were checked: only the intended S02 text pixels changed after the contrast repair. Each language has 58 measured text boxes with matching intended line counts and no bound failures within the stated 1 pt tolerance. Nine actual text/background pairs meet the selected 4.5:1 threshold. Text, table, chart X/Y and diagram edits persisted after save/reopen in both languages. All four public package audits passed; data, workbooks, arithmetic, labels, edges and native timing targets were checked again. The helper suite ran 34 tests: 32 passed and two Windows symlink-privilege tests were skipped. Skill frontmatter validation passed.
 
 Current file checks and their limits are recorded with the [example](examples/research-seminar/README.md). Historical sections above describe earlier versions and their earlier line-count totals. Animation playback and cross-player appearance remain outside the verified scope.
+
+## Live template search revision
+
+The new per-task workflow searches current provider pages for the brief, compares relevant body-slide compositions, checks the chosen source's access and terms, and inspects native objects before committing to template editing. It distinguishes editing an acquired original from composing native slides from general design principles. The plan and reference ledger record that route and its application to specific slides. No RAG service, vector database, permanent template corpus or hosted backend was added.
+
+An independent instruction reviewer checked the changed entry point, guides, plan assets, README and metadata. It found one ambiguity in an older linked planning rule: allowing event/author/date fields when "required by the template" could leak unnecessary metadata from an automatically chosen template. The rule now requires audience-facing supplied content or an explicit user requirement, using supplied/verified facts, and treats required license attribution separately. The reviewer reread the correction and confirmed closure. It found no other concrete conflict in plan-first, one-shot, English/Korean support or the search/acquisition/fallback routes. Internal links passed. The reviewer independently reproduced the reference index's single sampled PPTX containing four full-slide pictures and no native text or tables; this is not a collection-wide audit.
+
+A fresh independent session exercised a different brief: a six-slide, eight-minute battery-health talk in English and Korean, with fictional MAE values and a plan-only checkpoint. It searched SlidesCarnival and SlidesMania, viewed Scientific Conference body pages 7/8 at 1200 × 675 and Minimal Brown pages 9/13/18 plus its cover at roughly 986 × 555. It acquired the provider-linked Minimal Brown PPTX without a purchase/account and inspected its package: 21 slides, one master, 16 layouts, native text/shapes, and no native chart/table parts. The original stayed in the test working directory; it is not bundled in this repository.
+
+The first candidate decision overgeneralized template-redistribution restrictions to an internal adapted presentation and chose a composition fallback prematurely. Author feedback checked the provider's actual permitted presentation use. The guide now separates those activities and considers removing permitted decorative placeholders before rejecting useful native layouts. The independent session acknowledged that correction and revised its planned route to the acquired original with retained required credit, removed decoration, replaced fonts, and new native method/chart content. This is a feedback-driven correction, not a claim that the initial independent attempt passed unchanged. A separate reviewer checked the new clarification against the provider FAQ and found no blanket-permission claim or conflicting instruction.
+
+The saved plans contain exact English/Korean copy for all six slides, total 480 seconds, preserve the fictional 2.4/1.7-percentage-point MAE values and 0.7-point difference, map the source layouts to slide IDs and stop for feedback. Private meeting/duration details stay in the brief. The original file remains untouched; no adapted PPTX was produced. Local method prototypes are planning images, not imported-template renders or evidence of final text fit, native editing or animation playback.
+
+Skill frontmatter validation passed. The local helper suite ran 34 tests: 32 passed and two symlink tests were skipped because symlink creation is unavailable on this Windows host. This iteration changes instructions and documentation, not the example slides or authoring helpers. It does not claim a new example render, visual playback test or universal template-quality benchmark.
 
 ## CI history and reproduction
 

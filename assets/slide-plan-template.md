@@ -26,6 +26,7 @@ For dense fixed-count briefs: required evidence-to-slide map and the hardest rea
 
 - Inspected design references, links, inspection depth and useful principles:
 - Chosen direction and why it suits the subject:
+- Selected template/source and route: native template editing or original composition; actual access, usage terms, attribution and editability evidence:
 - HEX roles: background / primary text / secondary text / accent / data colors:
 - Fonts and fallbacks / title, body and caption sizes:
 - Image and evidence style / margins and alignment:

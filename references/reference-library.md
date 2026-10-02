@@ -1,6 +1,21 @@
 # Visual reference index
 
-Reviewed 2026-10-02. This is a curated research starting point, not a redistributed template collection. Select references that solve the current content problem. A larger list is not a substitute for inspecting relevant body slides.
+Updated 2026-10-03; earlier observations were recorded on 2026-10-02. This is a curated research starting point, not a redistributed template collection. Select references that solve the current content problem. A larger list is not a substitute for inspecting relevant body slides.
+
+Follow [live template search and adaptation](template-search.md) for each new brief. This list does not replace a current search or constrain it to these providers.
+
+## Discovery and acquisition starting points
+
+| Source | Useful starting point | Check before selecting |
+|---|---|---|
+| [Pitch](https://pitch.com/templates) | Contemporary composition and varied body-slide previews | Gallery visibility does not establish free PPTX export or native objects. |
+| [Slidesgo](https://slidesgo.com/) | Academic, technical and topic-specific template searches | Check the item and [current FAQ](https://slidesgo.com/faqs), access limits and required attribution; free download does not permit a redistributed template collection. |
+| [SlidesCarnival](https://www.slidescarnival.com/) | Broad free-template discovery | Read the item and [FAQ](https://www.slidescarnival.com/faqs) for credits and redistribution boundaries; link the provider page rather than treating download links as a public mirror. |
+| [SlidesMania](https://slidesmania.com/) | Free PowerPoint/Google Slides templates with varied native layouts | Its [use FAQ](https://slidesmania.com/questions-powerpoint-google-slides/can-i-use-these-templates/) distinguishes personal/work presentations from template redistribution and requires retained source credit. Check the selected file and intended delivery. |
+| [Canva](https://www.canva.com/presentations/templates/) | Varied visual directions | Verify the selected design's free/paid elements, export access and terms; public previews do not prove a usable free PPTX. |
+| [ai-ppt-template/free-ppt-template](https://github.com/ai-ppt-template/free-ppt-template) | Public template index with original download links | Read its [license](https://github.com/ai-ppt-template/free-ppt-template/blob/main/LICENSE), including attribution. Inspect actual native objects rather than trusting the editable label. |
+
+Keep only selected per-task working files. No third-party source template or preview assets are bundled here. These entries are discovery aids, not a whole-collection quality or native-editability audit. During research, the last source's `apa-paper-outline-workbook` v3 PPTX contained four full-slide pictures and no native text or tables; that finding applies only to that sample and makes file inspection essential.
 
 ## Direct visual observations made during skill creation
 
@@ -12,6 +27,8 @@ Reviewed 2026-10-02. This is a curated research starting point, not a redistribu
 | [Pitch gallery](https://pitch.com/templates) | Multiple gallery previews including Bloom and Wave | Different image atmospheres, typographic scales, and texture strategies | Catalogue review only; do not claim whole decks were inspected |
 | [Pitch UX Research Report](https://pitch.com/templates/UX-Research-Report-4Crjbr5pvJCJ4vHD2t2z7N9j) | Gallery-size pixels of cover, process slide 8 and evidence slide 14 | A continuous process field, shared column anchors and distinct evidence/interpretation regions | Inspected on 2026-10-02; gallery previews, not source PPTX or full-resolution pages. Rejected decorative dot patterns, unrelated photography and automatic event/date metadata |
 | [Pitch Market Analysis](https://pitch.com/templates/Market-Analysis-44RvbN4PQRqn5DB7hp6wA3GR) | Gallery-size pixels of market-size slide 10 and demographics slide 12 | Deliberate evidence-to-label proportions, shared alignment across plots and clear header/body roles | Inspected on 2026-10-02. Rejected ornamental section badges and large indices; quantitative geometry must come from the user's evidence, not template shapes |
+| [SlidesCarnival Scientific Conference](https://www.slidescarnival.com/template/scientific-conference-slides/331609) | Independent 2026-10-03 test: body previews 7 and 8 at 1200 × 675 | Distinct explanation/method regions and evidence/interpretation hierarchy | Original not acquired: the inspected item used a Canva export route. No native-object claim; decorative photos and zigzag flow were not adopted. |
+| [SlidesMania Minimal Brown](https://slidesmania.com/minimal-brown-free-presentation-template/) | Independent 2026-10-03 test: cover and body slides 9, 13 and 18 at roughly 986 × 555; downloaded-original XML inventory | Aligned paired columns and a continuous reading path | Original has 21 slides, native text/shapes, one master and 16 layouts; no chart/table parts. Native adaptation was planned with required credit and removal of decoration. Final editing and rendered fit were not tested. |
 
 ## Additional catalogue/detail references
 

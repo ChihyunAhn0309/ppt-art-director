@@ -2,9 +2,15 @@
 
 [![Validate helpers](https://github.com/ChihyunAhn0309/ppt-art-director/actions/workflows/validate.yml/badge.svg?branch=main&event=push)](https://github.com/ChihyunAhn0309/ppt-art-director/actions/workflows/validate.yml)
 
-A reusable agent skill for clear, polished, editable PowerPoint presentations: researched visual references, precise slide planning, considered typography, topic-specific colors and purposeful native animation. Designed especially for research talks, paper seminars and technical presentations, with **English and Korean support**.
+A reusable agent skill for clear, polished, editable PowerPoint presentations: **live template search**, precise slide planning, considered typography, topic-specific colors and purposeful native animation. Designed especially for research talks, paper seminars and technical presentations, with **English and Korean support**.
 
 The product is **[SKILL.md](SKILL.md) and its supporting references and helpers**. The agent uses its available presentation tools; this repository is not a hosted generation service or a bundled presentation engine.
+
+## Search templates for the current brief
+
+The skill searches current provider pages for suitable free templates, compares distinct design directions and inspects actual body slides. It retrieves a selected original when access, usage terms and native editability support the task, then adapts its useful layouts to the user's content. A `.pptx` download containing only slide images does not pass as an editable template. When no suitable original is available, the agent can create native slides from general observed principles and clearly identify that route.
+
+This uses the host's search, browser and file tools; it requires no RAG service, vector database, permanent template collection or hosted backend. Sources, terms, inspected pages and the selection rationale stay with the task's slide plan. The agent chooses the strongest fit among inspected candidates, without claiming exhaustive search or guaranteed aesthetic superiority. See [live template search and adaptation](references/template-search.md).
 
 ## Real presentation example
 
@@ -22,6 +28,7 @@ This research example uses **fictional data**, not experimental findings. The op
 ## What the skill does
 
 - Allocates required evidence before styling; researches references that solve the actual comparison or explanation problem.
+- Searches beyond the bundled reference list, checks access and native editing, and maps the selected design to slide IDs without adding a separate template-picker approval gate.
 - Adapts [paper-figure principles](references/research-visuals.md): meaning before geometry, traceable relationships, editable explanation and saved-slide review. Decorative art is not required.
 - Records what was visually inspected and how it changes the deck; selects suitable [free tools](references/free-tools.md) for diagrams, scientific plots, vectors and editable PPTX production.
 - Chooses a palette for the subject or follows supplied brand colors; includes 12 original palettes and an explicit color-pair contrast checker.
@@ -58,7 +65,8 @@ Start with a reviewable plan:
 $ppt-art-director
 Plan a 12-slide English lab seminar from the attached paper.
 The audience is graduate researchers; the talk is 15 minutes.
-Use a refined, restrained design. Show the exact content of each slide
+Search online for suitable free templates and inspect their body slides.
+Choose a refined, restrained design with editable content. Show each slide's exact copy
 in a plan file and wait for my feedback before producing the PPTX.
 ```
 
@@ -76,6 +84,7 @@ One-shot delivery:
 $ppt-art-director
 Create an eight-slide, ten-minute technical talk in one shot.
 Use the attached material and choose a palette appropriate to the topic.
+Search current free templates and adapt the strongest suitable editable source.
 Make separate English and Korean editions. Fit the copy in each language.
 Use click-driven animation only where it clarifies the method.
 Do not invent missing results, uncertainty estimates or citations.
@@ -86,6 +95,7 @@ Do not invent missing results, uncertainty estimates or citations.
 | Capability | Requirement | Boundary |
 |---|---|---|
 | Planning, design and feedback | Agent with file access; browsing for current references | Model and source quality affect results |
+| Live template search and acquisition | Host search, browser and download tools | Check actual source access, use terms and native objects; disclose unavailable sources |
 | Editable PPTX production | Host presentation tools or a documented PPTX library | No authoring engine is bundled |
 | Palette and package checks | Python 3.10+, standard library | Not complete accessibility, OOXML or design validation |
 | Visual review | A renderer and image inspection tools | Passing structural checks does not establish visual quality |
@@ -112,7 +122,7 @@ Use `-DryRun` to validate a motion plan against the exported file before applyin
 
 ## References and original implementation
 
-The research includes Anthropic's public PPTX skill, Google's official Gemini and Slides documentation, MiniMax and other public implementations, Pitch, Slidesgo, Canva, MIT Communication Lab and Microsoft PowerPoint guidance. The [source ledger](references/sources.md) and [design reference library](references/reference-library.md) distinguish inspected material, borrowed principles and unavailable internals.
+The research includes Anthropic's public PPTX skill, Google's official Gemini and Slides documentation, MiniMax and other public implementations, Pitch, Slidesgo, SlidesCarnival, SlidesMania, Canva, MIT Communication Lab and Microsoft PowerPoint guidance. The [source ledger](references/sources.md) and [design reference library](references/reference-library.md) distinguish inspected material, borrowed principles and unavailable internals.
 
 This is an original implementation. It does not redistribute Anthropic skill code or claim access to Google's private presentation-generation skill. No controlled Claude-versus-Gemini-versus-Codex quality benchmark was conducted. External templates and fonts retain their own terms. The example workflow also follows the user-requested [paper-figure](https://github.com/JYS1025/paper-figure) process; its tools are not bundled or required for general use.
 
@@ -122,6 +132,7 @@ This is an original implementation. It does not redistribute Anthropic skill cod
 |---|---|
 | [SKILL.md](SKILL.md) | Entry point and workflow |
 | [Planning template](assets/slide-plan-template.md) | Exact slide specifications and feedback record |
+| [Live template search](references/template-search.md) | Per-task discovery, selection, acquisition and adaptation without a database |
 | [Design](references/design.md) | Composition, palette and evidence presentation |
 | [Typography](references/typography.md) | Deliberate line fitting and language-specific checks |
 | [Free tools](references/free-tools.md) | Task-specific tool choices, editable-source boundaries and zero-purchase routes |

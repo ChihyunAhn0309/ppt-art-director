@@ -5,6 +5,7 @@ Check separate properties separately. A valid ZIP is not proof of a valid PPTX; 
 ## Content review
 
 - Compare each slide against the approved plan and user feedback; verify exact requested count and required topics.
+- Verify the selected source/route against the reference ledger: actual inspected pages, any acquired original, applicable credits, and whether the final file preserves the claimed editable objects. Do not report preview-only inspiration as template import.
 - Check claims against the source ledger, including denominators, periods, units, derived values, uncertainty, and chart labels.
 - Read title and chart together. Does the evidence support the conclusion? Does a context slide overstate an insight?
 - Check the requested language for translated abstractions, empty slogans, and awkward phrasing. For Korean, inspect noun chains and particles; for English, inspect idiom and sentence structure. Technical precision outranks stylistic simplification.

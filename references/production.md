@@ -38,7 +38,7 @@ Create the design tokens before the slide loop. Give motion targets unique meani
 
 ## Template fidelity
 
-Determine whether an uploaded deck is a design reference, a factual source, or both. For a template, inspect the master dimensions, recurring typography, layouts, spacing, image treatment, and reusable objects. Preserve those deliberately. Do not use the first template layout for every slide. Remove unused placeholder groups, not just their text.
+For a discovered template, follow [template-search.md](template-search.md) to acquire a usable original and distinguish actual template editing from reference-led original composition. Determine whether an uploaded or downloaded deck is a design reference, a factual source, or both. Inspect master dimensions, recurring typography, layouts, spacing, image treatment, and reusable objects. Preserve those deliberately. Do not use the first template layout for every slide. Remove unused placeholder groups, not just their text.
 
 For edits, inventory notes, hyperlinks, media, charts, embedded workbooks, and existing timing before transformation. Compare source and output. Do not globally rebuild a sophisticated template if the selected engine drops critical features. Use supported native editing or a feature-preserving file transformation instead.
 
