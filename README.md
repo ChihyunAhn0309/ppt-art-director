@@ -2,7 +2,7 @@
 
 [![Validate helpers](https://github.com/ChihyunAhn0309/ppt-art-director/actions/workflows/validate.yml/badge.svg?branch=main&event=push)](https://github.com/ChihyunAhn0309/ppt-art-director/actions/workflows/validate.yml)
 
-A reusable agent skill for clear, polished, editable PowerPoint presentations: **live template search**, precise slide planning, considered typography, topic-specific colors and purposeful native animation. Designed especially for research talks, paper seminars and technical presentations, with **English and Korean support**.
+A reusable agent skill for clear, polished, editable PowerPoint presentations: **find suitable free external templates and adapt their actual layouts**, with precise planning, considered typography and purposeful native animation. Designed especially for research talks, paper seminars and technical presentations, with **English and Korean support**.
 
 The product is **[SKILL.md](SKILL.md) and its supporting references and helpers**. The agent uses its available presentation tools; this repository is not a hosted generation service or a bundled presentation engine.
 
@@ -10,9 +10,21 @@ The product is **[SKILL.md](SKILL.md) and its supporting references and helpers*
 
 The skill searches current provider pages for suitable free templates, compares distinct design directions and inspects actual body slides. It retrieves a selected original when access, usage terms and native editability support the task, then adapts its useful layouts to the user's content. A `.pptx` download containing only slide images does not pass as an editable template. When no suitable original is available, the agent can create native slides from general observed principles and clearly identify that route.
 
+**Subject fit and design quality are both required.** The agent compares real body-slide hierarchy, typography, spacing, proportions and evidence treatment. A free download, a matching topic label or easy editing alone cannot justify the choice. The same criteria apply after the user's content is inserted; a restrained style still needs deliberate composition.
+
+Slide copy defaults to concise presentation phrases in both languages: Korean noun phrases or `~함` / `~할 수 없음`, and idiomatic English phrases such as “Lower latency, reduced F1.” Titles and takeaways do not need to be complete sentences. Scientific qualifiers, units and uncertainty remain intact; an explicitly requested voice takes precedence.
+
+**A simple deck on the same topic still gets design discovery.** Supplying an earlier example's topic, numbers or outline does not select its design. A specific edit to an identified file, or an explicitly selected template/visual direction, preserves that design. Otherwise, the agent should not recycle the repository example or a familiar generator and call it template adaptation.
+
+When a usable original exists, the agent works from it and preserves the useful typography, palette, spacing and layout structure. It may keep a good template largely as designed, changing content, language support and evidence as needed. The final handoff identifies the actual template and route, with a source/final body-slide comparison checked privately. An unavailable original requires a concrete, disclosed fallback reason.
+
 This uses the host's search, browser and file tools; it requires no RAG service, vector database, permanent template collection or hosted backend. Sources, terms, inspected pages and the selection rationale stay with the task's slide plan. The agent chooses the strongest fit among inspected candidates, without claiming exhaustive search or guaranteed aesthetic superiority. See [live template search and adaptation](references/template-search.md).
 
-## Real presentation example
+An independent three-slide production exercise acquired and edited a SciFig template, then checked the saved PowerPoint renders and native editing. Its initial arrow-direction defect and subsequent repair are recorded in [validation](VALIDATION.md#familiar-topic-production-regression). Third-party source templates and that adapted test deck are not redistributed in this repository.
+
+## Original research example
+
+This example was independently composed before the external-template production workflow and concise-copy defaults. It demonstrates editable evidence and bilingual layout, and is **not the default design or copy style for future decks, or proof of a downloaded-template adaptation**.
 
 ![Five slides rendered from the English PowerPoint example](examples/research-seminar/preview.png)
 
@@ -31,7 +43,7 @@ This research example uses **fictional data**, not experimental findings. The op
 - Searches beyond the bundled reference list, checks access and native editing, and maps the selected design to slide IDs without adding a separate template-picker approval gate.
 - Adapts [paper-figure principles](references/research-visuals.md): meaning before geometry, traceable relationships, editable explanation and saved-slide review. Decorative art is not required.
 - Records what was visually inspected and how it changes the deck; selects suitable [free tools](references/free-tools.md) for diagrams, scientific plots, vectors and editable PPTX production.
-- Chooses a palette for the subject or follows supplied brand colors; includes 12 original palettes and an explicit color-pair contrast checker.
+- Preserves a selected template's useful visual system or follows supplied brand colors; includes 12 optional original palettes and an explicit color-pair contrast checker.
 - Writes a file with the exact copy, evidence, layout, notes, timing and motion for every slide.
 - Keeps production context out of audience copy: duration, audience descriptions, design directions and QA status stay in planning files unless explicitly needed in the presentation.
 - **Waits for feedback by default.** Produces the deck when the user asks to proceed with that feedback.

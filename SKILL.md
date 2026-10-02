@@ -1,13 +1,17 @@
 ---
 name: ppt-art-director
-description: "Create polished, editable PowerPoint presentations in English, Korean, or a requested language through live template search, visual inspection, deliberate typography, slide planning, feedback integration, and purposeful native animation. Use for PPT/PPTX creation or substantial redesign, including research, technical, business, teaching, and keynote decks. Default to a reviewable slide plan before production; support explicit one-shot delivery. Not for text extraction alone."
+description: "Create polished, editable PowerPoint decks in English, Korean, or a requested language by finding suitable free external templates and adapting their actual layouts. Use for new PPT/PPTX decks and substantial redesigns, including simple demos on previously used topics. Inspect source and final slides, plan exact content, integrate feedback, and add purposeful native animation. Default to a reviewable plan; support explicit one-shot delivery. Not for text extraction alone."
 ---
 
 # PPT Art Director
 
 Make the content easier to understand at a glance. Establish what the audience should notice, compare or follow before choosing a visual style. Create an editable `.pptx` unless the user requests another format. Use the requested output language, independently of the source or conversation language. Support English, Korean, and deliberately mixed decks; if unspecified, infer the audience language from the brief. Repository examples do not set the user's output language.
 
+Use concise presentation phrasing in titles, takeaways, body copy and captions. In Korean, prefer noun phrases or endings such as “감소함” and “판단할 수 없음” over “합니다/습니다.” In English, prefer compact noun or finding phrases such as “Lower latency, reduced F1” over narration in complete sentences. Preserve conditions, negation, uncertainty and technical meaning. Read the language rules in [typography.md](references/typography.md); follow a different voice when the user explicitly requests it.
+
 Default visual direction: sophisticated, restrained, and appropriate to the topic. Research/technical talks, papers, and conferences receive particular support; preserve technical depth. The user's purpose, template, and style choices override these defaults. For research work also read [research-talks.md](references/research-talks.md).
+
+For new decks, external template discovery and adaptation is the default design route. Repository examples and earlier generated decks are content/test fixtures, not an implicit house template. A familiar subject or a short request does not authorize recycling their design.
 
 Build visual interest through useful comparisons, explanatory diagrams, readable evidence, typography and space. Do not add abstract artwork, icons, background graphics or decorative pictures merely to make a slide look designed. A cover can be typographic. Use imagery when it explains the subject, supplies relevant context or evidence, or serves an explicit user-requested purpose. The user's request to omit decoration takes precedence over any host skill's default request for decorative assets.
 
@@ -15,12 +19,14 @@ Build visual interest through useful comparisons, explanatory diagrams, readable
 
 | Situation | Action |
 |---|---|
-| New topic or rough materials | Prepare the complete slide plan and visual direction; wait for feedback before full production. |
+| New deck, including a familiar topic or a simple/short demo | Search suitable external templates, prepare the exact slide plan and selected design, and wait for feedback unless one-shot, an approved plan or actionable plan feedback authorizes production. |
 | User says one-shot, 바로 완성, 알아서 끝까지, or explicitly waives review | Make the same planning decisions, then build and verify without an approval stop. |
 | User responds to a plan with actionable feedback | Update that plan and build with the feedback unless they explicitly request another planning round. Do not ask for the same approval again. |
 | User requests only a plan | Deliver the plan and stop. |
-| Targeted revision to an existing deck | Inspect the deck, apply the requested revision, and verify. Do not force a new planning gate. |
-| User provides an approved outline or required template | Reuse it. Resolve material gaps, not already answered preferences. |
+| User asks for a specific edit to an identified deck, such as deleting a slide or shortening that file | Preserve its design unless redesign is requested, make the edit and verify. Do not force a new search or planning gate. This differs from requesting a new deck on its topic. |
+| User supplies topic, data, an earlier example or an approved content outline | Reuse the content as requested; this alone is not approval to reuse its visual design. Use the new-deck search route unless the user separately selects that design. |
+| User explicitly selects a template or approves a visual direction for this deck | Follow it. Resolve material gaps, not already answered preferences. |
+| User rejects the current look or requests a fresh design | Reopen design selection; do not treat earlier praise for one useful diagram as approval of the whole deck's style. |
 
 The feedback checkpoint is this skill's default collaboration workflow. The user can waive it, provide an already approved plan, or request one-shot production. Silence is not feedback.
 
@@ -36,15 +42,15 @@ Separate the private brief from audience copy. Duration, intended audience, slid
 
 ## 2. Search live templates and establish art direction
 
-For a new deck or substantial redesign, read [template-search.md](references/template-search.md). Search the web for the current brief, compare distinct suitable design directions and inspect actual body-slide pixels. The [reference library](references/reference-library.md) is a starting point, not a closed catalogue. Prefer free, usable templates; retrieve a selected original when its terms and editable contents suit the task. Choose the strongest fit among inspected candidates, not an unverified claim of the world's best template.
+For a new deck or substantial redesign, read [template-search.md](references/template-search.md). Search the web for the current brief, compare distinct suitable design directions and inspect actual body-slide pixels. The [reference library](references/reference-library.md) is a starting point, not a closed catalogue. Require both subject/content fit and strong visual craft before selecting a free, editable source; free access and easy editing alone are insufficient. Work from its original when available. Preserve useful original layouts and styling; do not redraw every source in a familiar house style. Choose the strongest fit among inspected candidates, not an unverified claim of the world's best template.
 
-This is an on-demand workflow using the host's search, browsing and file tools. Do not create a RAG service, vector database, persistent template corpus or hosting dependency. Keep only task-specific references and selected working files. A user-approved template or targeted edit takes precedence over a new search. When browsing is unavailable, state that limitation and use the supplied materials or original design recipes.
+This is an on-demand workflow using the host's search, browsing and file tools. Do not create a RAG service, vector database, persistent template corpus or hosting dependency. Keep only task-specific references and selected working files. A template explicitly selected for this deck or an explicit request to retain an identified deck's design takes precedence over new discovery. "Use the same topic," "make a simple example" and a smaller slide count do not create that exception. When browsing is unavailable, state that limitation and use supplied materials or original design recipes without calling the result externally templated.
 
 For a research method, architecture or explanatory figure, read [research-visuals.md](references/research-visuals.md). It adapts the user-selected paper-figure project's relationship planning to presentation size, without requiring decorative art or an image-generation service. Stop searching when the relevant design decision is supported; there is no template quota.
 
 Read [design.md](references/design.md) for composition. Honor supplied colors and choose one coherent design system; variety in the shortlist does not justify mismatched slides. Record whether the route is editing an acquired template or independently composing from observed principles. Free download access is not permission to redistribute source templates or their assets.
 
-Use the compact [design reference ledger](assets/design-reference-template.md) inside the plan or as a companion file. Record the source, inspected pages, terms, editable-object evidence, selected route and affected slide IDs. Carry the selection into concrete proportions, hierarchy, spacing and evidence layouts; a list of links alone is insufficient.
+Use the compact [design reference ledger](assets/design-reference-template.md) inside the plan or as a companion file. Record the source, inspected pages, terms, editable-object evidence, selected route and affected slide IDs. Identify the source's design features retained in the actual result and any necessary changes. A source download or a list of links alone is insufficient. Before delivery, compare the source body layout with the final rendered body slide, not just with the plan.
 
 For ambiguous taste, include two or three small visual directions with the planning package when useful. Reuse real content from the deck, including one difficult body slide. This is an option, not an extra approval gate. Do not delay one-shot work with a template picker when the user has delegated design choice.
 

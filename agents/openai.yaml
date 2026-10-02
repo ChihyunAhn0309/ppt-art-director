@@ -1,6 +1,6 @@
 interface:
   display_name: "PPT Art Director"
-  short_description: "Polished English and Korean decks, from plan to PPTX"
-  default_prompt: "Use $ppt-art-director to research my presentation topic, search suitable free templates and inspect their body slides, propose an exact slide plan and visual direction, then incorporate my feedback into a polished editable PPTX."
+  short_description: "Free external templates adapted into English and Korean decks"
+  default_prompt: "Use $ppt-art-director to find and inspect suitable free external templates, plan my exact slide content, then adapt the selected original into an editable PPTX with my feedback while preserving its useful design."
 policy:
   allow_implicit_invocation: true

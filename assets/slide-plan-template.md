@@ -8,6 +8,7 @@ Write the completed plan in the user's requested language. These English field l
 - Slide count / total duration / output language(s):
 - Live talk or reading deck:
 - Required content / exclusions:
+- Visual source role: topic/data only, specifically selected template/design, or targeted edit to an identified file; user instruction supporting that role:
 - Sources / facts still needing verification:
 - Output format / playback environment / editability needs:
 - Mode: plan-first with feedback, or explicitly requested one-shot
@@ -27,11 +28,13 @@ For dense fixed-count briefs: required evidence-to-slide map and the hardest rea
 - Inspected design references, links, inspection depth and useful principles:
 - Chosen direction and why it suits the subject:
 - Selected template/source and route: native template editing or original composition; actual access, usage terms, attribution and editability evidence:
+- Source design features to retain / necessary changes / source-to-final body-slide comparison:
 - HEX roles: background / primary text / secondary text / accent / data colors:
 - Fonts and fallbacks / title, body and caption sizes:
 - Image and evidence style / margins and alignment:
 - Motion intensity / supported effects / static alternative:
 - Language-specific fit decisions and planned focal line counts:
+- Copy voice: concise Korean noun phrases/~함 style and idiomatic English phrases by default; explicit user exception, if any:
 
 ## S01 — {{Subject or supported takeaway}}
 

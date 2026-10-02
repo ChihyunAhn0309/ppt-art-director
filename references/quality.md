@@ -6,11 +6,14 @@ Check separate properties separately. A valid ZIP is not proof of a valid PPTX; 
 
 - Compare each slide against the approved plan and user feedback; verify exact requested count and required topics.
 - Verify the selected source/route against the reference ledger: actual inspected pages, any acquired original, applicable credits, and whether the final file preserves the claimed editable objects. Do not report preview-only inspiration as template import.
+- For a new deck on an earlier topic, check that topic reuse was not silently treated as visual approval. Compare the selected external source with the actual output. If the output reuses the prior deck's design, there must be a user instruction selecting that design; an earlier compliment about one diagram is insufficient.
+- Recheck both selection gates in the actual output: subject/evidence fit and deliberate visual composition. A free editable source, neat text fit or minimal decoration alone does not establish the requested design finish.
 - Check claims against the source ledger, including denominators, periods, units, derived values, uncertainty, and chart labels.
 - Read title and chart together. Does the evidence support the conclusion? Does a context slide overstate an insight?
 - Check the requested language for translated abstractions, empty slogans, and awkward phrasing. For Korean, inspect noun chains and particles; for English, inspect idiom and sentence structure. Technical precision outranks stylistic simplification.
 - Remove sample names, placeholder text, duplicate sections, internal workflow notes, and unsupported claims of novelty or superiority.
 - Check visible copy and speaker notes for leaked brief metadata: duration, audience category, slide-count targets, authoring directions and QA remarks. Keep timing in the plan unless the user asks for presenter cues in the file.
+- Check the requested copy voice in both languages: concise titles/findings, Korean noun phrases or ~함/~할 수 없음, and idiomatic English phrases. Preserve qualifications and negation; retain full sentences only where requested or necessary, such as exact quotations or read-aloud scripts.
 
 ## Package and editability review
 
@@ -26,6 +29,7 @@ Render every slide from the actual final file or a verified equivalent static ex
 - dominant objects help recognize the subject, compare evidence or follow a relationship; remove attention-grabbing elements that add none of these;
 - size, color and placement imply only the intended emphasis, without selecting an unsupported winner or minimizing a competing cost;
 - no clipping, unexplained overlapping, orphan words, off-canvas content, or connector crossings through labels;
+- rendered arrowheads and process order match the stated relationship, independently of the connector's native endpoint metadata;
 - Korean/Latin/math glyphs, line breaks, units, superscripts, and legends render correctly;
 - chart labels and captions remain readable at presentation size;
 - margins, alignments, repeated category colors, and type roles are consistent;

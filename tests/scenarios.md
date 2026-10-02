@@ -1,12 +1,26 @@
 # Behavioral evaluation scenarios
 
-Run these in fresh agent sessions with the skill and the raw brief only. Do not provide previous conclusions or example output decks. Keep generated artifacts outside the skill repository. These checks complement helper unit tests; passing them is not a guarantee of aesthetic quality on every topic.
+Run these in fresh agent sessions with the skill, the raw brief and only the input artifacts explicitly called for by the scenario. Do not provide previous conclusions or intended outputs. Keep generated artifacts outside the skill repository. These checks complement helper unit tests; passing them is not a guarantee of aesthetic quality on every topic.
+
+## Short deck on a familiar topic: actual production
+
+Supply an earlier sensor-model compression deck as a topic/data example. Ask for a simple three-slide Korean deck on that subject, completed in one shot. Use fictional baseline 120 ms / F1 .910 / 48 MB, distilled 72 / .902 / 18, and INT8 54 / .896 / 12, with common device/data assumptions but no sample size or uncertainty. Do not explicitly ask to preserve the earlier design. Do not reveal the suspected routing failure or the desired source to the agent.
+
+Inspect behavior and the actual final PPTX: current external search, actual relevant body pixels, acquired original when suitable, source layout-to-slide mapping, preservation of useful source design and required credits, exact data, native required objects and final renders. A plan, downloaded file or reference link alone does not pass this production scenario. Compare the source and final body slide, and also compare with the earlier example: silently shortening/recoloring that example without a user instruction choosing its design fails. If a source cannot be used, inspect the actual stated access/rights/editing/fit gap and alternative selection rather than accepting a convenience fallback.
+
+Separately judge subject/evidence fit and visual craft using the source and completed body slides. Require a concrete comparison with a plausible alternative. Access, editability, a research-themed label or the absence of decoration alone cannot establish design quality. Trace the actual rendered method arrows in the stated direction; a valid native connection is not sufficient.
+
+As a separate control, explicitly ask to delete a specified slide from the earlier deck while keeping the rest. Expect a targeted edit with the existing style, without unnecessary external discovery. As another control, approve only a content outline; expect its content to be retained without treating it as approval of an unspecified visual design. Test plan-first and one-shot checkpoints according to the actual brief.
 
 ## Live template selection for a new topic
 
 Request a plan only for a six-slide battery-health estimation talk, in separate English and Korean editions, with private constraints of eight minutes and an internal research meeting. Supply a fictional method: voltage/current/temperature measurements to windowed features, then a regression model and a state-of-health estimate. Supply fictional MAE values of 2.4 percentage points for a baseline and 1.7 for the proposed model under the same evaluation conditions; no sample size or uncertainty is available. Ask for refined, natural design from suitable free online templates, without decorative imagery, purchases or a hosted database.
 
 Inspect whether the agent performs a fresh search, compares distinct plausible candidates and views relevant body-slide pixels. The plan should identify the selected source, current access/terms, inspected pages, specific layout-to-slide mappings and the actual production route. If adopting a downloaded template, check the original's native objects and preserve it separately; a flattened slide image does not establish editability. If suitable editable sources cannot be acquired, a truthful native-composition fallback is acceptable. For this internal-presentation brief, distinguish template-redistribution restrictions from permitted presentation use; consider removing decorative placeholders when allowed before rejecting a useful source. Exact bilingual copy must preserve the hypothetical-data label and the 0.7-percentage-point MAE difference, while private meeting metadata stays in the brief. Stop at the plan checkpoint without another template-picker gate. Do not call this a rendered-deck or animation test.
+
+## Concise Korean and English slide voice
+
+Supply a qualified finding and limitation in full prose: under the same device/data assumption, fictional INT8 latency falls from 120 to 54 ms, model size from 48 to 12 MB and F1 from .910 to .896; statistical significance cannot be assessed without sample size and uncertainty. Ask for Korean and English titles, body copy and brief presenter cues. Expect compact Korean noun phrases or ~함/~할 수 없음 and idiomatic English finding phrases, not narration in complete sentences. Verify that the paired F1 cost, illustrative status, evaluation condition and inability to assess significance survive compression. Do not accept "not significant" as a shortened version of "not assessable." If the user explicitly requests a full spoken script, preserve that exception. When applied to an existing deck, inspect its actual saved text and line fit rather than validating only the plan.
 
 ## 1. Planning checkpoint
 

@@ -27,7 +27,7 @@ Inspect an applicable source figure's pixels and record which relationship its l
 
 ## Review the saved slide
 
-At final slide placement and normal viewing size, trace the main path, any required branch and any recurring item. Arrows must visibly meet the intended represented objects; valid native endpoint IDs alone are insufficient. Check set membership, overview/detail correspondence, source/output identity and the definitions of visual states. Essential distinctions should survive without hue alone. Inspect actual mathematical glyphs and the smallest required labels in each requested language.
+At final slide placement and normal viewing size, trace the main path, any required branch and any recurring item. Arrows must visibly meet the intended represented objects and point in the direction of the stated relationship. Check the rendered arrowhead: native endpoint IDs and API labels such as "head" or "tail" do not prove the direction. Check set membership, overview/detail correspondence, source/output identity and the definitions of visual states. Essential distinctions should survive without hue alone. Inspect actual mathematical glyphs and the smallest required labels in each requested language.
 
 Fix missing/reversed relationships or invented meaning first, then clarity and finishing issues. Preserve successful regions. If a suggested elaboration requires unavailable scientific detail, retain the truthful simpler explanation. Separate package checks, rendered review, app edit tests and animation playback in the validation record.
 
