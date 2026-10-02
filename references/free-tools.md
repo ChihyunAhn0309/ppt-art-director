@@ -4,6 +4,8 @@ Checked 2026-10-02. Choose tools for the visual problem and the available enviro
 
 ## Select a route
 
+Choose the graphic required by the claim before the tool. Preserve distributions, pairing and uncertainty even when a specialized plot must be exported as SVG/PNG instead of a native chart. Retain its data and plotting source plus editable slide annotations. Set the intended placement width before plotting: a 10 pt label in an 8-inch export becomes effectively 5 pt at 4 inches. Inspect placed labels, lines and legends at final slide size.
+
 | Need | Suitable free/open-source option | Source and output | Important boundary |
 |---|---|---|---|
 | Editable PPTX text, shapes, tables and common charts | [PptxGenJS](https://gitbrent.github.io/PptxGenJS/) when no host presentation engine is prescribed | JavaScript source → native PPTX; [MIT license](https://github.com/gitbrent/PptxGenJS/blob/master/LICENSE) | Use documented APIs. It is an authoring option, not an aesthetic reviewer or proof of native animation support. |
@@ -14,7 +16,7 @@ Checked 2026-10-02. Choose tools for the visual problem and the available enviro
 | Open and render a static deck without Office | [LibreOffice Impress](https://www.libreoffice.org/discover/impress/) | PPTX import and PDF/render review; [license information](https://www.libreoffice.org/licenses/) | Check font substitution, layout and compatibility. Its rendering does not establish PowerPoint animation playback. |
 | A free font covering English and Korean | [Noto CJK](https://github.com/notofonts/noto-cjk) | Use an installed Noto Sans KR/CJK Korean family; check the selected font's license | Verify the installed family name, glyph coverage and recipient environment. Do not silently download or bundle unrelated fonts. |
 
-These are selectable pathways, not bundled integrations or a claim that every tool was executed for the example. Check current official documentation, installed versions and export support before use. The included example used the host presentation engine and PowerPoint; its generated cover is an optional asset, not evidence that image generation is free.
+These are selectable pathways, not bundled integrations or a claim that every tool was executed for the example. Check current official documentation, installed versions and export support before use. The included example uses the host presentation engine and PowerPoint. Image generation is not required; its earlier diagram draft is documented separately from the native final slide.
 
 ## Turn a reference into a design decision
 

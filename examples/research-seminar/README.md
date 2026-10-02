@@ -12,8 +12,9 @@ English uses Segoe UI; Korean uses Noto Sans KR. Fonts were available on the ren
 ## Design changes
 
 - Warm ivory and teal, more breathing space and lighter headings.
-- A conceptual AI-generated cover illustration; all explanatory text remains editable.
-- Open process stages, a minimally ruled native table and a native chart with embedded data.
+- A topic-first typographic cover with meaningful numeric comparisons; no decorative artwork.
+- Native model states joined by named transformations, a neutral table, and a native latency–F1 scatter plot with embedded data.
+- Equal-size latency and F1 differences; no unexplained winner highlight. The scatter axes are explicitly bounded at 40–140 ms and .890–.915 F1 to reveal the differences, with no interpolation or uncertainty invented.
 - A shorter closing takeaway on one line in both languages, without removing the visible fictional-data caveat.
 - Separate localization of slide text, chart labels and speaker notes.
 
@@ -31,11 +32,11 @@ Same device and data are assumed. Sample count, variance, dataset, architecture,
 
 ## paper-figure workflow
 
-The user-selected [paper-figure skill](https://github.com/JYS1025/paper-figure/blob/363fb3b76003d919f797356d774e70161164a7a8/skills/paper-figure/SKILL.md) was used at revision `363fb3b76003d919f797356d774e70161164a7a8`. This redesign followed its full-composition image draft → reviewed transfer plan → editable reconstruction route for S02.
+The user-selected [paper-figure skill](https://github.com/JYS1025/paper-figure/blob/363fb3b76003d919f797356d774e70161164a7a8/skills/paper-figure/SKILL.md) was used at revision `363fb3b76003d919f797356d774e70161164a7a8`. The prior bilingual redesign followed its full-composition image draft → reviewed transfer plan → editable reconstruction route for S02. The current local revision preserves that composition while clarifying model states and transformation labels; it did not generate a new draft.
 
 [Selected generated draft](design/workflow-draft.png) · [Exact generation prompts](design/image-prompts.json) · [Pre-authoring transfer plan](design/transfer-plan.md)
 
-The draft informed open columns, small stage markers, spacing and palette. Its unsupported “same knowledge” claim, slogan, architecture-like cubes and decorative extras were removed. The final process uses native labels, circles and connectors; the raster draft is not embedded. The cover is a separate conceptual asset, not scientific evidence. Image generation was available in the host; this example does not establish that generation is free or a requirement for the skill.
+The draft informed open columns, small stage markers, spacing and palette. Its unsupported “same knowledge” claim, slogan, architecture-like cubes and decorative extras were removed. The final process uses native labels, circles and connectors; the raster draft is not embedded. The unrelated cover artwork was removed. The historical diagram draft records the earlier authoring route; no generated image is embedded in the current PPTX. The reusable [research-visual guide](../../references/research-visuals.md) also supports a direct native route without requiring image generation.
 
 The saved render was compared with the draft for hierarchy and space: the final retains the useful open process, reduces duplicate flow cues and keeps only contract-supported content. This is a presentation-scale comparison, not a paper-print-size or controlled authoring-method benchmark.
 
@@ -44,9 +45,9 @@ The saved render was compared with the draft for hierarchy and space: the final 
 | Required labels and directed relationships | [English contract](diagram-contract.json), [English inspection](diagram-inspect.json), [Korean contract](diagram-contract-ko.json), [Korean inspection](diagram-inspect-ko.json) |
 | Connector attachment | [English audit](flow-audit.json), [Korean audit](flow-audit-ko.json); circular endpoints are outside this helper's automated rectangle geometry checks, so both connectors require rendered review |
 | Visual review | Left-to-right direction, attachment to the circular markers, label association and readability inspected in the saved PowerPoint renders |
-| Line fitting | [English](typography-check.json), [Korean](typography-check-ko.json): 53 text boxes per edition; intended and actual line counts match, including one-line titles and closing takeaway |
-| Data and native objects | [Data check](data-check.json): exact table values, chart values, embedded workbook, arithmetic and animation targets for all four PPTX files |
-| App editability | [PowerPoint check](powerpoint-check.json): text, table value, chart series and diagram label changed on separate copies, saved and reopened in both languages |
+| Line fitting | [English](typography-check.json), [Korean](typography-check-ko.json): 55 text boxes per edition; intended and actual line counts match, including the two-line cover title and one-line closing takeaway |
+| Data and native objects | [Data check](data-check.json): exact table values, paired chart coordinates (1e-12 F1 cache tolerance for Office float serialization), embedded workbook, arithmetic and animation targets for all four PPTX files |
+| App editability | [PowerPoint check](powerpoint-check.json): text, table value, chart X/Y values and diagram label changed on separate copies, saved and reopened in both languages |
 | Motion | [Plan](motion-plan.json): 12 Fade effects in two click groups; target, sequence, trigger and duration verified after saving. `playbackVerified` remains `false` |
 
 The line checker covers named text boxes; it does not measure every native chart/table label. Those were checked in the rendered slides. Automated inspections do not assess aesthetics or scientific truth.
@@ -58,6 +59,7 @@ Public files remove only the Office last-modifier field in `docProps/core.xml`. 
 From this repository's root:
 
 ```shell
+python scripts/verify_checksums.py examples/research-seminar/checksums.json
 python scripts/pptx_audit.py examples/research-seminar/animated.pptx --expect-slides 5
 python scripts/pptx_audit.py examples/research-seminar/static.pptx --expect-slides 5
 python scripts/pptx_audit.py examples/research-seminar/animated-ko.pptx --expect-slides 5

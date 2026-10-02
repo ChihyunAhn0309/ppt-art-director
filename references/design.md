@@ -4,6 +4,8 @@ These are original operating recipes, not extracted template assets. The user's 
 
 ## Pick a coherent visual direction
 
+First name the communication job: compare quantities, trace a process, locate a change, explain a relation, or examine evidence. Choose an encoding and reading order for that job before choosing a theme. An attractive element must help that reading or fulfill a stated contextual purpose; otherwise omit it. Plain text can be the best visual for a concise conclusion.
+
 Write one short design rationale connecting subject, audience, evidence density, and visual tone. Choose a dominant direction and restrained supporting devices. Do not combine a luxury serif cover, neon technical slides, and playful classroom illustrations without an explicit narrative reason.
 
 | Direction | Suitable contexts | Composition and type | Color behavior | Watch out for |
@@ -30,7 +32,7 @@ Never solve overflow by repeatedly shrinking all text. Edit redundancies, expand
 
 Restraint does not require a dark cover, heavy bold headings, opaque process boxes, and a fully ruled table on every page. Choose each element's visual weight deliberately. Open table rows, quiet rules, varied figure proportions, selective imagery, and lighter body type can make technical content inviting without weakening evidence. Warm neutrals are one option, not a universal style.
 
-Vary pace when the content warrants it: an image-led opening, an open process diagram, a precise evidence page, and a concise closing statement. Keep type roles and semantic colors stable. Avoid adding decoration to manufacture variety. When a user calls a deck stiff, compare old and revised body slides; changing only its cover or palette does not address the request.
+Vary pace when the content warrants it: a direct opening, an open process diagram, a precise evidence page, and a concise closing statement. Keep type roles and semantic colors stable. Create ease through readable grouping, balanced whitespace, light rules and natural language. Avoid adding decoration to manufacture variety. When a user calls a deck stiff, compare old and revised body slides; changing only its cover or palette does not address the request.
 
 ## English, Korean, and bilingual typography
 
@@ -60,6 +62,8 @@ Use one primary family by default and a second only when it adds a clear role. A
 
 Pick several composition families for a multi-slide deck where the content warrants it. Repeated layouts are useful for directly comparable experiments; variety is not a reason to destroy comparability. Dense technical content can be beautiful without pretending it is a launch keynote.
 
+State what emphasis means: the current comparison, a changed variable, a chosen option or an evidence-supported winner. A highlighted row or oversized gain can imply a recommendation even when the words are accurate. Give competing decision variables comparable prominence when their priority is unspecified; use stronger emphasis only with a clear reason. Do not select a winner through color alone.
+
 ## Palette selection by role
 
 Start from brand colors or the user's preference. If none, consider the topic's artifacts, desired tone, image colors, chart categories, and venue. Do not use color psychology as a factual rule such as "blue always means trust." [palettes.json](../assets/palettes.json) provides starting roles, not a closed menu.
@@ -67,6 +71,8 @@ Start from brand colors or the user's preference. If none, consider the topic's 
 Specify background, surface, text, muted text, accent, on-accent text, comparison colors, and warning color. Keep one accent dominant; reserve warning and categorical colors for their meaning. Run [palette_check.py](../scripts/palette_check.py) for every actual text/background pairing. Use 4.5:1 for normal text and 3:1 only for sufficiently large text as a useful accessibility baseline, not a claim of complete WCAG certification. For projected decks aim higher when possible.
 
 Do not use a whole palette indiscriminately for labels: a bright chart accent can be unsuitable as small text on white. Distinguish categories with direct labels, markers, line styles, or positions as well as color. Keep the same series colors throughout the deck.
+
+Separate theme colors from evidence encoding. Preserve channel identities, signed/diverging scales and category meanings, or deliberately remap them with an accurate legend. The theme accommodates necessary evidence colors, rather than recoloring the evidence to fit the theme.
 
 ## Image and chart discipline
 

@@ -17,6 +17,8 @@ Measure with the real font when possible, leaving some horizontal slack for rend
 
 For a revision, record the text object, intended and observed line count, and repair. Scan table headers, chart labels, and captions too. Keep values with units and avoid punctuation at a line's start. A short last line is a review flag, not an automatic rule to rewrite precise terminology.
 
+After fitting, check meaning and optics: the key condition and technical terms survive; mixed-script symbols, numerals and units read together at final size; and the wording sounds natural for the audience when spoken. Do not remove a scientific qualifier to obtain one line. Maintain a small terminology map for recurring bilingual terms when useful. Native table/chart labels require their own visual review even when every named text box passes.
+
 ## English
 
 Use idiomatic concise English rather than translating Korean word order. Prefer sentence case unless the user's style specifies otherwise. Break at phrase boundaries, avoid a lone short word on the last line, and preserve technical names, abbreviations, signs, and decimal precision. Check long compounds in the saved render. English can need different line widths and sizes from Korean.

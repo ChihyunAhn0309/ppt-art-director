@@ -2,7 +2,7 @@
 
 [![Validate helpers](https://github.com/ChihyunAhn0309/ppt-art-director/actions/workflows/validate.yml/badge.svg?branch=main&event=push)](https://github.com/ChihyunAhn0309/ppt-art-director/actions/workflows/validate.yml)
 
-A reusable agent skill for polished, editable PowerPoint presentations: researched visual references, precise slide planning, considered typography, topic-specific colors and purposeful native animation. Designed especially for research talks, paper seminars and technical presentations, with **English and Korean support**.
+A reusable agent skill for clear, polished, editable PowerPoint presentations: researched visual references, precise slide planning, considered typography, topic-specific colors and purposeful native animation. Designed especially for research talks, paper seminars and technical presentations, with **English and Korean support**.
 
 The product is **[SKILL.md](SKILL.md) and its supporting references and helpers**. The agent uses its available presentation tools; this repository is not a hosted generation service or a bundled presentation engine.
 
@@ -17,11 +17,12 @@ The product is **[SKILL.md](SKILL.md) and its supporting references and helpers*
 
 [Slide-by-slide plan](examples/research-seminar/slide-plan.md) · [Design decisions and verification](examples/research-seminar/README.md)
 
-This five-minute research seminar uses **fictional data**, not experimental findings. The redesigned editions use warmer neutrals, generous space, lighter typography and native editable charts, tables and process objects. The cover is AI-generated conceptual artwork. English and Korean copy are fitted separately, including a single-line closing takeaway. Previews show the saved PPTX rendered in Microsoft PowerPoint.
+This five-minute research seminar uses **fictional data**, not experimental findings. The editions use a topic-first typographic opening, an editable process, a neutral comparison table and a native latency–F1 scatter plot. There is no decorative cover image. Visual hierarchy explains the content; it does not imply an unsupported winning model. English and Korean copy are fitted separately, including a single-line closing takeaway. Previews show the saved PPTX rendered in Microsoft PowerPoint.
 
 ## What the skill does
 
-- Researches actual design references, including method diagrams, comparisons and evidence slides.
+- Allocates required evidence before styling; researches references that solve the actual comparison or explanation problem.
+- Adapts [paper-figure principles](references/research-visuals.md): meaning before geometry, traceable relationships, editable explanation and saved-slide review. Decorative art is not required.
 - Records what was visually inspected and how it changes the deck; selects suitable [free tools](references/free-tools.md) for diagrams, scientific plots, vectors and editable PPTX production.
 - Chooses a palette for the subject or follows supplied brand colors; includes 12 original palettes and an explicit color-pair contrast checker.
 - Writes a file with the exact copy, evidence, layout, notes, timing and motion for every slide.
@@ -100,11 +101,12 @@ Run from the repository root:
 python scripts/palette_check.py assets/palettes.json
 python scripts/pptx_audit.py path/to/deck.pptx --expect-slides 8 --output work/audit.json
 python -m unittest discover -s tests -v
+python scripts/verify_checksums.py examples/research-seminar/checksums.json
 ```
 
 Use `-DryRun` to validate a motion plan against the exported file before applying it. [Motion syntax and commands](references/motion.md)
 
-[VALIDATION.md](VALIDATION.md) records independent tests, defects fixed, subsequent redesign review and unverified areas. [Behavioral scenarios](tests/scenarios.md) support fresh-session testing. GitHub Actions checks helpers and the example packages on Windows and Ubuntu; it does not render slides or assess aesthetics.
+[VALIDATION.md](VALIDATION.md) records independent tests, defects fixed, subsequent redesign review and unverified areas. [Behavioral scenarios](tests/scenarios.md) support fresh-session testing. GitHub Actions checks helpers, exact published-file checksums and the example packages on Windows and Ubuntu; it does not render slides or assess aesthetics.
 
 ## References and original implementation
 
@@ -121,6 +123,7 @@ This is an original implementation. It does not redistribute Anthropic skill cod
 | [Design](references/design.md) | Composition, palette and evidence presentation |
 | [Typography](references/typography.md) | Deliberate line fitting and language-specific checks |
 | [Free tools](references/free-tools.md) | Task-specific tool choices, editable-source boundaries and zero-purchase routes |
+| [Research visuals](references/research-visuals.md) | Content-driven research figures and paper-figure adaptation |
 | [Research talks](references/research-talks.md) | Papers, experiments, equations and scientific figures |
 | [Production](references/production.md) | Tool selection and deliverables |
 | [Quality](references/quality.md) | Content, editability, rendering and motion review |

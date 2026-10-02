@@ -1,51 +1,119 @@
 {
   "renderer": "Microsoft PowerPoint",
-  "textBoxesChecked": 53,
+  "measurementUnit": "points",
+  "boundsTolerance": 1,
+  "textBoxesChecked": 55,
   "mismatches": 0,
   "checks": [
     {
       "slide": 1,
       "name": "S01-section",
-      "text": "연구 노트 / 01",
+      "text": "연구실 세미나 · 5분",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 87.63,
-      "frameWidth": 487.5,
-      "boundHeight": 17.1,
-      "frameHeight": 22.5
+      "boundWidth": 140.13,
+      "frameWidth": 852.0,
+      "boundHeight": 19.8,
+      "frameHeight": 26.25
     },
     {
       "slide": 1,
       "name": "S01-title",
-      "text": "센서 이상 탐지,\r더 가벼운 모델로",
+      "text": "센서 이상 탐지 모델의\r경량화와 성능 변화",
       "expectedLines": 2,
       "actualLines": 2,
-      "boundWidth": 298.25,
-      "frameWidth": 519.0,
-      "boundHeight": 99.0,
-      "frameHeight": 126.0
+      "boundWidth": 378.5,
+      "frameWidth": 852.0,
+      "boundHeight": 97.2,
+      "frameHeight": 116.25
     },
     {
       "slide": 1,
       "name": "S01-subtitle",
-      "text": "지식 증류와 INT8 양자화의\r성능 교환관계",
-      "expectedLines": 2,
-      "actualLines": 2,
-      "boundWidth": 230.63,
-      "frameWidth": 476.25,
-      "boundHeight": 48.6,
-      "frameHeight": 61.5
+      "text": "지식 증류와 INT8 양자화",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 228.0,
+      "frameWidth": 852.0,
+      "boundHeight": 26.1,
+      "frameHeight": 39.0
     },
     {
       "slide": 1,
-      "name": "S01-context",
-      "text": "연구실 세미나 · 5분",
+      "name": "S01-basis",
+      "text": "원본 모델과 INT8 비교",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 146.88,
-      "frameWidth": 465.0,
+      "boundWidth": 165.13,
+      "frameWidth": 852.0,
       "boundHeight": 20.7,
-      "frameHeight": 26.25
+      "frameHeight": 27.0
+    },
+    {
+      "slide": 1,
+      "name": "S01-value-1",
+      "text": "120 → 54",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 143.38,
+      "frameWidth": 232.5,
+      "boundHeight": 38.7,
+      "frameHeight": 49.5
+    },
+    {
+      "slide": 1,
+      "name": "S01-label-1",
+      "text": "지연 (ms)",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 78.25,
+      "frameWidth": 247.5,
+      "boundHeight": 21.6,
+      "frameHeight": 28.5
+    },
+    {
+      "slide": 1,
+      "name": "S01-value-2",
+      "text": "0.910 → 0.896",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 215.0,
+      "frameWidth": 300.0,
+      "boundHeight": 38.7,
+      "frameHeight": 49.5
+    },
+    {
+      "slide": 1,
+      "name": "S01-label-2",
+      "text": "F1",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 23.88,
+      "frameWidth": 247.5,
+      "boundHeight": 21.6,
+      "frameHeight": 28.5
+    },
+    {
+      "slide": 1,
+      "name": "S01-value-3",
+      "text": "48 → 12",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 125.5,
+      "frameWidth": 232.5,
+      "boundHeight": 38.7,
+      "frameHeight": 49.5
+    },
+    {
+      "slide": 1,
+      "name": "S01-label-3",
+      "text": "모델 크기 (MB)",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 117.75,
+      "frameWidth": 247.5,
+      "boundHeight": 21.6,
+      "frameHeight": 28.5
     },
     {
       "slide": 1,
@@ -54,28 +122,28 @@
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 218.25,
-      "frameWidth": 487.5,
+      "frameWidth": 750.0,
       "boundHeight": 15.3,
-      "frameHeight": 19.5
+      "frameHeight": 17.25
     },
     {
-      "slide": 2,
-      "name": "S02-section",
-      "text": "방법 / 두 단계의 경량화",
+      "slide": 1,
+      "name": "S01-number",
+      "text": "01",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 141.5,
-      "frameWidth": 846.0,
-      "boundHeight": 17.1,
-      "frameHeight": 20.25
+      "boundWidth": 17.13,
+      "frameWidth": 28.5,
+      "boundHeight": 15.3,
+      "frameHeight": 17.25
     },
     {
       "slide": 2,
       "name": "S02-title",
-      "text": "교사 모델에서 경량 학생 모델로",
+      "text": "모델과 경량화 과정",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 399.38,
+      "boundWidth": 244.5,
       "frameWidth": 852.0,
       "boundHeight": 36.0,
       "frameHeight": 52.5
@@ -105,10 +173,10 @@
     {
       "slide": 2,
       "name": "S02-flow-2",
-      "text": "예측 지식 전달",
+      "text": "지식 증류",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 99.25,
+      "boundWidth": 65.88,
       "frameWidth": 234.0,
       "boundHeight": 18.9,
       "frameHeight": 27.75
@@ -116,10 +184,10 @@
     {
       "slide": 2,
       "name": "S02-flow-3",
-      "text": "수치 표현 변환",
+      "text": "INT8 양자화",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 99.25,
+      "boundWidth": 84.63,
       "frameWidth": 234.0,
       "boundHeight": 18.9,
       "frameHeight": 27.75
@@ -127,7 +195,7 @@
     {
       "slide": 2,
       "name": "S02-stage-1",
-      "text": "원본 모델",
+      "text": "교사 모델",
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 97.25,
@@ -160,7 +228,7 @@
     {
       "slide": 2,
       "name": "S02-stage-2",
-      "text": "지식 증류",
+      "text": "학생 모델",
       "expectedLines": 1,
       "actualLines": 1,
       "boundWidth": 97.25,
@@ -193,10 +261,10 @@
     {
       "slide": 2,
       "name": "S02-stage-3",
-      "text": "INT8 양자화",
+      "text": "INT8 학생 모델",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 124.88,
+      "boundWidth": 152.75,
       "frameWidth": 250.5,
       "boundHeight": 27.9,
       "frameHeight": 36.0
@@ -215,10 +283,10 @@
     {
       "slide": 2,
       "name": "S02-detail-3",
-      "text": "학생 모델의 수치를\r8비트 정수로 표현",
+      "text": "모델 내 지정한 수치를\r8비트 정수로 표현",
       "expectedLines": 2,
       "actualLines": 2,
-      "boundWidth": 152.75,
+      "boundWidth": 175.25,
       "frameWidth": 250.5,
       "boundHeight": 45.0,
       "frameHeight": 60.75
@@ -236,22 +304,11 @@
     },
     {
       "slide": 3,
-      "name": "S03-section",
-      "text": "근거 / 가상 성능 비교",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 128.38,
-      "frameWidth": 846.0,
-      "boundHeight": 17.1,
-      "frameHeight": 20.25
-    },
-    {
-      "slide": 3,
       "name": "S03-title",
-      "text": "같은 조건에서 비교한 세 모델",
+      "text": "지연, F1, 모델 크기 비교",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 371.75,
+      "boundWidth": 307.88,
       "frameWidth": 852.0,
       "boundHeight": 36.0,
       "frameHeight": 52.5
@@ -302,17 +359,6 @@
     },
     {
       "slide": 4,
-      "name": "S04-section",
-      "text": "결과 / 원본 대비 INT8",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 132.13,
-      "frameWidth": 846.0,
-      "boundHeight": 17.1,
-      "frameHeight": 20.25
-    },
-    {
-      "slide": 4,
       "name": "S04-title",
       "text": "지연은 줄고, F1도 낮아집니다",
       "expectedLines": 1,
@@ -347,46 +393,57 @@
     {
       "slide": 4,
       "name": "S04-chart-unit",
-      "text": "지연 (ms)",
+      "text": "F1 · 높을수록 좋음",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 78.25,
-      "frameWidth": 472.5,
+      "boundWidth": 146.0,
+      "frameWidth": 532.5,
       "boundHeight": 21.6,
-      "frameHeight": 27.75
+      "frameHeight": 28.5
+    },
+    {
+      "slide": 4,
+      "name": "S04-x-unit",
+      "text": "지연 (ms) · 낮을수록 좋음",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 192.88,
+      "frameWidth": 487.5,
+      "boundHeight": 20.7,
+      "frameHeight": 26.25
+    },
+    {
+      "slide": 4,
+      "name": "S04-basis",
+      "text": "원본 대비 INT8",
+      "expectedLines": 1,
+      "actualLines": 1,
+      "boundWidth": 118.0,
+      "frameWidth": 246.0,
+      "boundHeight": 21.6,
+      "frameHeight": 26.25
     },
     {
       "slide": 4,
       "name": "S04-latency",
-      "text": "55%",
+      "text": "−55%",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 119.88,
-      "frameWidth": 258.0,
-      "boundHeight": 63.9,
-      "frameHeight": 63.75
+      "boundWidth": 96.88,
+      "frameWidth": 240.0,
+      "boundHeight": 41.4,
+      "frameHeight": 49.5
     },
     {
       "slide": 4,
       "name": "S04-latency-label",
-      "text": "지연 감소 · 120 → 54 ms",
+      "text": "지연 · 120 → 54 ms",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 190.75,
-      "frameWidth": 271.5,
+      "boundWidth": 154.13,
+      "frameWidth": 246.0,
       "boundHeight": 20.7,
-      "frameHeight": 27.0
-    },
-    {
-      "slide": 4,
-      "name": "S04-size",
-      "text": "75%",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 89.63,
-      "frameWidth": 120.0,
-      "boundHeight": 47.7,
-      "frameHeight": 51.0
+      "frameHeight": 28.5
     },
     {
       "slide": 4,
@@ -394,54 +451,32 @@
       "text": "−0.014",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 115.75,
-      "frameWidth": 130.5,
-      "boundHeight": 42.3,
-      "frameHeight": 51.0
-    },
-    {
-      "slide": 4,
-      "name": "S04-size-label",
-      "text": "모델 크기 감소",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 99.25,
-      "frameWidth": 138.0,
-      "boundHeight": 18.9,
-      "frameHeight": 24.75
+      "boundWidth": 113.0,
+      "frameWidth": 240.0,
+      "boundHeight": 41.4,
+      "frameHeight": 49.5
     },
     {
       "slide": 4,
       "name": "S04-f1-label",
-      "text": "F1 절대 차이",
+      "text": "F1 · 절대 차이",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 86.88,
-      "frameWidth": 130.5,
-      "boundHeight": 18.9,
-      "frameHeight": 24.75
+      "boundWidth": 108.75,
+      "frameWidth": 246.0,
+      "boundHeight": 20.7,
+      "frameHeight": 28.5
     },
     {
       "slide": 4,
       "name": "S04-size-values",
-      "text": "48 → 12 MB",
+      "text": "크기: 48 → 12 MB (−75%)",
       "expectedLines": 1,
       "actualLines": 1,
-      "boundWidth": 92.25,
-      "frameWidth": 138.75,
+      "boundWidth": 188.5,
+      "frameWidth": 246.0,
       "boundHeight": 19.8,
-      "frameHeight": 25.5
-    },
-    {
-      "slide": 4,
-      "name": "S04-f1-values",
-      "text": "0.910 → 0.896",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 105.0,
-      "frameWidth": 130.5,
-      "boundHeight": 18.9,
-      "frameHeight": 25.5
+      "frameHeight": 36.0
     },
     {
       "slide": 4,
@@ -464,17 +499,6 @@
       "frameWidth": 852.0,
       "boundHeight": 19.8,
       "frameHeight": 24.0
-    },
-    {
-      "slide": 5,
-      "name": "S05-section",
-      "text": "다음 / 허용할 성능 교환관계",
-      "expectedLines": 1,
-      "actualLines": 1,
-      "boundWidth": 167.75,
-      "frameWidth": 846.0,
-      "boundHeight": 17.1,
-      "frameHeight": 20.25
     },
     {
       "slide": 5,
@@ -586,7 +610,5 @@
       "boundHeight": 23.4,
       "frameHeight": 39.0
     }
-  ],
-  "measurementUnit": "points",
-  "boundsTolerance": 1
+  ]
 }

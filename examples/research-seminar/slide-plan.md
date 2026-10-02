@@ -14,13 +14,13 @@ Five slides, five minutes, 16:9, graduate research audience. Same device and dat
 
 ## Art direction and references
 
-Warm ivory #F6F4EE, ink #1E302F, teal #287D78, secondary text #586C68, rules #CFD8D1, selected row #E8EDE5, F1 accent #A3563E. Use Segoe UI, with actual installed fonts checked; fonts are not embedded. A font substitution requires fresh fitting and rendering.
+Warm ivory #F6F4EE, ink #1E302F, teal #287D78, secondary text #586C68, rules #CFD8D1, light stage markers #E8EDE5; no winner color. Use Segoe UI, with actual installed fonts checked; fonts are not embedded. A font substitution requires fresh fitting and rendering.
 
 1280 × 720 design coordinates, 72 px primary margin. Cover title approximately 42 pt; body-slide titles 30–32.25 pt; primary text approximately 18–24 pt; short supporting captions approximately 12.75–18 pt. Values vary by role and language. Each text box has an intended line count, checked in the saved PowerPoint file.
 
-- [Pitch Editorial](https://pitch.com/templates/Editorial-0oEK1D3jxabA58v6tk069rBZ): large cover and body-layout thumbnails inspected on 2026-10-02. Adapt warm negative space, image/text balance and restrained hierarchy; do not copy provider images or infer full-size body legibility from thumbnails.
+- [Pitch Editorial](https://pitch.com/templates/Editorial-0oEK1D3jxabA58v6tk069rBZ): large cover and body-layout thumbnails inspected on 2026-10-02. Adapt whitespace and restrained hierarchy; reject decorative cover artwork; do not copy provider images or infer full-size body legibility from thumbnails.
 - Earlier source example: [MIT annotated research slides](https://mitcommlab.mit.edu/aeroastro/wp-content/uploads/sites/11/2025/02/Slides-Annotated-Example-2-R.pdf), pages 1, 6 and 10 inspected during the original independent test. Large process/evidence objects and nearby interpretation informed the narrative.
-- S02 follows the user-selected [paper-figure workflow](https://github.com/JYS1025/paper-figure/blob/363fb3b76003d919f797356d774e70161164a7a8/skills/paper-figure/SKILL.md): [generated draft](design/workflow-draft.png), [actual prompts](design/image-prompts.json), and [pre-authoring transfer decisions](design/transfer-plan.md). Reconstruct explanations natively; discard unsupported claims from the draft.
+- S02 was originally created with the user-selected [paper-figure workflow](https://github.com/JYS1025/paper-figure/blob/363fb3b76003d919f797356d774e70161164a7a8/skills/paper-figure/SKILL.md): [generated draft](design/workflow-draft.png), [actual prompts](design/image-prompts.json), and [pre-authoring transfer decisions](design/transfer-plan.md). The current revision preserves the established native composition, labels model states at nodes and transformations on arrows. No new image draft was generated for this local revision. See [research-visuals](../../references/research-visuals.md) for the principle-based route.
 
 ## Motion and static delivery
 
@@ -30,17 +30,24 @@ Only S02 has animation: two click groups, six native objects per group, Fade 0.3
 
 **Purpose:** Introduce the topic and identify fictional evidence.
 
-**Composition:** Warm editorial cover: editable title at left, conceptual ribbon artwork at right.
+**Composition:** Topic-first typographic opening with equally sized baseline-to-INT8 latency, F1 and size comparisons; no decorative image.
 
 **Exact visible text** (intentional breaks shown as ` / `):
 
-- `S01-section` (1 line): RESEARCH NOTE / 01
-- `S01-title` (2 lines): Smaller models. / Considered trade-offs.
-- `S01-subtitle` (2 lines): Sensor anomaly detection with / distillation and INT8 quantization
-- `S01-context` (1 line): Lab seminar · 5 minutes
+- `S01-section` (1 line): Lab seminar · 5 minutes
+- `S01-title` (2 lines): Sensor anomaly detection / with smaller models
+- `S01-subtitle` (1 line): Knowledge distillation and INT8 quantization
+- `S01-basis` (1 line): Baseline compared with INT8
+- `S01-value-1` (1 line): 120 → 54
+- `S01-label-1` (1 line): Latency (ms)
+- `S01-value-2` (1 line): 0.910 → 0.896
+- `S01-label-2` (1 line): F1
+- `S01-value-3` (1 line): 48 → 12
+- `S01-label-3` (1 line): Model size (MB)
 - `S01-disclosure` (1 line): Illustrative data · not experimental results
+- `S01-number` (1 line): 01
 
-**Speaker notes:** 30 seconds. All performance values in this deck are fictional user-supplied examples. They are not empirical findings. A common device and dataset are assumed, but their identities are unspecified. The cover is AI-generated conceptual artwork, not a model architecture or a measurement.
+**Speaker notes:** 30 seconds. This seminar examines model compression for sensor anomaly detection. The overview compares baseline with INT8 using equally prominent latency, F1 and size values. All values are fictional user-supplied examples, not empirical findings. A common device and dataset are assumed but unspecified. No acceptable accuracy-loss threshold is supplied.
 
 **Motion:** static.
 
@@ -52,21 +59,20 @@ Only S02 has animation: two click groups, six native objects per group, Fade 0.3
 
 **Exact visible text** (intentional breaks shown as ` / `):
 
-- `S02-section` (1 line): METHOD / TWO COMPRESSION STEPS
-- `S02-title` (1 line): From a teacher to a compact student
+- `S02-title` (1 line): Model states and compression steps
 - `S02-disclosure` (1 line): Illustrative data · not experimental results
 - `S02-number` (1 line): 02
-- `S02-flow-2` (1 line): Prediction transfer
-- `S02-flow-3` (1 line): Numeric conversion
-- `S02-stage-1` (1 line): Baseline
+- `S02-flow-2` (1 line): Knowledge distillation
+- `S02-flow-3` (1 line): INT8 quantization
+- `S02-stage-1` (1 line): Teacher model
 - `S02-name-1` (1 line): baseline
 - `S02-detail-1` (2 lines): The reference model / serves as the teacher.
-- `S02-stage-2` (1 line): Distillation
+- `S02-stage-2` (1 line): Student model
 - `S02-name-2` (1 line): distilled
 - `S02-detail-2` (2 lines): A smaller student learns / from teacher predictions.
-- `S02-stage-3` (1 line): INT8 quantization
+- `S02-stage-3` (1 line): INT8 student
 - `S02-name-3` (1 line): int8
-- `S02-detail-3` (2 lines): Represent student numbers / as 8-bit integers.
+- `S02-detail-3` (2 lines): Use 8-bit integers for / selected model quantities.
 - `S02-caveat` (1 line): Conceptual workflow. Architecture and quantization scope are unspecified.
 
 Stage markers: 01, 02, 03. Required directed edges: marker 01 → 02 → 03.
@@ -79,12 +85,11 @@ Stage markers: 01, 02, 03. Required directed edges: marker 01 → 02 → 03.
 
 **Purpose:** Make all supplied data directly inspectable.
 
-**Composition:** Native table with quiet header rule and a restrained INT8 row highlight.
+**Composition:** Native table with a quiet header rule and equal row treatment; no implied winning model.
 
 **Exact visible text** (intentional breaks shown as ` / `):
 
-- `S03-section` (1 line): EVIDENCE / FICTIONAL COMPARISON
-- `S03-title` (1 line): Three models. One shared comparison.
+- `S03-title` (1 line): Latency, F1 and model size
 - `S03-disclosure` (1 line): Illustrative data · not experimental results
 - `S03-number` (1 line): 03
 - `S03-direction` (1 line): Lower latency and size are better; higher F1 is better.
@@ -98,29 +103,27 @@ The native table contains the exact data in the brief above. Column labels are l
 
 ## S04 — 65 seconds
 
-**Purpose:** Explain the arithmetic trade-off with a zero-based chart.
+**Purpose:** Show the latency–F1 trade-off in one coordinate system.
 
-**Composition:** Native latency chart on the left; overall latency, size and F1 changes on the right.
+**Composition:** Native latency–F1 scatter plot with direct point labels; equal-size latency and F1 differences at right; model size as supporting information.
 
 **Exact visible text** (intentional breaks shown as ` / `):
 
-- `S04-section` (1 line): RESULT / BASELINE TO INT8
 - `S04-title` (1 line): Lower latency, lower F1
 - `S04-disclosure` (1 line): Illustrative data · not experimental results
 - `S04-number` (1 line): 04
-- `S04-chart-unit` (1 line): Latency (ms)
-- `S04-latency` (1 line): 55%
-- `S04-latency-label` (1 line): lower latency · 120 → 54 ms
-- `S04-size` (1 line): 75%
+- `S04-chart-unit` (1 line): F1 · higher is better
+- `S04-x-unit` (1 line): Latency (ms) · lower is better
+- `S04-basis` (1 line): Baseline to INT8
+- `S04-latency` (1 line): −55%
+- `S04-latency-label` (1 line): Latency · 120 → 54 ms
 - `S04-f1` (1 line): −0.014
-- `S04-size-label` (1 line): smaller model
-- `S04-f1-label` (1 line): F1 difference
-- `S04-size-values` (1 line): 48 → 12 MB
-- `S04-f1-values` (1 line): 0.910 → 0.896
+- `S04-f1-label` (1 line): F1 · absolute difference
+- `S04-size-values` (1 line): Size: 48 → 12 MB (−75%)
 - `S04-stage1` (1 line): Distillation: latency −40%; F1 −0.008
 - `S04-stage2` (1 line): Additional INT8 step: latency −25%; F1 −0.006
 
-Native chart: baseline 120, distilled 72, int8 54 ms; value axis 0–140, direct numeric labels, no error bars. Overall reductions: (120−54)/120 = 55%; (48−12)/48 = 75%; F1 difference = −0.014. Stage denominators differ: 40% is relative to 120 ms; 25% is relative to 72 ms.
+Native scatter: baseline (120 ms, .910), distilled (72 ms, .902), int8 (54 ms, .896). X range 40–140 ms; Y range .890–.915 F1. Both axes are explicit; no fitted line or error bars. Direct model labels identify equally styled points. The range magnifies differences and is not a zero-baseline magnitude encoding. Overall reductions: (120−54)/120 = 55%; (48−12)/48 = 75%; F1 difference = −0.014. Stage denominators differ: 40% is relative to 120 ms; 25% is relative to 72 ms.
 
 **Speaker notes:** 65 seconds. Overall latency reduction (120−54)/120 = 55%; size reduction (48−12)/48 = 75%; F1 absolute difference 0.896−0.910 = −0.014. Distillation latency reduction (120−72)/120 = 40%, F1 difference −0.008. Additional INT8 latency reduction (72−54)/72 = 25%, F1 difference −0.006. Do not add 40% and 25% because their denominators differ. No statistical inference is possible from the fictional summaries.
 
@@ -134,8 +137,7 @@ Native chart: baseline 120, distilled 72, int8 54 ms; value axis 0–140, direct
 
 **Exact visible text** (intentional breaks shown as ` / `):
 
-- `S05-section` (1 line): NEXT / DEFINE THE ACCEPTABLE TRADE-OFF
-- `S05-title` (1 line): Decide what the trade-off is worth
+- `S05-title` (1 line): Deployment criteria remain open
 - `S05-disclosure` (1 line): Illustrative data · not experimental results
 - `S05-number` (1 line): 05
 - `S05-main` (1 line): Efficiency gains come with lower F1
@@ -155,8 +157,9 @@ Native chart: baseline 120, distilled 72, int8 54 ms; value axis 0–140, direct
 | Request | Change |
 |---|---|
 | Awkward wrap in the closing claim | Concise single-line takeaway, full-width frame, measured native line count |
-| Less rigid, more natural design | Warm background, conceptual cover, lighter type, open process and minimally ruled table |
+| Less rigid, more natural design | Whitespace, lighter type, meaningful process and minimally ruled table; remove the abstract ribbon and redundant kickers |
 | English and Korean | Separate localized editions, including labels, caveats and speaker notes; render each |
+| Content-first emphasis | Actual topic on the cover, no winner-like row highlight, joint latency–F1 plot and equally sized trade-off callouts |
 | English GitHub documentation | English primary README, guides, evidence and this specification |
 
 Future feedback can identify S01–S05 and the desired content, evidence or composition change. Preserve accepted decisions and update dependent chart data, calculations and notes.

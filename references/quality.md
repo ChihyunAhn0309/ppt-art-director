@@ -21,6 +21,8 @@ Where editability is required, confirm the package contains native objects, and 
 Render every slide from the actual final file or a verified equivalent static export. Inspect each individually at a readable resolution and use a contact sheet for consistency and pacing. Review:
 
 - main point is identifiable quickly; title, figure, and explanation have a clear reading order;
+- dominant objects help recognize the subject, compare evidence or follow a relationship; remove attention-grabbing elements that add none of these;
+- size, color and placement imply only the intended emphasis, without selecting an unsupported winner or minimizing a competing cost;
 - no clipping, unexplained overlapping, orphan words, off-canvas content, or connector crossings through labels;
 - Korean/Latin/math glyphs, line breaks, units, superscripts, and legends render correctly;
 - chart labels and captions remain readable at presentation size;

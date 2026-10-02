@@ -18,6 +18,8 @@ Audience takeaway:
 
 Slide sequence and why each section is needed:
 
+For dense fixed-count briefs: required evidence-to-slide map and the hardest readability constraint. Plan fit is provisional until rendered.
+
 ## Art direction
 
 - Inspected design references, links, inspection depth and useful principles:
@@ -28,11 +30,13 @@ Slide sequence and why each section is needed:
 - Motion intensity / supported effects / static alternative:
 - Language-specific fit decisions and planned focal line counts:
 
-## S01 — {{Claim-led title}}
+## S01 — {{Subject or supported takeaway}}
 
 **Purpose and takeaway**
 
 What the audience should understand:
+
+What must be immediately legible, and what the speaker can explain:
 
 **Exact visible copy**
 
@@ -51,6 +55,7 @@ What the audience should understand:
 
 - Layout and proportions:
 - Reading order:
+- Meaning of visual emphasis; why it helps the comparison or explanation:
 - Images, charts or diagrams; which elements remain editable:
 
 **Delivery and motion**

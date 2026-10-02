@@ -1,7 +1,7 @@
 {
   "slides": [
     {
-      "nativeOnly": false
+      "nativeOnly": true
     },
     {
       "nativeOnly": true,
@@ -9,9 +9,9 @@
         "S02-marker-1": "01",
         "S02-marker-2": "02",
         "S02-marker-3": "03",
-        "S02-stage-1": "Baseline",
-        "S02-stage-2": "Distillation",
-        "S02-stage-3": "INT8 quantization",
+        "S02-stage-1": "Teacher model",
+        "S02-stage-2": "Student model",
+        "S02-stage-3": "INT8 student",
         "S02-name-1": "baseline",
         "S02-name-2": "distilled",
         "S02-name-3": "int8"

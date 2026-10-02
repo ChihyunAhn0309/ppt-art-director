@@ -22,6 +22,8 @@ jobs:
         run: python -m unittest discover -s tests -v
       - name: Check palette roles
         run: python scripts/palette_check.py assets/palettes.json
+      - name: Verify published example checksums and coverage
+        run: python scripts/verify_checksums.py examples/research-seminar/checksums.json
       - name: Audit static example package
         run: python scripts/pptx_audit.py examples/research-seminar/static.pptx --expect-slides 5
       - name: Audit animated example package

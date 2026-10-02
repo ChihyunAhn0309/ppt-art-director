@@ -44,7 +44,7 @@ Use the commercial references for composition and atmosphere; use actual scienti
 
 1. Inspect the user's provided examples first.
 2. Search by purpose and composition, e.g. research presentation + experimental comparison, technical keynote + architecture, or thesis + minimalist figures.
-3. Shortlist roughly 4–8 candidates across different directions when the brief is open. This is a practical range, not a mandatory quota.
+3. Inspect enough relevant examples to support the difficult layout decision. Begin with body/evidence slides for a research deck; stop when more browsing would not change that decision.
 4. Inspect a title, a dense content page, a chart/diagram page, and a section or conclusion page where available.
 5. Choose 1–3 compatible references; record observed qualities, rejected traits, and the intended adaptation.
 6. Stop when the direction is coherent enough to build. Repeated browsing without changing a design decision is not progress.

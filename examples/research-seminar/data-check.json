@@ -1,5 +1,6 @@
 {
   "pass": true,
+  "chartF1CacheTolerance": "1e-12 (Office binary-float serialization)",
   "arithmetic": {
     "latencyReduction": ".55",
     "sizeReduction": ".75",
@@ -37,33 +38,38 @@
           "12"
         ]
       ],
-      "chartValues": [
+      "chartXLatency": [
         "120",
         "72",
         "54"
       ],
+      "chartYF1": [
+        "0.91",
+        "0.902",
+        "0.896"
+      ],
       "workbookValues": [
         [
-          "Category",
-          "Latency (ms)"
+          "X",
+          "Models"
         ],
         [
-          "baseline",
-          120
+          120,
+          0.91
         ],
         [
-          "distilled",
-          72
+          72,
+          0.902
         ],
         [
-          "int8",
-          54
+          54,
+          0.896
         ]
       ],
       "nativeConnectors": 2,
       "animationTargets": [],
-      "originalSha256": "4cac0c9e76dc0200ea7843903ed2c9c8e3069cbe8b69f84463c816eef1ea68e8",
-      "publicSha256": "e20fd5458ed9527767c1e931769776c3ed09b73f93149e085fa4f3bc1c4464f9",
+      "originalSha256": "de0beb8405d6d0559156e60d85548753ade9135c8b01302238a1dfb4dbf7cd05",
+      "publicSha256": "672e5898872a13402813fd75a2d3233d7caca9d6de1cfd9ca81793489127b948",
       "metadataChange": [
         "docProps/core.xml"
       ],
@@ -100,27 +106,32 @@
           "12"
         ]
       ],
-      "chartValues": [
+      "chartXLatency": [
         "120",
         "72",
         "54"
       ],
+      "chartYF1": [
+        "0.91",
+        "0.90200000000000002",
+        "0.89600000000000002"
+      ],
       "workbookValues": [
         [
-          "Category",
-          "Latency (ms)"
+          "X",
+          "Models"
         ],
         [
-          "baseline",
-          120
+          120,
+          0.91
         ],
         [
-          "distilled",
-          72
+          72,
+          0.902
         ],
         [
-          "int8",
-          54
+          54,
+          0.896
         ]
       ],
       "nativeConnectors": 2,
@@ -138,8 +149,8 @@
         "S02-stage-2",
         "S02-stage-3"
       ],
-      "originalSha256": "6ab36ac7df2270860e4ad43ac9d05916c4116f8dd23f4ed21d25eb5e4d44e606",
-      "publicSha256": "c854d1e883fea48ee84c6200ffbcd44791494cf3b0cababa9006a2e74f0c7af9",
+      "originalSha256": "4ffb6e241f08fe5b5247325adc419b6be38e2ea40f4d2a9ad3d55ef86fecbb36",
+      "publicSha256": "85168be817dc85755339bcf2fca8ce9293e28701b72b9f289f629fca2f66ef1e",
       "metadataChange": [
         "docProps/core.xml"
       ],
@@ -176,33 +187,38 @@
           "12"
         ]
       ],
-      "chartValues": [
+      "chartXLatency": [
         "120",
         "72",
         "54"
       ],
+      "chartYF1": [
+        "0.91",
+        "0.902",
+        "0.896"
+      ],
       "workbookValues": [
         [
-          "Category",
-          "지연 (ms)"
+          "X",
+          "Models"
         ],
         [
-          "baseline",
-          120
+          120,
+          0.91
         ],
         [
-          "distilled",
-          72
+          72,
+          0.902
         ],
         [
-          "int8",
-          54
+          54,
+          0.896
         ]
       ],
       "nativeConnectors": 2,
       "animationTargets": [],
-      "originalSha256": "194ce411aabc5725ec49dccee03ff78247bfea28710254d473fe9233f6d22cb6",
-      "publicSha256": "ebf7ad4de7392de2d811b5bc9a25cc6be84feb68bec84d1bebddb2ebaa7afe44",
+      "originalSha256": "c8d1a2e6197a7be30b6e2ec5a5a557e576221b2fa32ade3d0bdb417b9f7cb809",
+      "publicSha256": "c55ed3358f5dde1a91924c88016bcecf3f01fba119080710d741b7b7e598cd6c",
       "metadataChange": [
         "docProps/core.xml"
       ],
@@ -239,27 +255,32 @@
           "12"
         ]
       ],
-      "chartValues": [
+      "chartXLatency": [
         "120",
         "72",
         "54"
       ],
+      "chartYF1": [
+        "0.91",
+        "0.90200000000000002",
+        "0.89600000000000002"
+      ],
       "workbookValues": [
         [
-          "Category",
-          "지연 (ms)"
+          "X",
+          "Models"
         ],
         [
-          "baseline",
-          120
+          120,
+          0.91
         ],
         [
-          "distilled",
-          72
+          72,
+          0.902
         ],
         [
-          "int8",
-          54
+          54,
+          0.896
         ]
       ],
       "nativeConnectors": 2,
@@ -277,8 +298,8 @@
         "S02-stage-2",
         "S02-stage-3"
       ],
-      "originalSha256": "4bd1614e509ee2beb0b214b15c66e36b3768432874e7bd1f15555017b486dbb7",
-      "publicSha256": "fab82e9144861fe71279c3ed2e50fddbad973e40f8b13790a6828d32d3aeb14c",
+      "originalSha256": "670730d65d4a0bd3e3678827e36ec07b8d808f50c9e861ef0ed287c8f37a2e47",
+      "publicSha256": "2b3fb6835e550d404fc3ec93b38806e1d981d4882d3cbe8b2cd990593db123bb",
       "metadataChange": [
         "docProps/core.xml"
       ],

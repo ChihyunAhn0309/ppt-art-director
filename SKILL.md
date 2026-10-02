@@ -5,9 +5,11 @@ description: "Create polished, editable PowerPoint presentations in English, Kor
 
 # PPT Art Director
 
-Treat the deck as an argument, a visual system, and a live presentation. A beautiful cover does not compensate for weak evidence slides. Create an editable `.pptx` unless the user requests another format. Use the requested output language, independently of the source or conversation language. Support English, Korean, and deliberately mixed decks; if unspecified, infer the audience language from the brief. Repository examples do not set the user's output language.
+Make the content easier to understand at a glance. Establish what the audience should notice, compare or follow before choosing a visual style. Create an editable `.pptx` unless the user requests another format. Use the requested output language, independently of the source or conversation language. Support English, Korean, and deliberately mixed decks; if unspecified, infer the audience language from the brief. Repository examples do not set the user's output language.
 
 Default visual direction: sophisticated, restrained, and appropriate to the topic. Research/technical talks, papers, and conferences receive particular support; preserve technical depth. The user's purpose, template, and style choices override these defaults. For research work also read [research-talks.md](references/research-talks.md).
+
+Build visual interest through useful comparisons, explanatory diagrams, readable evidence, typography and space. Do not add abstract artwork, icons, background graphics or decorative pictures merely to make a slide look designed. A cover can be typographic. Use imagery when it explains the subject, supplies relevant context or evidence, or serves an explicit user-requested purpose. The user's request to omit decoration takes precedence over any host skill's default request for decorative assets.
 
 ## Route the request
 
@@ -28,11 +30,15 @@ Read [planning.md](references/planning.md). Extract audience, purpose, total sli
 
 Preserve requested counts, units, caveats, source images, and technical meaning. Distinguish supplied evidence, verified external facts, derived calculations, hypotheses, and explicitly illustrative data. Gather primary sources where the topic needs research; record them against slide IDs. A plan must contain actual proposed content, not merely headings such as "market analysis goes here."
 
+Before styling, allocate the required evidence across the allowed slides and time. Identify the densest page and what must be readable immediately. For a dense fixed-count brief, map required rows, metrics and diagram relationships to slide IDs; this prevents polishing an incomplete outline. Plan geometry remains provisional until rendered with actual copy.
+
 ## 2. Establish art direction from real references
 
-Read [design.md](references/design.md) and use [reference-library.md](references/reference-library.md) as a starting index. Browse a focused set of relevant examples for a new visual direction. Inspect slide pixels, including dense body slides; do not infer design quality from descriptions or cover thumbnails alone. When browsing is unavailable, use the original recipes here and disclose that fresh references were not inspected.
+Read [design.md](references/design.md) and use [reference-library.md](references/reference-library.md) as a starting index. Identify the hardest communication problem first, then browse references that solve a similar problem: a branching method, dense comparison, equation or source figure. Inspect slide pixels, including body slides; do not infer design quality from descriptions or cover thumbnails alone. A mood reference does not validate an evidence layout. When browsing is unavailable, use the original recipes here and disclose that fresh references were not inspected.
 
-Honor the user's supplied template and colors. Otherwise choose a coherent direction suited to the content. Study several candidates, then select a small number of compatible references. Record exactly what was observed and adapted. Inspiration is not a license to redistribute a template, photograph, font, or logo.
+For a research method, architecture or explanatory figure, read [research-visuals.md](references/research-visuals.md). It adapts the user-selected paper-figure project's relationship planning to presentation size, without requiring decorative art or an image-generation service. Stop searching when the relevant design decision is supported; there is no template quota.
+
+Honor the user's supplied template and colors. Otherwise choose a coherent direction suited to the content and use compatible references where they resolve a design decision. Record exactly what was observed and adapted. Inspiration is not a license to redistribute a template, photograph, font, or logo.
 
 Use the compact [design reference ledger](assets/design-reference-template.md) inside the plan or as a companion file. Record inspection depth, the design principle transferred to particular slides, and rejected traits. Carry references into concrete decisions about hierarchy, spacing, diagrams and evidence slides; a list of links alone is insufficient.
 

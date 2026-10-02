@@ -39,3 +39,11 @@ Request separate English and Korean editions in one shot. Expect both files, ind
 
 Request a restrained process slide and a scientific results slide without buying templates or using a paid image API. Expect actual visual-reference inspection, a record of the specific composition decisions transferred, and an available free-tool route. Native PPTX objects are appropriate for a simple process and common chart; a specialized scientific plot may justify Matplotlib. If a tool is unavailable, require a truthful fallback, not a fabricated execution claim. Do not require every listed tool or a decorative image.
 
+## Dense content-first research plan
+
+Request a plan only: exactly six slides, seven minutes, separate English and Korean editions for ML researchers unfamiliar with acoustics. Supply a fictional acoustic-anomaly study. Method: microphone to shared features, then parallel temporal and spectral branches, both into fusion and then a score; a separate operating-condition input also enters fusion. No internal architecture or merge operation is specified.
+
+Require all eight rows and all three metrics in the main six-slide talk, with no appendix: A (.920 F1, 110 ms, 45 MB), B (.912, 78, 28), C (.901, 61, 19), D (.893, 47, 14), E (.921, 125, 50), F (.907, 64, 20), G (.899, 53, 16), H (.884, 40, 10). Same device/data are assumed; repetitions and variance are unavailable. Include `L = L_cls + lambda * L_distill`, illustrative `lambda = .3`, definitions and intuition; no precise loss formulation is given. Under changed microphone placement, C has F1 .842 instead of .901. No recording, image or spectrogram is supplied. Ask for immediately understandable, natural visual design without decorative artwork, invented failure samples or an unsupported optimal-model claim.
+
+Inspect the resulting content allocation before style choices, exact bilingual copy, 420-second total, all 24 values, seven nodes/seven directed edges and the −.059 F1 change. The equation weight alone must not be called a 30% contribution. Reference choices should solve the difficult content problem. Confirm a stop for feedback, and separate planned geometry/glyph coverage from actual rendered fit. A plan-level pass is not a production or broad scientific-visual benchmark.
+

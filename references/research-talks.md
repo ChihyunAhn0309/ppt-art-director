@@ -18,6 +18,8 @@ Provide a paper-to-slide mapping with section/page/figure/table IDs. Preserve or
 
 ## Figure integrity
 
+Before laying out dense evidence, inventory the rows, conditions, labels, units, uncertainty and caveats that must remain visible. Prototype that full payload. First reclaim space from redundant titles, decoration and repeated legends. Then choose a readable native table, matched panels or an enlarged source panel according to the comparison. Split across existing slides only if the requested count and argument permit it. Notes and appendices cannot hide evidence the user requires on-slide. If the full payload still cannot be read, surface the specific count/readability conflict instead of silently dropping rows or shrinking essential labels.
+
 Adapt a paper figure for a slide only when its meaning is preserved. Enlarging one relevant panel or separating panels can improve legibility; preserve axis labels, scale bars, legend, units, error information, and caveats needed to interpret it. Label adaptations and cite the original. If source data exists, redraw accurately and keep the data with the build. Without data, do not reconstruct quantitative points by guesswork. Any digitization must be explicit and include its uncertainty.
 
 Before editing a figure, identify whether it is evidence, a schematic, or decoration. Do not erase an outlier, uncertainty band, comparator, or failure case to make the slide more persuasive. If a scientific plot must be rasterized for compatibility, use sufficient resolution, retain its reproducible plotting source, and report editability accurately.
@@ -26,9 +28,13 @@ Before editing a figure, identify whether it is evidence, a schematic, or decora
 
 Use an equation as a focal explanatory object, not a screenshot of a paragraph. Define symbols used on that slide, keep units consistent, and connect the equation to an intuitive or numerical example when useful. Prefer editable math if supported. If a vector/raster equation is necessary, retain the source formula and check all glyphs.
 
+Define terms only at the level the source supports; mark conventional interpretations as assumptions when the formulation is unspecified. A weighted loss coefficient does not alone establish that term's percentage contribution, since the term magnitudes also matter.
+
 Keep diagrams native and editable when required. Label edges with meaningful quantities/actions rather than relying on arrow direction alone. Use consistent colors for components across the whole deck. Schematics may simplify physical geometry but must not imply untrue scale, topology, or causality.
 
-When the user requests [paper-figure](https://github.com/JYS1025/paper-figure), or that skill is available and a substantial research diagram would benefit from it, read its current entrypoint and use the appropriate creation, revision, or review route. It specializes in editable methodology and architecture figures; it does not replace deck planning or statistical plotting. It is an optional companion, not a dependency of this skill.
+Specify what nodes represent (states, objects or operations) and what edges carry before choosing geometry. Distinguish a model state from the transformation that produces it. Preserve parallel branches, joins, auxiliary inputs and feedback loops; do not flatten a branched system into a linear sequence for stylistic convenience. Unspecified internals remain unspecified. For a failure result without a source image, show the supplied contrast and changed condition, labeling whether the values are measured or illustrative, rather than inventing a failure photograph or spectrogram.
+
+For a substantial research visual, use [research-visuals.md](research-visuals.md). When the user requests execution of [paper-figure](https://github.com/JYS1025/paper-figure), read its current host entrypoint and follow the applicable creation, revision or review route. Adapting its principles and running the companion are distinct. It specializes in editable methodology and architecture figures; it does not replace deck planning or statistical plotting. It remains an optional companion.
 
 For an existing diagram, write the required stage identities and directed relationships from the brief, map them to the latest saved objects, and check both attachments and the rendered arrow direction. Distinguish file diagnostics from visual or PowerPoint edit tests. Do not claim that an existing diagram was created through another skill's image-draft workflow merely because its review scripts were used later.
 
