@@ -1,0 +1,17 @@
+{
+  "note": "Original starting palettes. Pick by content and audience. Test actual color pairs, including charts; this data does not establish complete accessibility.",
+  "palettes": [
+    {"name":"Research Ink","use":"Restrained technical and academic talks","colors":{"background":"FFFFFF","surface":"EFF3F7","text":"172331","muted":"4D5C6B","accent":"2458A6","on_accent":"FFFFFF","comparison":"A94B2E"}},
+    {"name":"Teal Laboratory","use":"Systems, medicine, process and methods","colors":{"background":"FAFCFC","surface":"E8F1F1","text":"122C30","muted":"456365","accent":"087C7A","on_accent":"FFFFFF","comparison":"A34D69"}},
+    {"name":"Graphite Signal","use":"Engineering, architecture and precise monochrome work","colors":{"background":"FFFFFF","surface":"F0F1F2","text":"20252B","muted":"545B65","accent":"374151","on_accent":"FFFFFF","comparison":"BA531B"}},
+    {"name":"Forest Evidence","use":"Environment, biology and field studies","colors":{"background":"FCFDFC","surface":"EAF0EA","text":"1A3023","muted":"4E6254","accent":"286344","on_accent":"FFFFFF","comparison":"9D562E"}},
+    {"name":"Burgundy Review","use":"Formal reviews, policy and humanities","colors":{"background":"FFFCFD","surface":"F4EBEF","text":"30202A","muted":"6D5160","accent":"842F52","on_accent":"FFFFFF","comparison":"426C7A"}},
+    {"name":"Indigo Method","use":"Algorithms, mathematics and structured analysis","colors":{"background":"FCFCFF","surface":"EEEEF8","text":"232441","muted":"575B76","accent":"5146A5","on_accent":"FFFFFF","comparison":"967017"}},
+    {"name":"Cobalt Instrument","use":"Robotics, measurements and product technology","colors":{"background":"F9FBFF","surface":"E9F0FA","text":"15283D","muted":"4B6075","accent":"1257B6","on_accent":"FFFFFF","comparison":"B34537"}},
+    {"name":"Olive Editorial","use":"Restrained editorial and sustainability narratives","colors":{"background":"FEFDF8","surface":"EEEFE5","text":"2D3220","muted":"5D634A","accent":"59652C","on_accent":"FFFFFF","comparison":"9D573E"}},
+    {"name":"Copper Materials","use":"Materials, manufacturing and physical science","colors":{"background":"FFFCF9","surface":"F2EAE3","text":"34271F","muted":"715C4D","accent":"9A451F","on_accent":"FFFFFF","comparison":"35677A"}},
+    {"name":"Night Instrument","use":"Controlled dark technical keynote","colors":{"background":"101820","surface":"1B2835","text":"F4F8FC","muted":"B4C5D5","accent":"76D6CA","on_accent":"102B2C","comparison":"F2BD7B"}},
+    {"name":"Violet Night","use":"Selective dark sections in computation talks","colors":{"background":"181629","surface":"28243B","text":"F5F2FC","muted":"C4BADB","accent":"C3AEFA","on_accent":"26203E","comparison":"F2B9A4"}},
+    {"name":"Monochrome Paper","use":"Maximum neutrality for varied scientific figures","colors":{"background":"FFFFFF","surface":"F1F1F1","text":"1B1B1B","muted":"5A5A5A","accent":"303030","on_accent":"FFFFFF","comparison":"686868"}}
+  ]
+}
